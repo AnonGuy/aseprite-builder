@@ -62,6 +62,8 @@ jobs:
             -DSKIA_LIBRARY_DIR="$abs_skia\out\Release-x64" `
             -DSKIA_LIBRARY="$abs_skia\out\Release-x64\skia.lib" `
             -DENABLE_UPDATER=OFF `
+            -DENABLE_TESTS=OFF `
+            -DENABLE_BENCHMARKS=OFF `
             -DCMAKE_JOB_POOLS="link=1" `
             -DCMAKE_JOB_POOL_LINK=link `
             "$abs_src"
@@ -69,7 +71,7 @@ jobs:
       - name: Compile with Ninja
         run: |
           cd build
-          ninja
+          ninja -j 2 aseprite
 
       - name: Collect Dependencies (DLLs)
         shell: powershell
