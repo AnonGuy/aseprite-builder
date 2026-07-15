@@ -70,7 +70,7 @@ jobs:
             "$abs_src"
 
       - name: Compile with Ninja
-        timeout-minutes: 60
+        timeout-minutes: 120
         run: |
           cd build
           ninja -j 2 aseprite
