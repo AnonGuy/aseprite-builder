@@ -3,7 +3,22 @@ on:
   workflow_dispatch:
 
 jobs:
+  verify-runner:
+    runs-on: windows-latest
+    timeout-minutes: 2
+    steps:
+      - name: Check CPU Cores & RAM
+        shell: powershell
+        run: |
+          $cores = (Get-CimInstance -ClassName Win32_Processor).NumberOfCores
+          $logicalProcessors = (Get-CimInstance -ClassName Win32_Processor).NumberOfLogicalProcessors
+          $ramGB = [math]::Round((Get-CimInstance -ClassName Win32_ComputerSystem).TotalPhysicalMemory / 1GB, 1)
+          echo "Physical Cores : $cores"
+          echo "Logical Processors: $logicalProcessors"
+          echo "Total RAM       : ${ramGB} GB"
+
   build:
+    needs: verify-runner
     runs-on: windows-latest
     timeout-minutes: 45
     permissions:
@@ -119,7 +134,7 @@ jobs:
         shell: cmd
         run: |
           cd build
-          ninja -v -j 2 aseprite < NUL
+          ninja -j 2 aseprite < NUL
 
       - name: Collect Dependencies (DLLs)
         shell: powershell
