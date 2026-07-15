@@ -1,14 +1,14 @@
-﻿2026-07-15T12:21:57.1386884Z ##[debug]Evaluating condition for step: 'Enable Long Paths'
-2026-07-15T12:21:57.1390911Z ##[debug]Evaluating: success()
-2026-07-15T12:21:57.1391270Z ##[debug]Evaluating success:
-2026-07-15T12:21:57.1391781Z ##[debug]=> true
-2026-07-15T12:21:57.1392227Z ##[debug]Result: true
-2026-07-15T12:21:57.1393084Z ##[debug]Starting: Enable Long Paths
-2026-07-15T12:21:57.1520346Z ##[debug]Loading inputs
-2026-07-15T12:21:57.1535864Z ##[debug]Loading env
-2026-07-15T12:21:57.1552801Z ##[group]Run git config --system core.longpaths true
-2026-07-15T12:21:57.1553260Z [36;1mgit config --system core.longpaths true[0m
-2026-07-15T12:21:57.2399991Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
-2026-07-15T12:21:57.2400467Z ##[endgroup]
-2026-07-15T12:21:57.2494145Z ##[debug]C:\Program Files\PowerShell\7\pwsh.EXE -command ". 'D:\a\_temp\da006e68-b6b1-4e25-9b0e-a358eba0141a.ps1'"
-2026-07-15T12:22:03.1261616Z ##[debug]Finishing: Enable Long Paths
+﻿2026-07-15T14:48:11.7126276Z ##[debug]Evaluating condition for step: 'Enable Long Paths'
+2026-07-15T14:48:11.7129724Z ##[debug]Evaluating: success()
+2026-07-15T14:48:11.7130121Z ##[debug]Evaluating success:
+2026-07-15T14:48:11.7130647Z ##[debug]=> true
+2026-07-15T14:48:11.7131016Z ##[debug]Result: true
+2026-07-15T14:48:11.7132003Z ##[debug]Starting: Enable Long Paths
+2026-07-15T14:48:11.7259610Z ##[debug]Loading inputs
+2026-07-15T14:48:11.7275008Z ##[debug]Loading env
+2026-07-15T14:48:11.7291304Z ##[group]Run git config --system core.longpaths true
+2026-07-15T14:48:11.7291763Z [36;1mgit config --system core.longpaths true[0m
+2026-07-15T14:48:11.8096667Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-07-15T14:48:11.8098037Z ##[endgroup]
+2026-07-15T14:48:11.8193307Z ##[debug]C:\Program Files\PowerShell\7\pwsh.EXE -command ". 'D:\a\_temp\bd61a9af-3c29-4d8b-afd0-22ca5410aa45.ps1'"
+2026-07-15T14:48:17.3585704Z ##[debug]Finishing: Enable Long Paths

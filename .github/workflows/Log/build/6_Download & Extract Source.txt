@@ -1,82 +1,82 @@
-﻿2026-07-15T12:23:58.3154291Z ##[debug]Evaluating condition for step: 'Download & Extract Source'
-2026-07-15T12:23:58.3156876Z ##[debug]Evaluating: success()
-2026-07-15T12:23:58.3157240Z ##[debug]Evaluating success:
-2026-07-15T12:23:58.3157646Z ##[debug]=> true
-2026-07-15T12:23:58.3158005Z ##[debug]Result: true
-2026-07-15T12:23:58.3158639Z ##[debug]Starting: Download & Extract Source
-2026-07-15T12:23:58.3280125Z ##[debug]Loading inputs
-2026-07-15T12:23:58.3287131Z ##[debug]Evaluating: format('Invoke-WebRequest -Uri {0} -OutFile "aseprite_src.zip"
-2026-07-15T12:23:58.3287623Z ##[debug]7z x "aseprite_src.zip" -o"temp_ext" -y
-2026-07-15T12:23:58.3288169Z ##[debug]$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1
-2026-07-15T12:23:58.3288683Z ##[debug]mkdir aseprite -Force
-2026-07-15T12:23:58.3289167Z ##[debug]Get-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force
-2026-07-15T12:23:58.3289667Z ##[debug]', env.DOWNLOAD_URL)
-2026-07-15T12:23:58.3289978Z ##[debug]Evaluating format:
-2026-07-15T12:23:58.3293898Z ##[debug]..Evaluating String:
-2026-07-15T12:23:58.3294341Z ##[debug]..=> 'Invoke-WebRequest -Uri {0} -OutFile "aseprite_src.zip"
-2026-07-15T12:23:58.3294762Z ##[debug]7z x "aseprite_src.zip" -o"temp_ext" -y
-2026-07-15T12:23:58.3296780Z ##[debug]$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1
-2026-07-15T12:23:58.3297315Z ##[debug]mkdir aseprite -Force
-2026-07-15T12:23:58.3297783Z ##[debug]Get-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force
-2026-07-15T12:23:58.3298296Z ##[debug]'
-2026-07-15T12:23:58.3311693Z ##[debug]..Evaluating Index:
-2026-07-15T12:23:58.3311981Z ##[debug]....Evaluating env:
-2026-07-15T12:23:58.3312273Z ##[debug]....=> Object
-2026-07-15T12:23:58.3312516Z ##[debug]....Evaluating String:
-2026-07-15T12:23:58.3312758Z ##[debug]....=> 'DOWNLOAD_URL'
-2026-07-15T12:23:58.3313306Z ##[debug]..=> 'https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip'
-2026-07-15T12:23:58.3314944Z ##[debug]=> 'Invoke-WebRequest -Uri https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip -OutFile "aseprite_src.zip"
-2026-07-15T12:23:58.3315679Z ##[debug]7z x "aseprite_src.zip" -o"temp_ext" -y
-2026-07-15T12:23:58.3316193Z ##[debug]$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1
-2026-07-15T12:23:58.3316681Z ##[debug]mkdir aseprite -Force
-2026-07-15T12:23:58.3317130Z ##[debug]Get-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force
-2026-07-15T12:23:58.3317619Z ##[debug]'
-2026-07-15T12:23:58.3318289Z ##[debug]Result: 'Invoke-WebRequest -Uri https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip -OutFile "aseprite_src.zip"
-2026-07-15T12:23:58.3319025Z ##[debug]7z x "aseprite_src.zip" -o"temp_ext" -y
-2026-07-15T12:23:58.3319543Z ##[debug]$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1
-2026-07-15T12:23:58.3320029Z ##[debug]mkdir aseprite -Force
-2026-07-15T12:23:58.3320472Z ##[debug]Get-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force
-2026-07-15T12:23:58.3320936Z ##[debug]'
-2026-07-15T12:23:58.3321435Z ##[debug]Loading env
-2026-07-15T12:23:58.3326417Z ##[group]Run Invoke-WebRequest -Uri https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip -OutFile "aseprite_src.zip"
-2026-07-15T12:23:58.3327791Z [36;1mInvoke-WebRequest -Uri https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip -OutFile "aseprite_src.zip"[0m
-2026-07-15T12:23:58.3328486Z [36;1m7z x "aseprite_src.zip" -o"temp_ext" -y[0m
-2026-07-15T12:23:58.3329002Z [36;1m$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1[0m
-2026-07-15T12:23:58.3331554Z [36;1mmkdir aseprite -Force[0m
-2026-07-15T12:23:58.3332031Z [36;1mGet-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force[0m
-2026-07-15T12:23:58.3396436Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
-2026-07-15T12:23:58.3396886Z env:
-2026-07-15T12:23:58.3397334Z   DOWNLOAD_URL: https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip
-2026-07-15T12:23:58.3397854Z   ASE_VER: v1.3.17.2
-2026-07-15T12:23:58.3398061Z ##[endgroup]
-2026-07-15T12:23:58.3462128Z ##[debug]C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". 'D:\a\_temp\dc5b7f44-a728-4678-b140-f6386e5df05e.ps1'"
-2026-07-15T12:25:55.8925538Z 
-2026-07-15T12:25:55.8926353Z 7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25
-2026-07-15T12:25:55.8927182Z 
-2026-07-15T12:25:55.8927407Z Scanning the drive for archives:
-2026-07-15T12:25:55.8927888Z 1 file, 80111156 bytes (77 MiB)
-2026-07-15T12:25:55.8928254Z 
-2026-07-15T12:25:55.8928482Z Extracting archive: aseprite_src.zip
-2026-07-15T12:26:03.8264605Z --
-2026-07-15T12:26:03.8265047Z Path = aseprite_src.zip
-2026-07-15T12:26:03.8265435Z Type = zip
-2026-07-15T12:26:03.8265703Z Physical Size = 80111156
-2026-07-15T12:26:03.8266395Z Comment = 793fb6526540b4c6f5cf8381ae189241cb003fdf
-2026-07-15T12:26:03.8266717Z 
-2026-07-15T12:26:03.8459008Z Everything is Ok
-2026-07-15T12:26:03.8459305Z 
-2026-07-15T12:26:03.8459496Z Folders: 30
-2026-07-15T12:26:03.8459851Z Files: 14268
-2026-07-15T12:26:03.8460205Z Size:       197150132
-2026-07-15T12:26:03.8460968Z Compressed: 80111156
-2026-07-15T12:26:03.9631507Z 
-2026-07-15T12:26:03.9633202Z 
-2026-07-15T12:26:03.9636298Z     Directory: D:\a\aseprite-builder\aseprite-builder
-2026-07-15T12:26:03.9636791Z 
-2026-07-15T12:26:03.9636800Z 
-2026-07-15T12:26:03.9650761Z Mode                 LastWriteTime         Length Name                                                                 
-2026-07-15T12:26:03.9656175Z ----                 -------------         ------ ----                                                                 
-2026-07-15T12:26:03.9667762Z d-----         7/15/2026  12:26 PM                aseprite                                                             
-2026-07-15T12:26:03.9959944Z 
-2026-07-15T12:26:03.9960071Z 
-2026-07-15T12:26:04.0155416Z ##[debug]Finishing: Download & Extract Source
+﻿2026-07-15T14:50:06.1052099Z ##[debug]Evaluating condition for step: 'Download & Extract Source'
+2026-07-15T14:50:06.1054540Z ##[debug]Evaluating: success()
+2026-07-15T14:50:06.1054947Z ##[debug]Evaluating success:
+2026-07-15T14:50:06.1055372Z ##[debug]=> true
+2026-07-15T14:50:06.1055765Z ##[debug]Result: true
+2026-07-15T14:50:06.1056442Z ##[debug]Starting: Download & Extract Source
+2026-07-15T14:50:06.1183811Z ##[debug]Loading inputs
+2026-07-15T14:50:06.1190805Z ##[debug]Evaluating: format('Invoke-WebRequest -Uri {0} -OutFile "aseprite_src.zip"
+2026-07-15T14:50:06.1191310Z ##[debug]7z x "aseprite_src.zip" -o"temp_ext" -y
+2026-07-15T14:50:06.1191850Z ##[debug]$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1
+2026-07-15T14:50:06.1192365Z ##[debug]mkdir aseprite -Force
+2026-07-15T14:50:06.1192837Z ##[debug]Get-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force
+2026-07-15T14:50:06.1193353Z ##[debug]', env.DOWNLOAD_URL)
+2026-07-15T14:50:06.1193667Z ##[debug]Evaluating format:
+2026-07-15T14:50:06.1197449Z ##[debug]..Evaluating String:
+2026-07-15T14:50:06.1197909Z ##[debug]..=> 'Invoke-WebRequest -Uri {0} -OutFile "aseprite_src.zip"
+2026-07-15T14:50:06.1198324Z ##[debug]7z x "aseprite_src.zip" -o"temp_ext" -y
+2026-07-15T14:50:06.1198858Z ##[debug]$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1
+2026-07-15T14:50:06.1199379Z ##[debug]mkdir aseprite -Force
+2026-07-15T14:50:06.1199849Z ##[debug]Get-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force
+2026-07-15T14:50:06.1200335Z ##[debug]'
+2026-07-15T14:50:06.1213336Z ##[debug]..Evaluating Index:
+2026-07-15T14:50:06.1213641Z ##[debug]....Evaluating env:
+2026-07-15T14:50:06.1213925Z ##[debug]....=> Object
+2026-07-15T14:50:06.1214189Z ##[debug]....Evaluating String:
+2026-07-15T14:50:06.1215394Z ##[debug]....=> 'DOWNLOAD_URL'
+2026-07-15T14:50:06.1215969Z ##[debug]..=> 'https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip'
+2026-07-15T14:50:06.1217706Z ##[debug]=> 'Invoke-WebRequest -Uri https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip -OutFile "aseprite_src.zip"
+2026-07-15T14:50:06.1218456Z ##[debug]7z x "aseprite_src.zip" -o"temp_ext" -y
+2026-07-15T14:50:06.1218993Z ##[debug]$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1
+2026-07-15T14:50:06.1219506Z ##[debug]mkdir aseprite -Force
+2026-07-15T14:50:06.1219985Z ##[debug]Get-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force
+2026-07-15T14:50:06.1220473Z ##[debug]'
+2026-07-15T14:50:06.1221219Z ##[debug]Result: 'Invoke-WebRequest -Uri https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip -OutFile "aseprite_src.zip"
+2026-07-15T14:50:06.1222418Z ##[debug]7z x "aseprite_src.zip" -o"temp_ext" -y
+2026-07-15T14:50:06.1222946Z ##[debug]$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1
+2026-07-15T14:50:06.1223446Z ##[debug]mkdir aseprite -Force
+2026-07-15T14:50:06.1223907Z ##[debug]Get-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force
+2026-07-15T14:50:06.1224387Z ##[debug]'
+2026-07-15T14:50:06.1224872Z ##[debug]Loading env
+2026-07-15T14:50:06.1229472Z ##[group]Run Invoke-WebRequest -Uri https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip -OutFile "aseprite_src.zip"
+2026-07-15T14:50:06.1230626Z [36;1mInvoke-WebRequest -Uri https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip -OutFile "aseprite_src.zip"[0m
+2026-07-15T14:50:06.1231349Z [36;1m7z x "aseprite_src.zip" -o"temp_ext" -y[0m
+2026-07-15T14:50:06.1231888Z [36;1m$rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1[0m
+2026-07-15T14:50:06.1234698Z [36;1mmkdir aseprite -Force[0m
+2026-07-15T14:50:06.1235223Z [36;1mGet-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force[0m
+2026-07-15T14:50:06.1293158Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2026-07-15T14:50:06.1293613Z env:
+2026-07-15T14:50:06.1294078Z   DOWNLOAD_URL: https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip
+2026-07-15T14:50:06.1294615Z   ASE_VER: v1.3.17.2
+2026-07-15T14:50:06.1294826Z ##[endgroup]
+2026-07-15T14:50:06.1390056Z ##[debug]C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". 'D:\a\_temp\a2492e15-16b2-43ca-b2d3-75a0f976a116.ps1'"
+2026-07-15T14:52:06.7866536Z 
+2026-07-15T14:52:06.7867349Z 7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25
+2026-07-15T14:52:06.7867988Z 
+2026-07-15T14:52:06.7868194Z Scanning the drive for archives:
+2026-07-15T14:52:06.7868758Z 1 file, 80111156 bytes (77 MiB)
+2026-07-15T14:52:06.7869146Z 
+2026-07-15T14:52:06.7869705Z Extracting archive: aseprite_src.zip
+2026-07-15T14:52:14.5530004Z --
+2026-07-15T14:52:14.5530500Z Path = aseprite_src.zip
+2026-07-15T14:52:14.5530995Z Type = zip
+2026-07-15T14:52:14.5531277Z Physical Size = 80111156
+2026-07-15T14:52:14.5531619Z Comment = 793fb6526540b4c6f5cf8381ae189241cb003fdf
+2026-07-15T14:52:14.5531859Z 
+2026-07-15T14:52:14.5757926Z Everything is Ok
+2026-07-15T14:52:14.5759402Z 
+2026-07-15T14:52:14.5759637Z Folders: 30
+2026-07-15T14:52:14.5762446Z Files: 14268
+2026-07-15T14:52:14.5763481Z Size:       197150132
+2026-07-15T14:52:14.5766395Z Compressed: 80111156
+2026-07-15T14:52:14.7320218Z 
+2026-07-15T14:52:14.7321954Z 
+2026-07-15T14:52:14.7325154Z     Directory: D:\a\aseprite-builder\aseprite-builder
+2026-07-15T14:52:14.7325702Z 
+2026-07-15T14:52:14.7325832Z 
+2026-07-15T14:52:14.7338657Z Mode                 LastWriteTime         Length Name                                                                 
+2026-07-15T14:52:14.7343803Z ----                 -------------         ------ ----                                                                 
+2026-07-15T14:52:14.7355717Z d-----         7/15/2026   2:52 PM                aseprite                                                             
+2026-07-15T14:52:14.7633291Z 
+2026-07-15T14:52:14.7633394Z 
+2026-07-15T14:52:14.7817548Z ##[debug]Finishing: Download & Extract Source

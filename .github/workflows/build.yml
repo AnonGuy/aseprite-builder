@@ -48,6 +48,24 @@ jobs:
       - name: Initialize MSVC Environment
         uses: ilammy/msvc-dev-cmd@v1
 
+      - name: Disable ccache (Strawberry Perl's MinGW ccache deadlocks with MSVC)
+        continue-on-error: true
+        shell: powershell
+        run: |
+          # Strawberry Perl bundles a MinGW/POSIX-built ccache.exe that CMake
+          # auto-detects and uses as CMAKE_CXX_COMPILER_LAUNCHER.  When it wraps
+          # the native MSVC cl.exe (especially with /showIncludes), the POSIX→Win32
+          # I/O pipe mismatch causes a silent deadlock that hangs the build.
+          # ccache is also pointless in CI (no persistent cache between runs), so
+          # we remove it entirely rather than try to fix the integration.
+          $ccachePath = "C:\Strawberry\c\bin\ccache.exe"
+          if (Test-Path $ccachePath) {
+            Rename-Item $ccachePath "ccache.exe.bak" -Force
+            echo "[+] Renamed Strawberry Perl ccache.exe to ccache.exe.bak to prevent MSVC deadlock"
+          } else {
+            echo "[+] Strawberry Perl ccache.exe not found - nothing to disable"
+          }
+
       - name: Run CMake Configuration
         shell: powershell
         run: |
