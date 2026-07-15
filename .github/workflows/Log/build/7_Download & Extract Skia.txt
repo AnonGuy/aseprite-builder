@@ -1,0 +1,46 @@
+﻿2026-07-15T12:26:04.0173093Z ##[debug]Evaluating condition for step: 'Download & Extract Skia'
+2026-07-15T12:26:04.0176096Z ##[debug]Evaluating: success()
+2026-07-15T12:26:04.0176542Z ##[debug]Evaluating success:
+2026-07-15T12:26:04.0177025Z ##[debug]=> true
+2026-07-15T12:26:04.0177475Z ##[debug]Result: true
+2026-07-15T12:26:04.0178266Z ##[debug]Starting: Download & Extract Skia
+2026-07-15T12:26:04.0308264Z ##[debug]Loading inputs
+2026-07-15T12:26:04.0310070Z ##[debug]Loading env
+2026-07-15T12:26:04.0315431Z ##[group]Run Invoke-WebRequest -Uri "https://github.com/aseprite/skia/releases/latest/download/Skia-Windows-Release-x64.zip" -OutFile "skia.zip"
+2026-07-15T12:26:04.0316782Z [36;1mInvoke-WebRequest -Uri "https://github.com/aseprite/skia/releases/latest/download/Skia-Windows-Release-x64.zip" -OutFile "skia.zip"[0m
+2026-07-15T12:26:04.0317636Z [36;1mmkdir skia -Force[0m
+2026-07-15T12:26:04.0317981Z [36;1m7z x "skia.zip" -o"skia" -y[0m
+2026-07-15T12:26:04.0379890Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2026-07-15T12:26:04.0380781Z env:
+2026-07-15T12:26:04.0381391Z   DOWNLOAD_URL: https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip
+2026-07-15T12:26:04.0382657Z   ASE_VER: v1.3.17.2
+2026-07-15T12:26:04.0382958Z ##[endgroup]
+2026-07-15T12:26:04.0455626Z ##[debug]C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". 'D:\a\_temp\7fb71d41-4919-4dc4-b513-6f097579ffd0.ps1'"
+2026-07-15T12:26:43.5849665Z 
+2026-07-15T12:26:43.5852368Z 
+2026-07-15T12:26:43.5853993Z     Directory: D:\a\aseprite-builder\aseprite-builder
+2026-07-15T12:26:43.5854578Z 
+2026-07-15T12:26:43.5854587Z 
+2026-07-15T12:26:43.5869084Z Mode                 LastWriteTime         Length Name                                                                 
+2026-07-15T12:26:43.5874611Z ----                 -------------         ------ ----                                                                 
+2026-07-15T12:26:43.5886698Z d-----         7/15/2026  12:26 PM                skia                                                                 
+2026-07-15T12:26:43.6371439Z 
+2026-07-15T12:26:43.6372204Z 7-Zip 26.02 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-06-25
+2026-07-15T12:26:43.6372612Z 
+2026-07-15T12:26:43.6372790Z Scanning the drive for archives:
+2026-07-15T12:26:43.6373111Z 1 file, 28759398 bytes (28 MiB)
+2026-07-15T12:26:43.6373293Z 
+2026-07-15T12:26:43.6373408Z Extracting archive: skia.zip
+2026-07-15T12:26:45.0488510Z --
+2026-07-15T12:26:45.0488975Z Path = skia.zip
+2026-07-15T12:26:45.0489278Z Type = zip
+2026-07-15T12:26:45.0489563Z Physical Size = 28759398
+2026-07-15T12:26:45.0489781Z 
+2026-07-15T12:26:45.0498810Z Everything is Ok
+2026-07-15T12:26:45.0499136Z 
+2026-07-15T12:26:45.0499278Z Files: 1971
+2026-07-15T12:26:45.0499543Z Size:       107890346
+2026-07-15T12:26:45.0500297Z Compressed: 28759398
+2026-07-15T12:26:45.0582376Z 
+2026-07-15T12:26:45.0582707Z 
+2026-07-15T12:26:45.0787390Z ##[debug]Finishing: Download & Extract Skia

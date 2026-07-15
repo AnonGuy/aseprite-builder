@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     permissions:
       contents: write
     steps:
@@ -69,11 +69,23 @@ jobs:
             -DCMAKE_JOB_POOL_LINK=link `
             "$abs_src"
 
+      - name: Disable Windows Defender Real-Time Monitoring
+        continue-on-error: true
+        shell: powershell
+        run: |
+          try {
+            Set-MpPreference -DisableRealtimeMonitoring $true -ErrorAction Stop
+            echo "[+] Windows Defender real-time monitoring disabled for build performance"
+          } catch {
+            echo "[!] Could not disable Defender (tamper protection may be active) - continuing build anyway"
+          }
+
       - name: Compile with Ninja
-        timeout-minutes: 120
+        timeout-minutes: 90
+        shell: cmd
         run: |
           cd build
-          ninja -j 2 aseprite
+          ninja -v -j 1 aseprite < NUL
 
       - name: Collect Dependencies (DLLs)
         shell: powershell
