@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-    timeout-minutes: 120
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -15,8 +15,8 @@ jobs:
       - name: Enable Long Paths
         run: git config --system core.longpaths true
 
-      - name: Install Build Tools
-        run: choco install cmake ninja innosetup
+      # CMake, Ninja, and Inno Setup are all pre-installed on the windows-latest
+      # runner image — no need for 'choco install' (saves ~2 min)
 
       - name: Fetch Latest Release Metadata
         shell: powershell
@@ -29,19 +29,35 @@ jobs:
           echo "DOWNLOAD_URL=$($asset.browser_download_url)" >> $env:GITHUB_ENV
           echo "ASE_VER=$($resp.tag_name)" >> $env:GITHUB_ENV
 
-      - name: Download & Extract Source
+      - name: Download & Extract Source and Skia
         shell: powershell
         run: |
-          Invoke-WebRequest -Uri ${{ env.DOWNLOAD_URL }} -OutFile "aseprite_src.zip"
+          # Download both archives in parallel (network I/O bound)
+          $wd = $PWD.Path
+          $srcJob = Start-Job -ScriptBlock {
+            param($url, $wd)
+            Set-Location $wd
+            Invoke-WebRequest -Uri $url -OutFile "aseprite_src.zip"
+          } -ArgumentList $env:DOWNLOAD_URL, $wd
+
+          $skiaJob = Start-Job -ScriptBlock {
+            param($wd)
+            Set-Location $wd
+            Invoke-WebRequest -Uri "https://github.com/aseprite/skia/releases/latest/download/Skia-Windows-Release-x64.zip" -OutFile "skia.zip"
+          } -ArgumentList $wd
+
+          Wait-Job -Job $srcJob, $skiaJob | Out-Null
+          if ($srcJob.State -ne 'Completed') { Receive-Job $srcJob; throw "Source download failed" }
+          if ($skiaJob.State -ne 'Completed') { Receive-Job $skiaJob; throw "Skia download failed" }
+          Remove-Job -Job $srcJob, $skiaJob
+
+          # Extract source
           7z x "aseprite_src.zip" -o"temp_ext" -y
           $rootFile = Get-ChildItem -Path "temp_ext" -Filter "CMakeLists.txt" -Recurse | Select-Object -First 1
           mkdir aseprite -Force
           Get-ChildItem -Path "$($rootFile.Directory.FullName)\*" | Move-Item -Destination "aseprite" -Force
 
-      - name: Download & Extract Skia
-        shell: powershell
-        run: |
-          Invoke-WebRequest -Uri "https://github.com/aseprite/skia/releases/latest/download/Skia-Windows-Release-x64.zip" -OutFile "skia.zip"
+          # Extract Skia
           mkdir skia -Force
           7z x "skia.zip" -o"skia" -y
 
@@ -99,11 +115,11 @@ jobs:
           }
 
       - name: Compile with Ninja
-        timeout-minutes: 90
+        timeout-minutes: 30
         shell: cmd
         run: |
           cd build
-          ninja -v -j 1 aseprite < NUL
+          ninja -v -j 2 aseprite < NUL
 
       - name: Collect Dependencies (DLLs)
         shell: powershell
