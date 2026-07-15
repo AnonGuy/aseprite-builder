@@ -1,0 +1,79 @@
+﻿2026-07-15T19:50:44.7940622Z ##[debug]Starting: verify-runner
+2026-07-15T19:50:44.7957535Z ##[debug]Cleaning runner temp folder: D:\a\_temp
+2026-07-15T19:50:44.8089287Z ##[debug]Starting: Set up job
+2026-07-15T19:50:44.8090311Z Current runner version: '2.335.1'
+2026-07-15T19:50:44.8108890Z ##[group]Runner Image Provisioner
+2026-07-15T19:50:44.8109507Z Hosted Compute Agent
+2026-07-15T19:50:44.8109980Z Version: 20260624.560
+2026-07-15T19:50:44.8110455Z Commit: 925d229a51159bc391ae97e54a2dd1fe20af789d
+2026-07-15T19:50:44.8111016Z Build Date: 2026-06-24T18:26:47Z
+2026-07-15T19:50:44.8111524Z Worker ID: {1915f76a-d2d5-4570-b6f5-903a1ac51fec}
+2026-07-15T19:50:44.8112097Z Azure Region: westus3
+2026-07-15T19:50:44.8112493Z ##[endgroup]
+2026-07-15T19:50:44.8113450Z ##[group]Operating System
+2026-07-15T19:50:44.8113939Z Microsoft Windows Server 2025
+2026-07-15T19:50:44.8114391Z 10.0.26100
+2026-07-15T19:50:44.8114816Z Datacenter
+2026-07-15T19:50:44.8115231Z ##[endgroup]
+2026-07-15T19:50:44.8115645Z ##[group]Runner Image
+2026-07-15T19:50:44.8116431Z Image: windows-2025-vs2026
+2026-07-15T19:50:44.8116891Z Version: 20260628.158.1
+2026-07-15T19:50:44.8117882Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20260628.158/images/windows/Windows2025-VS2026-Readme.md
+2026-07-15T19:50:44.8119068Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20260628.158
+2026-07-15T19:50:44.8119799Z ##[endgroup]
+2026-07-15T19:50:44.8120784Z ##[group]GITHUB_TOKEN Permissions
+2026-07-15T19:50:44.8122210Z Contents: read
+2026-07-15T19:50:44.8122629Z Metadata: read
+2026-07-15T19:50:44.8123514Z Packages: read
+2026-07-15T19:50:44.8123954Z ##[endgroup]
+2026-07-15T19:50:44.8125619Z Secret source: Actions
+2026-07-15T19:50:44.8126220Z ##[debug]Primary repository: AnonGuy/aseprite-builder
+2026-07-15T19:50:44.8126854Z Prepare workflow directory
+2026-07-15T19:50:44.8192272Z ##[debug]Creating pipeline directory: 'D:\a\aseprite-builder'
+2026-07-15T19:50:44.8196326Z ##[debug]Creating workspace directory: 'D:\a\aseprite-builder\aseprite-builder'
+2026-07-15T19:50:44.8198181Z ##[debug]Update context data
+2026-07-15T19:50:44.8200782Z ##[debug]Evaluating job-level environment variables
+2026-07-15T19:50:44.8377285Z ##[debug]Evaluating job container
+2026-07-15T19:50:44.8381002Z ##[debug]Evaluating job service containers
+2026-07-15T19:50:44.8383701Z ##[debug]Evaluating job defaults
+2026-07-15T19:50:44.8414888Z Prepare all required actions
+2026-07-15T19:50:44.8547134Z ##[debug]Set step '__run' display name to: 'Check CPU Cores & RAM'
+2026-07-15T19:50:44.8548986Z Complete job name: verify-runner
+2026-07-15T19:50:44.8562416Z ##[debug]Collect running processes for tracking orphan processes.
+2026-07-15T19:50:44.8622078Z ##[debug]Finishing: Set up job
+2026-07-15T19:50:44.8746656Z ##[debug]Evaluating condition for step: 'Check CPU Cores & RAM'
+2026-07-15T19:50:44.8814702Z ##[debug]Evaluating: success()
+2026-07-15T19:50:44.8819297Z ##[debug]Evaluating success:
+2026-07-15T19:50:44.8835378Z ##[debug]=> true
+2026-07-15T19:50:44.8840521Z ##[debug]Result: true
+2026-07-15T19:50:44.8861932Z ##[debug]Starting: Check CPU Cores & RAM
+2026-07-15T19:50:44.9593374Z ##[debug]Loading inputs
+2026-07-15T19:50:44.9605969Z ##[debug]Loading env
+2026-07-15T19:50:44.9655213Z ##[group]Run $cores = (Get-CimInstance -ClassName Win32_Processor).NumberOfCores
+2026-07-15T19:50:44.9656144Z [36;1m$cores = (Get-CimInstance -ClassName Win32_Processor).NumberOfCores[0m
+2026-07-15T19:50:44.9657096Z [36;1m$logicalProcessors = (Get-CimInstance -ClassName Win32_Processor).NumberOfLogicalProcessors[0m
+2026-07-15T19:50:44.9658148Z [36;1m$ramGB = [math]::Round((Get-CimInstance -ClassName Win32_ComputerSystem).TotalPhysicalMemory / 1GB, 1)[0m
+2026-07-15T19:50:44.9659075Z [36;1mecho "Physical Cores : $cores"[0m
+2026-07-15T19:50:44.9659613Z [36;1mecho "Logical Processors: $logicalProcessors"[0m
+2026-07-15T19:50:44.9660204Z [36;1mecho "Total RAM       : ${ramGB} GB"[0m
+2026-07-15T19:50:45.0238915Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2026-07-15T19:50:45.0241959Z ##[endgroup]
+2026-07-15T19:50:45.0349517Z ##[debug]C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". 'D:\a\_temp\290dd221-9717-46f5-8c12-3b3a5ce948ab.ps1'"
+2026-07-15T19:50:47.4571739Z Physical Cores : 2
+2026-07-15T19:50:47.4572585Z Logical Processors: 4
+2026-07-15T19:50:47.4572909Z Total RAM       : 16 GB
+2026-07-15T19:50:47.5201802Z ##[debug]Finishing: Check CPU Cores & RAM
+2026-07-15T19:50:47.5273152Z ##[debug]Starting: Complete job
+2026-07-15T19:50:47.5275561Z Uploading runner diagnostic logs
+2026-07-15T19:50:47.5285866Z ##[debug]Starting diagnostic file upload.
+2026-07-15T19:50:47.5286303Z ##[debug]Setting up diagnostic log folders.
+2026-07-15T19:50:47.5288954Z ##[debug]Creating diagnostic log files folder.
+2026-07-15T19:50:47.5298619Z ##[debug]Copying 1 worker diagnostic logs.
+2026-07-15T19:50:47.5315255Z ##[debug]Copying 1 runner diagnostic logs.
+2026-07-15T19:50:47.5318531Z ##[debug]Zipping diagnostic files.
+2026-07-15T19:50:47.5383452Z ##[debug]Uploading diagnostic metadata file.
+2026-07-15T19:50:47.5410363Z ##[debug]Diagnostic file upload complete.
+2026-07-15T19:50:47.5411646Z Completed runner diagnostic log upload
+2026-07-15T19:50:47.5412054Z Cleaning up orphan processes
+2026-07-15T19:50:47.5504697Z ##[debug]Finishing: Complete job
+2026-07-15T19:50:47.5533194Z ##[debug]Finishing: verify-runner

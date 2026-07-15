@@ -1,0 +1,172 @@
+﻿2026-07-15T19:50:53.8483534Z ##[debug]Evaluating condition for step: 'Checkout Repository'
+2026-07-15T19:50:53.8521061Z ##[debug]Evaluating: success()
+2026-07-15T19:50:53.8526224Z ##[debug]Evaluating success:
+2026-07-15T19:50:53.8541545Z ##[debug]=> true
+2026-07-15T19:50:53.8547362Z ##[debug]Result: true
+2026-07-15T19:50:53.8575004Z ##[debug]Starting: Checkout Repository
+2026-07-15T19:50:53.9264644Z ##[debug]Register post job cleanup for action: actions/checkout@v4
+2026-07-15T19:50:53.9361620Z ##[debug]Loading inputs
+2026-07-15T19:50:53.9375527Z ##[debug]Evaluating: github.repository
+2026-07-15T19:50:53.9376886Z ##[debug]Evaluating Index:
+2026-07-15T19:50:53.9380130Z ##[debug]..Evaluating github:
+2026-07-15T19:50:53.9381513Z ##[debug]..=> Object
+2026-07-15T19:50:53.9388329Z ##[debug]..Evaluating String:
+2026-07-15T19:50:53.9389458Z ##[debug]..=> 'repository'
+2026-07-15T19:50:53.9393553Z ##[debug]=> 'AnonGuy/aseprite-builder'
+2026-07-15T19:50:53.9395360Z ##[debug]Result: 'AnonGuy/aseprite-builder'
+2026-07-15T19:50:53.9400335Z ##[debug]Evaluating: github.token
+2026-07-15T19:50:53.9401155Z ##[debug]Evaluating Index:
+2026-07-15T19:50:53.9401873Z ##[debug]..Evaluating github:
+2026-07-15T19:50:53.9402629Z ##[debug]..=> Object
+2026-07-15T19:50:53.9403289Z ##[debug]..Evaluating String:
+2026-07-15T19:50:53.9404013Z ##[debug]..=> 'token'
+2026-07-15T19:50:53.9411327Z ##[debug]=> '***'
+2026-07-15T19:50:53.9417744Z ##[debug]Result: '***'
+2026-07-15T19:50:53.9451539Z ##[debug]Loading env
+2026-07-15T19:50:53.9521261Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-07-15T19:50:53.9532050Z ##[group]Run actions/checkout@v4
+2026-07-15T19:50:53.9532997Z with:
+2026-07-15T19:50:53.9533627Z   repository: AnonGuy/aseprite-builder
+2026-07-15T19:50:53.9540444Z   token: ***
+2026-07-15T19:50:53.9541090Z   ssh-strict: true
+2026-07-15T19:50:53.9541707Z   ssh-user: git
+2026-07-15T19:50:53.9542330Z   persist-credentials: true
+2026-07-15T19:50:53.9543676Z   clean: true
+2026-07-15T19:50:53.9544377Z   sparse-checkout-cone-mode: true
+2026-07-15T19:50:53.9545217Z   fetch-depth: 1
+2026-07-15T19:50:53.9545826Z   fetch-tags: false
+2026-07-15T19:50:53.9546453Z   show-progress: true
+2026-07-15T19:50:53.9547077Z   lfs: false
+2026-07-15T19:50:53.9547641Z   submodules: false
+2026-07-15T19:50:53.9548341Z   set-safe-directory: true
+2026-07-15T19:50:53.9549408Z ##[endgroup]
+2026-07-15T19:50:54.0980912Z ##[debug]GITHUB_WORKSPACE = 'D:\a\aseprite-builder\aseprite-builder'
+2026-07-15T19:50:54.0983495Z ##[debug]qualified repository = 'AnonGuy/aseprite-builder'
+2026-07-15T19:50:54.0985215Z ##[debug]ref = 'refs/heads/main'
+2026-07-15T19:50:54.0986617Z ##[debug]commit = 'ac5c7498a02d5fec75df973cd4e60c2d517e7d0a'
+2026-07-15T19:50:54.0989291Z ##[debug]clean = true
+2026-07-15T19:50:54.0990945Z ##[debug]filter = undefined
+2026-07-15T19:50:54.0992562Z ##[debug]fetch depth = 1
+2026-07-15T19:50:54.0994086Z ##[debug]fetch tags = false
+2026-07-15T19:50:54.0995702Z ##[debug]show progress = true
+2026-07-15T19:50:54.0997355Z ##[debug]lfs = false
+2026-07-15T19:50:54.0998942Z ##[debug]submodules = false
+2026-07-15T19:50:54.1000630Z ##[debug]recursive submodules = false
+2026-07-15T19:50:54.1002476Z ##[debug]GitHub Host URL = 
+2026-07-15T19:50:54.1005315Z ::add-matcher::D:\a\_actions\actions\checkout\v4\dist\problem-matcher.json
+2026-07-15T19:50:54.1083370Z ##[debug]Added matchers: 'checkout-git'. Problem matchers scan action output for known warning or error strings and report these inline.
+2026-07-15T19:50:54.1089473Z Syncing repository: AnonGuy/aseprite-builder
+2026-07-15T19:50:54.1091162Z ::group::Getting Git version info
+2026-07-15T19:50:54.1092592Z ##[group]Getting Git version info
+2026-07-15T19:50:54.1093599Z Working directory is 'D:\a\aseprite-builder\aseprite-builder'
+2026-07-15T19:50:54.1764992Z ##[debug]Getting git version
+2026-07-15T19:50:54.1784181Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-07-15T19:50:54.4842085Z git version 2.55.0.windows.2
+2026-07-15T19:50:54.4886916Z ##[debug]0
+2026-07-15T19:50:54.4887925Z ##[debug]git version 2.55.0.windows.2
+2026-07-15T19:50:54.4888757Z ##[debug]
+2026-07-15T19:50:54.4889907Z ##[debug]Set git useragent to: git/2.55.0 (github-actions-checkout)
+2026-07-15T19:50:54.4891101Z ::endgroup::
+2026-07-15T19:50:54.4892096Z ##[endgroup]
+2026-07-15T19:50:54.4896619Z ::add-mask::***
+2026-07-15T19:50:54.4909038Z Temporarily overriding HOME='D:\a\_temp\bd47d737-4755-4723-a68e-586b57498808' before making global git config changes
+2026-07-15T19:50:54.4910554Z Adding repository directory to the temporary git global config as a safe directory
+2026-07-15T19:50:54.4919163Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\aseprite-builder\aseprite-builder
+2026-07-15T19:50:54.5474669Z ##[debug]0
+2026-07-15T19:50:54.5475685Z ##[debug]
+2026-07-15T19:50:54.5482225Z Deleting the contents of 'D:\a\aseprite-builder\aseprite-builder'
+2026-07-15T19:50:54.5563281Z ::group::Initializing the repository
+2026-07-15T19:50:54.5565609Z ##[group]Initializing the repository
+2026-07-15T19:50:54.5567106Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\aseprite-builder\aseprite-builder
+2026-07-15T19:50:54.6309255Z Initialized empty Git repository in D:/a/aseprite-builder/aseprite-builder/.git/
+2026-07-15T19:50:54.6353310Z ##[debug]0
+2026-07-15T19:50:54.6354896Z ##[debug]Initialized empty Git repository in D:/a/aseprite-builder/aseprite-builder/.git/
+2026-07-15T19:50:54.6355983Z ##[debug]
+2026-07-15T19:50:54.6363878Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/AnonGuy/aseprite-builder
+2026-07-15T19:50:54.6892095Z ##[debug]0
+2026-07-15T19:50:54.6894416Z ##[debug]
+2026-07-15T19:50:54.6896250Z ::endgroup::
+2026-07-15T19:50:54.6897186Z ##[endgroup]
+2026-07-15T19:50:54.6899099Z ::group::Disabling automatic garbage collection
+2026-07-15T19:50:54.6900265Z ##[group]Disabling automatic garbage collection
+2026-07-15T19:50:54.6905507Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+2026-07-15T19:50:54.7224980Z ##[debug]0
+2026-07-15T19:50:54.7226247Z ##[debug]
+2026-07-15T19:50:54.7227373Z ::endgroup::
+2026-07-15T19:50:54.7228048Z ##[endgroup]
+2026-07-15T19:50:54.7229108Z ::group::Setting up auth
+2026-07-15T19:50:54.7230091Z ##[group]Setting up auth
+2026-07-15T19:50:54.7238384Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-07-15T19:50:54.7549411Z ##[debug]1
+2026-07-15T19:50:54.7551496Z ##[debug]
+2026-07-15T19:50:54.7566705Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-07-15T19:50:55.9883742Z ##[debug]0
+2026-07-15T19:50:55.9884954Z ##[debug]
+2026-07-15T19:50:55.9899195Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-07-15T19:50:56.0178162Z ##[debug]1
+2026-07-15T19:50:56.0178635Z ##[debug]
+2026-07-15T19:50:56.0188540Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-07-15T19:50:56.5523701Z ##[debug]0
+2026-07-15T19:50:56.5524359Z ##[debug]
+2026-07-15T19:50:56.5536062Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-07-15T19:50:56.5819840Z ##[debug]1
+2026-07-15T19:50:56.5820789Z ##[debug]
+2026-07-15T19:50:56.5829707Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-07-15T19:50:57.0808033Z ##[debug]0
+2026-07-15T19:50:57.0826875Z ##[debug]
+2026-07-15T19:50:57.0827862Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2026-07-15T19:50:57.1130579Z ##[debug]0
+2026-07-15T19:50:57.1131146Z ##[debug]
+2026-07-15T19:50:57.1144303Z ::endgroup::
+2026-07-15T19:50:57.1144626Z ##[endgroup]
+2026-07-15T19:50:57.1145262Z ::group::Fetching the repository
+2026-07-15T19:50:57.1145665Z ##[group]Fetching the repository
+2026-07-15T19:50:57.1158307Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +ac5c7498a02d5fec75df973cd4e60c2d517e7d0a:refs/remotes/origin/main
+2026-07-15T19:50:58.0388806Z From https://github.com/AnonGuy/aseprite-builder
+2026-07-15T19:50:58.0389793Z  * [new ref]         ac5c7498a02d5fec75df973cd4e60c2d517e7d0a -> origin/main
+2026-07-15T19:50:58.0441021Z ##[debug]0
+2026-07-15T19:50:58.0441652Z ##[debug]
+2026-07-15T19:50:58.0442291Z ::endgroup::
+2026-07-15T19:50:58.0442592Z ##[endgroup]
+2026-07-15T19:50:58.0443099Z ::group::Determining the checkout info
+2026-07-15T19:50:58.0444040Z ##[group]Determining the checkout info
+2026-07-15T19:50:58.0444882Z ::endgroup::
+2026-07-15T19:50:58.0445178Z ##[endgroup]
+2026-07-15T19:50:58.0454232Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+2026-07-15T19:50:58.0959748Z ##[debug]0
+2026-07-15T19:50:58.0960271Z ##[debug]
+2026-07-15T19:50:58.0974609Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+2026-07-15T19:50:58.1301965Z ##[debug]0
+2026-07-15T19:50:58.1302538Z ##[debug]
+2026-07-15T19:50:58.1303035Z ::group::Checking out the ref
+2026-07-15T19:50:58.1303402Z ##[group]Checking out the ref
+2026-07-15T19:50:58.1312377Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+2026-07-15T19:50:58.2042232Z Switched to a new branch 'main'
+2026-07-15T19:50:58.2093918Z branch 'main' set up to track 'origin/main'.
+2026-07-15T19:50:58.2143149Z ##[debug]0
+2026-07-15T19:50:58.2144914Z ##[debug]branch 'main' set up to track 'origin/main'.
+2026-07-15T19:50:58.2145208Z ##[debug]
+2026-07-15T19:50:58.2145546Z ::endgroup::
+2026-07-15T19:50:58.2145750Z ##[endgroup]
+2026-07-15T19:50:58.2521302Z ##[debug]0
+2026-07-15T19:50:58.2521852Z ##[debug]commit ac5c7498a02d5fec75df973cd4e60c2d517e7d0a
+2026-07-15T19:50:58.2522261Z ##[debug]Author: Sententia (Pankaekz) <pankaekz@gmail.com>
+2026-07-15T19:50:58.2522595Z ##[debug]Date:   Thu Jul 16 02:47:43 2026 +0700
+2026-07-15T19:50:58.2522936Z ##[debug]
+2026-07-15T19:50:58.2523114Z ##[debug]    Optimize test 2
+2026-07-15T19:50:58.2523322Z ##[debug]
+2026-07-15T19:50:58.2529378Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+2026-07-15T19:50:58.2801843Z ac5c7498a02d5fec75df973cd4e60c2d517e7d0a
+2026-07-15T19:50:58.2838521Z ##[debug]0
+2026-07-15T19:50:58.2839002Z ##[debug]ac5c7498a02d5fec75df973cd4e60c2d517e7d0a
+2026-07-15T19:50:58.2839690Z ##[debug]
+2026-07-15T19:50:58.2846814Z ##[debug]Unsetting HOME override
+2026-07-15T19:50:58.2855064Z ::remove-matcher owner=checkout-git::
+2026-07-15T19:50:58.2867910Z ##[debug]Removed matchers: 'checkout-git'
+2026-07-15T19:50:58.2994238Z ##[debug]Node Action run completed with exit code 0
+2026-07-15T19:50:58.3031676Z ##[debug]Save intra-action state isPost = true
+2026-07-15T19:50:58.3032211Z ##[debug]Save intra-action state setSafeDirectory = true
+2026-07-15T19:50:58.3032729Z ##[debug]Save intra-action state repositoryPath = D:\a\aseprite-builder\aseprite-builder
+2026-07-15T19:50:58.3037768Z ##[debug]Set output commit = ac5c7498a02d5fec75df973cd4e60c2d517e7d0a
+2026-07-15T19:50:58.3038336Z ##[debug]Set output ref = refs/heads/main
+2026-07-15T19:50:58.3041396Z ##[debug]Finishing: Checkout Repository

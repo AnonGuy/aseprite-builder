@@ -1,0 +1,912 @@
+﻿2026-07-15T19:51:35.1210028Z ##[debug]Evaluating condition for step: 'Run CMake Configuration'
+2026-07-15T19:51:35.1212318Z ##[debug]Evaluating: success()
+2026-07-15T19:51:35.1212670Z ##[debug]Evaluating success:
+2026-07-15T19:51:35.1213055Z ##[debug]=> true
+2026-07-15T19:51:35.1213404Z ##[debug]Result: true
+2026-07-15T19:51:35.1214211Z ##[debug]Starting: Run CMake Configuration
+2026-07-15T19:51:35.1327415Z ##[debug]Loading inputs
+2026-07-15T19:51:35.1328919Z ##[debug]Loading env
+2026-07-15T19:51:35.1333288Z ##[group]Run $abs_src = Join-Path $env:GITHUB_WORKSPACE "aseprite"
+2026-07-15T19:51:35.1333721Z [36;1m$abs_src = Join-Path $env:GITHUB_WORKSPACE "aseprite"[0m
+2026-07-15T19:51:35.1334078Z [36;1m$abs_skia = Join-Path $env:GITHUB_WORKSPACE "skia"[0m
+2026-07-15T19:51:35.1334421Z [36;1m$abs_build = Join-Path $env:GITHUB_WORKSPACE "build"[0m
+2026-07-15T19:51:35.1334731Z [36;1mmkdir $abs_build -Force[0m
+2026-07-15T19:51:35.1334965Z [36;1mSet-Location $abs_build[0m
+2026-07-15T19:51:35.1335186Z [36;1mcmake -G Ninja `[0m
+2026-07-15T19:51:35.1335488Z [36;1m  -DCMAKE_BUILD_TYPE=Release `[0m
+2026-07-15T19:51:35.1335747Z [36;1m  -DLAF_BACKEND=skia `[0m
+2026-07-15T19:51:35.1335975Z [36;1m  -DSKIA_DIR="$abs_skia" `[0m
+2026-07-15T19:51:35.1336267Z [36;1m  -DSKIA_LIBRARY_DIR="$abs_skia\out\Release-x64" `[0m
+2026-07-15T19:51:35.1336627Z [36;1m  -DSKIA_LIBRARY="$abs_skia\out\Release-x64\skia.lib" `[0m
+2026-07-15T19:51:35.1336937Z [36;1m  -DENABLE_UPDATER=OFF `[0m
+2026-07-15T19:51:35.1337174Z [36;1m  -DENABLE_TESTS=OFF `[0m
+2026-07-15T19:51:35.1337401Z [36;1m  -DENABLE_BENCHMARKS=OFF `[0m
+2026-07-15T19:51:35.1337650Z [36;1m  -DCMAKE_JOB_POOLS="link=1" `[0m
+2026-07-15T19:51:35.1337900Z [36;1m  -DCMAKE_JOB_POOL_LINK=link `[0m
+2026-07-15T19:51:35.1338128Z [36;1m  "$abs_src"[0m
+2026-07-15T19:51:35.1396589Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2026-07-15T19:51:35.1397015Z env:
+2026-07-15T19:51:35.1397483Z   DOWNLOAD_URL: https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip
+2026-07-15T19:51:35.1398195Z   ASE_VER: v1.3.17.2
+2026-07-15T19:51:35.1398402Z   CommandPromptType: Native
+2026-07-15T19:51:35.1398742Z   DevEnvDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\
+2026-07-15T19:51:35.1399238Z   ExtensionSdkDir: C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+2026-07-15T19:51:35.1401428Z   EXTERNAL_INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T19:51:35.1403478Z   Framework40Version: v4.0
+2026-07-15T19:51:35.1403735Z   FrameworkDir: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T19:51:35.1404063Z   FrameworkDir64: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T19:51:35.1404348Z   FrameworkVersion: v4.0.30319
+2026-07-15T19:51:35.1404570Z   FrameworkVersion64: v4.0.30319
+2026-07-15T19:51:35.1405070Z   FSHARPINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools
+2026-07-15T19:51:35.1405639Z   HTMLHelpDir: C:\Program Files (x86)\HTML Help Workshop
+2026-07-15T19:51:35.1407693Z   INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T19:51:35.1413906Z   LIB: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\lib\um\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.26100.0\\um\x64
+2026-07-15T19:51:35.1416474Z   LIBPATH: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+2026-07-15T19:51:35.1418192Z   llvmArm64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\ARM64\bin
+2026-07-15T19:51:35.1418742Z   llvmX64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin
+2026-07-15T19:51:35.1419208Z   NETFXSDKDir: C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\
+2026-07-15T19:51:35.1432792Z   Path: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Team Tools\DiagnosticsHub\Collector;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\;C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T19:51:35.1447798Z   Platform: x64
+2026-07-15T19:51:35.1447992Z   UCRTVersion: 10.0.26100.0
+2026-07-15T19:51:35.1448399Z   UniversalCRTSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T19:51:35.1448714Z   use_x64_llvm: true
+2026-07-15T19:51:35.1449063Z   VCIDEInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\
+2026-07-15T19:51:35.1449561Z   VCINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\
+2026-07-15T19:51:35.1450017Z   VCPKG_ROOT: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T19:51:35.1450548Z   VCToolsInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\
+2026-07-15T19:51:35.1451153Z   VCToolsRedistDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Redist\MSVC\14.51.36231\
+2026-07-15T19:51:35.1451576Z   VCToolsVersion: 14.51.36231
+2026-07-15T19:51:35.1451797Z   VisualStudioVersion: 18.0
+2026-07-15T19:51:35.1452143Z   VS180COMNTOOLS: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\
+2026-07-15T19:51:35.1452539Z   VSCMD_ARG_app_plat: Desktop
+2026-07-15T19:51:35.1452953Z   VSCMD_ARG_HOST_ARCH: x64
+2026-07-15T19:51:35.1453161Z   VSCMD_ARG_TGT_ARCH: x64
+2026-07-15T19:51:35.1453497Z   VSCMD_VER: 18.7.3
+2026-07-15T19:51:35.1453783Z   VSINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\
+2026-07-15T19:51:35.1454233Z   VSSDK150INSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T19:51:35.1454688Z   VSSDKINSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T19:51:35.1455335Z   WindowsLibPath: C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0
+2026-07-15T19:51:35.1455946Z   WindowsSdkBinPath: C:\Program Files (x86)\Windows Kits\10\bin\
+2026-07-15T19:51:35.1456302Z   WindowsSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T19:51:35.1456598Z   WindowsSDKLibVersion: 10.0.26100.0\
+2026-07-15T19:51:35.1456952Z   WindowsSdkVerBinPath: C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\
+2026-07-15T19:51:35.1457467Z   WindowsSDKVersion: 10.0.26100.0\
+2026-07-15T19:51:35.1457911Z   WindowsSDK_ExecutablePath_x64: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\
+2026-07-15T19:51:35.1458562Z   WindowsSDK_ExecutablePath_x86: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\
+2026-07-15T19:51:35.1458992Z   __DOTNET_ADD_64BIT: 1
+2026-07-15T19:51:35.1459198Z   __DOTNET_PREFERRED_BITNESS: 64
+2026-07-15T19:51:35.1467310Z   __VSCMD_PREINIT_PATH: C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files (x86)\sbt\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer
+2026-07-15T19:51:35.1475958Z ##[endgroup]
+2026-07-15T19:51:35.1537980Z ##[debug]C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". 'D:\a\_temp\dd24a9f4-4d24-490b-bd42-197c7e358e36.ps1'"
+2026-07-15T19:51:35.5032872Z 
+2026-07-15T19:51:35.5034576Z 
+2026-07-15T19:51:35.5037664Z     Directory: D:\a\aseprite-builder\aseprite-builder
+2026-07-15T19:51:35.5038079Z 
+2026-07-15T19:51:35.5038110Z 
+2026-07-15T19:51:35.5050937Z Mode                 LastWriteTime         Length Name                                                                 
+2026-07-15T19:51:35.5054847Z ----                 -------------         ------ ----                                                                 
+2026-07-15T19:51:35.5065276Z d-----         7/15/2026   7:51 PM                build                                                                
+2026-07-15T19:51:46.9729472Z -- The C compiler identification is MSVC 19.51.36248.0
+2026-07-15T19:51:47.7910246Z -- The CXX compiler identification is MSVC 19.51.36248.0
+2026-07-15T19:51:48.1977386Z -- Detecting C compiler ABI info
+2026-07-15T19:52:01.7726976Z -- Detecting C compiler ABI info - done
+2026-07-15T19:52:01.8485644Z -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+2026-07-15T19:52:01.8509171Z -- Detecting C compile features
+2026-07-15T19:52:01.8520195Z -- Detecting C compile features - done
+2026-07-15T19:52:02.0754719Z -- Detecting CXX compiler ABI info
+2026-07-15T19:52:03.0116796Z -- Detecting CXX compiler ABI info - done
+2026-07-15T19:52:03.0630094Z -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+2026-07-15T19:52:03.0636428Z -- Detecting CXX compile features
+2026-07-15T19:52:03.0663711Z -- Detecting CXX compile features - done
+2026-07-15T19:52:03.1119716Z -- Could NOT find CCache (missing: CCache_EXECUTABLE) 
+2026-07-15T19:52:03.2534407Z -- Looking for sys/types.h
+2026-07-15T19:52:04.2520099Z -- Looking for sys/types.h - found
+2026-07-15T19:52:04.2521853Z -- Looking for stdint.h
+2026-07-15T19:52:04.8899557Z -- Looking for stdint.h - found
+2026-07-15T19:52:04.8901129Z -- Looking for stddef.h
+2026-07-15T19:52:05.5313653Z -- Looking for stddef.h - found
+2026-07-15T19:52:05.5316244Z -- Check size of off64_t
+2026-07-15T19:52:05.8433386Z -- Check size of off64_t - failed
+2026-07-15T19:52:05.8434904Z -- Looking for fseeko
+2026-07-15T19:52:06.3265001Z -- Looking for fseeko - not found
+2026-07-15T19:52:06.3267135Z -- Looking for unistd.h
+2026-07-15T19:52:06.9730626Z -- Looking for unistd.h - not found
+2026-07-15T19:52:06.9731113Z -- Renaming
+2026-07-15T19:52:06.9732018Z --     D:/a/aseprite-builder/aseprite-builder/aseprite/third_party/zlib/zconf.h
+2026-07-15T19:52:06.9732801Z -- to 'zconf.h.included' because this file is included with zlib
+2026-07-15T19:52:06.9733767Z -- but CMake generates it automatically in the build directory.
+2026-07-15T19:52:07.1937483Z -- The ASM compiler identification is MSVC
+2026-07-15T19:52:07.1941039Z CMake Warning (policy) at C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineASMCompiler.cmake:237 (cmake_policy):
+2026-07-15T19:52:07.1941742Z   Policy CMP0194 is not set: MSVC is not an assembler for language ASM.  Run
+2026-07-15T19:52:07.1942227Z   "cmake --help-policy CMP0194" for policy details.  Use the cmake_policy
+2026-07-15T19:52:07.1942641Z   command to set the policy and suppress this warning.
+2026-07-15T19:52:07.1942947Z Call Stack (most recent call first):
+2026-07-15T19:52:07.1943230Z   third_party/libpng/CMakeLists.txt:28 (project)
+2026-07-15T19:52:07.1943642Z This warning is for project developers.  Use -Wno-author or -Wno-policy to
+2026-07-15T19:52:07.1943999Z suppress it.
+2026-07-15T19:52:07.1944108Z 
+2026-07-15T19:52:07.1952318Z -- Found assembler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe
+2026-07-15T19:52:07.3730944Z -- Building for target architecture: amd64
+2026-07-15T19:52:07.4032585Z -- Found ZLIB: zlibstatic
+2026-07-15T19:52:07.4039161Z -- Performing Test HAVE_LD_VERSION_SCRIPT
+2026-07-15T19:52:07.6360442Z -- Performing Test HAVE_LD_VERSION_SCRIPT - Failed
+2026-07-15T19:52:07.6362191Z -- Performing Test HAVE_SOLARIS_LD_VERSION_SCRIPT
+2026-07-15T19:52:07.8672828Z -- Performing Test HAVE_SOLARIS_LD_VERSION_SCRIPT - Failed
+2026-07-15T19:52:07.8723852Z -- Found AWK program: C:/Program Files/Git/usr/bin/gawk.exe
+2026-07-15T19:52:08.5833388Z -- curl version=[7.79.1-DEV]
+2026-07-15T19:52:11.5777053Z -- Found Perl: C:/Strawberry/perl/bin/perl.exe (found version "5.42.0")
+2026-07-15T19:52:11.6086928Z -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+2026-07-15T19:52:11.8617672Z -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+2026-07-15T19:52:11.8618441Z -- Looking for pthread_create in pthreads
+2026-07-15T19:52:12.2083971Z -- Looking for pthread_create in pthreads - not found
+2026-07-15T19:52:12.2084558Z -- Looking for pthread_create in pthread
+2026-07-15T19:52:12.5229615Z -- Looking for pthread_create in pthread - not found
+2026-07-15T19:52:12.5244244Z -- Found Threads: TRUE
+2026-07-15T19:52:12.5248644Z -- Looking for getch in ws2_32;
+2026-07-15T19:52:13.4415644Z -- Looking for getch in ws2_32; - found
+2026-07-15T19:52:13.4416164Z -- Looking for getch in winmm;ws2_32
+2026-07-15T19:52:14.1128520Z -- Looking for getch in winmm;ws2_32 - found
+2026-07-15T19:52:14.1132682Z -- Looking for cldap_open in wldap32;winmm;ws2_32
+2026-07-15T19:52:14.7752955Z -- Looking for cldap_open in wldap32;winmm;ws2_32 - found
+2026-07-15T19:52:14.7755323Z -- Looking for include file winldap.h
+2026-07-15T19:52:15.1517945Z -- Looking for include file winldap.h - not found
+2026-07-15T19:52:15.1519777Z -- Looking for include file winber.h
+2026-07-15T19:52:15.4533566Z -- Looking for include file winber.h - not found
+2026-07-15T19:52:15.4535652Z -- Looking for include file ldap_ssl.h
+2026-07-15T19:52:15.7034532Z -- Looking for include file ldap_ssl.h - not found
+2026-07-15T19:52:15.7036399Z -- Looking for include file ldapssl.h
+2026-07-15T19:52:15.9577025Z -- Looking for include file ldapssl.h - not found
+2026-07-15T19:52:15.9639815Z -- Looking for include file windows.h
+2026-07-15T19:52:18.1777289Z -- Looking for include file windows.h - found
+2026-07-15T19:52:18.1779050Z -- Looking for include files windows.h, winsock.h
+2026-07-15T19:52:19.0114867Z -- Looking for include files windows.h, winsock.h - found
+2026-07-15T19:52:19.0116759Z -- Looking for 3 include files windows.h, ..., ws2tcpip.h
+2026-07-15T19:52:19.9782554Z -- Looking for 3 include files windows.h, ..., ws2tcpip.h - found
+2026-07-15T19:52:19.9784491Z -- Looking for 4 include files windows.h, ..., winsock2.h
+2026-07-15T19:52:20.8185638Z -- Looking for 4 include files windows.h, ..., winsock2.h - found
+2026-07-15T19:52:20.8187482Z -- Looking for 5 include files windows.h, ..., wincrypt.h
+2026-07-15T19:52:21.6590924Z -- Looking for 5 include files windows.h, ..., wincrypt.h - found
+2026-07-15T19:52:21.6592793Z -- Looking for 6 include files windows.h, ..., stdio.h
+2026-07-15T19:52:22.5418833Z -- Looking for 6 include files windows.h, ..., stdio.h - found
+2026-07-15T19:52:22.5421276Z -- Looking for 7 include files windows.h, ..., sys/filio.h
+2026-07-15T19:52:23.0047717Z -- Looking for 7 include files windows.h, ..., sys/filio.h - not found
+2026-07-15T19:52:23.0049901Z -- Looking for 7 include files windows.h, ..., sys/ioctl.h
+2026-07-15T19:52:23.4725049Z -- Looking for 7 include files windows.h, ..., sys/ioctl.h - not found
+2026-07-15T19:52:23.4728582Z -- Looking for 7 include files windows.h, ..., sys/resource.h
+2026-07-15T19:52:23.9346251Z -- Looking for 7 include files windows.h, ..., sys/resource.h - not found
+2026-07-15T19:52:23.9351525Z -- Looking for 9 include files windows.h, ..., sys/uio.h
+2026-07-15T19:52:24.4174936Z -- Looking for 9 include files windows.h, ..., sys/uio.h - not found
+2026-07-15T19:52:24.4177146Z -- Looking for 9 include files windows.h, ..., sys/un.h
+2026-07-15T19:52:24.8975789Z -- Looking for 9 include files windows.h, ..., sys/un.h - not found
+2026-07-15T19:52:24.8978867Z -- Looking for 10 include files windows.h, ..., sys/xattr.h
+2026-07-15T19:52:25.3879140Z -- Looking for 10 include files windows.h, ..., sys/xattr.h - not found
+2026-07-15T19:52:25.3882543Z -- Looking for 10 include files windows.h, ..., arpa/tftp.h
+2026-07-15T19:52:25.8508256Z -- Looking for 10 include files windows.h, ..., arpa/tftp.h - not found
+2026-07-15T19:52:25.8510474Z -- Looking for 10 include files windows.h, ..., assert.h
+2026-07-15T19:52:26.7292528Z -- Looking for 10 include files windows.h, ..., assert.h - found
+2026-07-15T19:52:26.7294590Z -- Looking for 11 include files windows.h, ..., errno.h
+2026-07-15T19:52:27.5832176Z -- Looking for 11 include files windows.h, ..., errno.h - found
+2026-07-15T19:52:27.5835230Z -- Looking for 13 include files windows.h, ..., idn2.h
+2026-07-15T19:52:28.0484917Z -- Looking for 13 include files windows.h, ..., idn2.h - not found
+2026-07-15T19:52:28.0487304Z -- Looking for 13 include files windows.h, ..., ifaddrs.h
+2026-07-15T19:52:28.5143106Z -- Looking for 13 include files windows.h, ..., ifaddrs.h - not found
+2026-07-15T19:52:28.5146118Z -- Looking for 14 include files windows.h, ..., krb.h
+2026-07-15T19:52:29.0123525Z -- Looking for 14 include files windows.h, ..., krb.h - not found
+2026-07-15T19:52:29.0125996Z -- Looking for 14 include files windows.h, ..., libgen.h
+2026-07-15T19:52:29.4827461Z -- Looking for 14 include files windows.h, ..., libgen.h - not found
+2026-07-15T19:52:29.4830003Z -- Looking for 14 include files windows.h, ..., locale.h
+2026-07-15T19:52:30.3534825Z -- Looking for 14 include files windows.h, ..., locale.h - found
+2026-07-15T19:52:30.3538732Z -- Looking for 15 include files windows.h, ..., netinet/tcp.h
+2026-07-15T19:52:30.8236343Z -- Looking for 15 include files windows.h, ..., netinet/tcp.h - not found
+2026-07-15T19:52:30.8238064Z -- Looking for linux/tcp.h
+2026-07-15T19:52:31.0738480Z -- Looking for linux/tcp.h - not found
+2026-07-15T19:52:31.0740942Z -- Looking for 15 include files windows.h, ..., pem.h
+2026-07-15T19:52:31.5374252Z -- Looking for 15 include files windows.h, ..., pem.h - not found
+2026-07-15T19:52:31.5376862Z -- Looking for 15 include files windows.h, ..., poll.h
+2026-07-15T19:52:32.0081278Z -- Looking for 15 include files windows.h, ..., poll.h - not found
+2026-07-15T19:52:32.0085432Z -- Looking for 17 include files windows.h, ..., ssl.h
+2026-07-15T19:52:32.4819502Z -- Looking for 17 include files windows.h, ..., ssl.h - not found
+2026-07-15T19:52:32.4821468Z -- Looking for 17 include files windows.h, ..., stdbool.h
+2026-07-15T19:52:33.3389364Z -- Looking for 17 include files windows.h, ..., stdbool.h - found
+2026-07-15T19:52:33.3394369Z -- Looking for 21 include files windows.h, ..., stropts.h
+2026-07-15T19:52:33.8114703Z -- Looking for 21 include files windows.h, ..., stropts.h - not found
+2026-07-15T19:52:33.8124107Z -- Looking for 26 include files windows.h, ..., sys/utsname.h
+2026-07-15T19:52:34.4171415Z -- Looking for 26 include files windows.h, ..., sys/utsname.h - not found
+2026-07-15T19:52:34.4173734Z -- Check size of size_t
+2026-07-15T19:52:35.1014091Z -- Check size of size_t - done
+2026-07-15T19:52:35.1016738Z -- Check size of ssize_t
+2026-07-15T19:52:35.3549932Z -- Check size of ssize_t - failed
+2026-07-15T19:52:35.3553366Z -- Check size of long long
+2026-07-15T19:52:36.0262562Z -- Check size of long long - done
+2026-07-15T19:52:36.0265485Z -- Check size of long
+2026-07-15T19:52:36.6947212Z -- Check size of long - done
+2026-07-15T19:52:36.6949710Z -- Check size of short
+2026-07-15T19:52:37.4618218Z -- Check size of short - done
+2026-07-15T19:52:37.4620855Z -- Check size of int
+2026-07-15T19:52:38.1305931Z -- Check size of int - done
+2026-07-15T19:52:38.1308959Z -- Check size of __int64
+2026-07-15T19:52:38.8032791Z -- Check size of __int64 - done
+2026-07-15T19:52:38.8037556Z -- Check size of time_t
+2026-07-15T19:52:39.4684880Z -- Check size of time_t - done
+2026-07-15T19:52:39.4714240Z -- Looking for basename
+2026-07-15T19:52:39.9462441Z -- Looking for basename - not found
+2026-07-15T19:52:39.9476951Z -- Looking for strncmpi
+2026-07-15T19:52:40.4175013Z -- Looking for strncmpi - not found
+2026-07-15T19:52:40.4178411Z -- Looking for alarm
+2026-07-15T19:52:40.9081923Z -- Looking for alarm - not found
+2026-07-15T19:52:40.9085217Z -- Looking for getppid
+2026-07-15T19:52:41.3827687Z -- Looking for getppid - not found
+2026-07-15T19:52:41.3831304Z -- Looking for utimes
+2026-07-15T19:52:41.8553074Z -- Looking for utimes - not found
+2026-07-15T19:52:41.8562623Z -- Looking for getpwuid_r
+2026-07-15T19:52:42.3281504Z -- Looking for getpwuid_r - not found
+2026-07-15T19:52:42.3286140Z -- Looking for usleep
+2026-07-15T19:52:42.8033416Z -- Looking for usleep - not found
+2026-07-15T19:52:42.8040140Z -- Looking for gethostbyname
+2026-07-15T19:52:43.6607007Z -- Looking for gethostbyname - found
+2026-07-15T19:52:43.6614503Z -- Looking for strtoll
+2026-07-15T19:52:44.6508559Z -- Looking for strtoll - found
+2026-07-15T19:52:44.6511759Z -- Looking for _strtoi64
+2026-07-15T19:52:45.5128942Z -- Looking for _strtoi64 - found
+2026-07-15T19:52:45.5132317Z -- Looking for strerror_r
+2026-07-15T19:52:45.9853144Z -- Looking for strerror_r - not found
+2026-07-15T19:52:45.9856223Z -- Looking for siginterrupt
+2026-07-15T19:52:46.4572286Z -- Looking for siginterrupt - not found
+2026-07-15T19:52:46.4576552Z -- Looking for freeaddrinfo
+2026-07-15T19:52:47.3260847Z -- Looking for freeaddrinfo - found
+2026-07-15T19:52:47.3263911Z -- Looking for pipe
+2026-07-15T19:52:47.8164057Z -- Looking for pipe - not found
+2026-07-15T19:52:47.8167826Z -- Looking for ftruncate
+2026-07-15T19:52:48.2960252Z -- Looking for ftruncate - not found
+2026-07-15T19:52:48.2963511Z -- Looking for getprotobyname
+2026-07-15T19:52:49.1818196Z -- Looking for getprotobyname - found
+2026-07-15T19:52:49.1821315Z -- Looking for getpeername
+2026-07-15T19:52:50.0538066Z -- Looking for getpeername - found
+2026-07-15T19:52:50.0541371Z -- Looking for getsockname
+2026-07-15T19:52:50.9286683Z -- Looking for getsockname - found
+2026-07-15T19:52:50.9290274Z -- Looking for if_nametoindex
+2026-07-15T19:52:51.4102734Z -- Looking for if_nametoindex - not found
+2026-07-15T19:52:51.4106108Z -- Looking for getrlimit
+2026-07-15T19:52:51.8932034Z -- Looking for getrlimit - not found
+2026-07-15T19:52:51.8935140Z -- Looking for setlocale
+2026-07-15T19:52:52.7735029Z -- Looking for setlocale - found
+2026-07-15T19:52:52.7738006Z -- Looking for setmode
+2026-07-15T19:52:53.6528808Z -- Looking for setmode - found
+2026-07-15T19:52:53.6532601Z -- Looking for setrlimit
+2026-07-15T19:52:54.1351091Z -- Looking for setrlimit - not found
+2026-07-15T19:52:54.1354189Z -- Looking for fcntl
+2026-07-15T19:52:54.6190550Z -- Looking for fcntl - not found
+2026-07-15T19:52:54.6193629Z -- Looking for ioctl
+2026-07-15T19:52:55.1038729Z -- Looking for ioctl - not found
+2026-07-15T19:52:55.1042372Z -- Looking for setsockopt
+2026-07-15T19:52:55.9827449Z -- Looking for setsockopt - found
+2026-07-15T19:52:55.9828567Z -- Looking for mach_absolute_time
+2026-07-15T19:52:56.4137406Z -- Looking for mach_absolute_time - not found
+2026-07-15T19:52:56.4140610Z -- Looking for inet_pton
+2026-07-15T19:52:57.2970024Z -- Looking for inet_pton - found
+2026-07-15T19:52:57.2973162Z -- Looking for fsetxattr
+2026-07-15T19:52:57.7772801Z -- Looking for fsetxattr - not found
+2026-07-15T19:52:57.7775633Z -- Check size of sa_family_t
+2026-07-15T19:52:58.0397884Z -- Check size of sa_family_t - failed
+2026-07-15T19:52:58.0401790Z -- Check size of ADDRESS_FAMILY
+2026-07-15T19:52:58.3014894Z -- Check size of ADDRESS_FAMILY - failed
+2026-07-15T19:52:58.3022843Z -- Performing Curl Test HAVE_FCNTL_O_NONBLOCK
+2026-07-15T19:52:58.5619925Z -- Performing Curl Test HAVE_FCNTL_O_NONBLOCK - Failed
+2026-07-15T19:52:58.5622771Z -- Performing Curl Test HAVE_IOCTLSOCKET
+2026-07-15T19:52:59.3197865Z -- Performing Curl Test HAVE_IOCTLSOCKET - Success
+2026-07-15T19:52:59.3200763Z -- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL
+2026-07-15T19:52:59.8211496Z -- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL - Failed
+2026-07-15T19:52:59.8214030Z -- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO
+2026-07-15T19:53:00.3278363Z -- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO - Failed
+2026-07-15T19:53:00.3281391Z -- Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO
+2026-07-15T19:53:01.0722054Z -- Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO - Success
+2026-07-15T19:53:01.0724257Z -- Performing Curl Test HAVE_IOCTL_FIONBIO
+2026-07-15T19:53:01.3305004Z -- Performing Curl Test HAVE_IOCTL_FIONBIO - Failed
+2026-07-15T19:53:01.3307025Z -- Performing Curl Test HAVE_IOCTL_SIOCGIFADDR
+2026-07-15T19:53:01.5877055Z -- Performing Curl Test HAVE_IOCTL_SIOCGIFADDR - Failed
+2026-07-15T19:53:01.5879842Z -- Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK
+2026-07-15T19:53:01.9439739Z -- Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK - Failed
+2026-07-15T19:53:01.9441775Z -- Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID
+2026-07-15T19:53:02.3489331Z -- Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID - Failed
+2026-07-15T19:53:02.3493189Z -- Performing Curl Test HAVE_BOOL_T
+2026-07-15T19:53:02.9852739Z -- Performing Curl Test HAVE_BOOL_T - Success
+2026-07-15T19:53:02.9855085Z -- Performing Curl Test HAVE_FILE_OFFSET_BITS
+2026-07-15T19:53:03.2511023Z -- Performing Curl Test HAVE_FILE_OFFSET_BITS - Failed
+2026-07-15T19:53:03.2513918Z -- Performing Curl Test HAVE_VARIADIC_MACROS_C99
+2026-07-15T19:53:03.8920419Z -- Performing Curl Test HAVE_VARIADIC_MACROS_C99 - Success
+2026-07-15T19:53:03.8922306Z -- Performing Curl Test HAVE_VARIADIC_MACROS_GCC
+2026-07-15T19:53:04.1463824Z -- Performing Curl Test HAVE_VARIADIC_MACROS_GCC - Failed
+2026-07-15T19:53:04.1467994Z -- Check size of off_t
+2026-07-15T19:53:04.8183787Z -- Check size of off_t - done
+2026-07-15T19:53:04.8186781Z -- Check size of curl_off_t
+2026-07-15T19:53:05.5017986Z -- Check size of curl_off_t - done
+2026-07-15T19:53:05.5019160Z -- Performing Curl Test HAVE_GLIBC_STRERROR_R
+2026-07-15T19:53:05.7552844Z -- Performing Curl Test HAVE_GLIBC_STRERROR_R - Failed
+2026-07-15T19:53:05.7554838Z -- Performing Curl Test HAVE_POSIX_STRERROR_R
+2026-07-15T19:53:06.1585480Z -- Performing Curl Test HAVE_POSIX_STRERROR_R - Failed
+2026-07-15T19:53:06.1588535Z -- Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC
+2026-07-15T19:53:06.4153390Z -- Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC - Failed
+2026-07-15T19:53:06.4155082Z -- Performing Curl Test HAVE_BUILTIN_AVAILABLE
+2026-07-15T19:53:06.6642859Z -- Performing Curl Test HAVE_BUILTIN_AVAILABLE - Failed
+2026-07-15T19:53:06.6654231Z -- Performing Test curl_cv_recv
+2026-07-15T19:53:07.1801552Z -- Performing Test curl_cv_recv - Success
+2026-07-15T19:53:07.1804028Z -- Performing Test curl_cv_func_recv_test
+2026-07-15T19:53:07.6975258Z -- Performing Test curl_cv_func_recv_test - Success
+2026-07-15T19:53:07.6975726Z -- Tested: int recv(SOCKET, char *, int, int)
+2026-07-15T19:53:07.6980651Z -- Performing Test curl_cv_send
+2026-07-15T19:53:08.2079798Z -- Performing Test curl_cv_send - Success
+2026-07-15T19:53:08.2082051Z -- Performing Test curl_cv_func_send_test
+2026-07-15T19:53:08.7016503Z -- Performing Test curl_cv_func_send_test - Success
+2026-07-15T19:53:08.7016966Z -- Tested: int send(SOCKET, const char *, int, int)
+2026-07-15T19:53:08.7027404Z -- Performing Test HAVE_MSG_NOSIGNAL
+2026-07-15T19:53:09.1550219Z -- Performing Test HAVE_MSG_NOSIGNAL - Failed
+2026-07-15T19:53:09.1551748Z -- Performing Test HAVE_STRUCT_TIMEVAL
+2026-07-15T19:53:09.6540011Z -- Performing Test HAVE_STRUCT_TIMEVAL - Success
+2026-07-15T19:53:09.6542010Z -- Check size of struct sockaddr_storage
+2026-07-15T19:53:10.1530842Z -- Check size of struct sockaddr_storage - done
+2026-07-15T19:53:10.1548715Z -- Performing Test HAVE_POLL_FINE
+2026-07-15T19:53:10.4114767Z -- Performing Test HAVE_POLL_FINE - Failed
+2026-07-15T19:53:10.4118791Z -- Looking for CryptAcquireContext
+2026-07-15T19:53:11.2738565Z -- Looking for CryptAcquireContext - found
+2026-07-15T19:53:11.3101979Z -- Enabled features: SSL IPv6 unixsockets libz AsynchDNS Largefile SSPI alt-svc HSTS SPNEGO Kerberos NTLM
+2026-07-15T19:53:11.3104911Z -- Enabled protocols: DICT FILE FTP FTPS GOPHER GOPHERS HTTP HTTPS IMAP IMAPS LDAP MQTT POP3 POP3S RTSP SMB SMBS SMTP SMTPS TELNET TFTP
+2026-07-15T19:53:11.3106017Z -- Enabled SSL backends: Schannel
+2026-07-15T19:53:11.3532428Z -- {fmt} version: 12.1.0
+2026-07-15T19:53:11.3532824Z -- Build type: Release
+2026-07-15T19:53:11.5654192Z -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+2026-07-15T19:53:11.9155613Z -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Failed
+2026-07-15T19:53:11.9157523Z -- Performing Test COMPILER_HAS_DEPRECATED
+2026-07-15T19:53:12.5649200Z -- Performing Test COMPILER_HAS_DEPRECATED - Success
+2026-07-15T19:53:12.6157704Z -- Found ZLIB: zlibstatic (Required is at least version "1.2.1")
+2026-07-15T19:53:12.6161223Z -- Performing Test ZLIB_WINAPI
+2026-07-15T19:53:13.0420290Z -- Performing Test ZLIB_WINAPI - Failed
+2026-07-15T19:53:13.0423741Z -- Performing Test ZLIB_DLL
+2026-07-15T19:53:13.3639424Z -- Performing Test ZLIB_DLL - Failed
+2026-07-15T19:53:13.3641360Z -- Performing Test WITHOUT_ZLIB_DLL
+2026-07-15T19:53:13.6864592Z -- Performing Test WITHOUT_ZLIB_DLL - Failed
+2026-07-15T19:53:13.6868286Z -- Performing Test HAVE_DIRENT_H
+2026-07-15T19:53:13.9392523Z -- Performing Test HAVE_DIRENT_H - Failed
+2026-07-15T19:53:13.9394404Z -- Performing Test HAVE_SYS_NDIR_H
+2026-07-15T19:53:14.1918106Z -- Performing Test HAVE_SYS_NDIR_H - Failed
+2026-07-15T19:53:14.1920106Z -- Performing Test HAVE_NDIR_H
+2026-07-15T19:53:14.4409602Z -- Performing Test HAVE_NDIR_H - Failed
+2026-07-15T19:53:14.4411322Z -- Performing Test HAVE_SYS_DIR_H
+2026-07-15T19:53:14.6871804Z -- Performing Test HAVE_SYS_DIR_H - Failed
+2026-07-15T19:53:14.6874470Z -- Looking for include files sys/types.h, acl/libacl.h
+2026-07-15T19:53:14.9425036Z -- Looking for include files sys/types.h, acl/libacl.h - not found
+2026-07-15T19:53:14.9427013Z -- Looking for include files sys/types.h, attr/xattr.h
+2026-07-15T19:53:15.1953505Z -- Looking for include files sys/types.h, attr/xattr.h - not found
+2026-07-15T19:53:15.1955375Z -- Looking for include files sys/types.h, ctype.h
+2026-07-15T19:53:15.8319995Z -- Looking for include files sys/types.h, ctype.h - found
+2026-07-15T19:53:15.8322045Z -- Looking for 3 include files sys/types.h, ..., copyfile.h
+2026-07-15T19:53:16.0903999Z -- Looking for 3 include files sys/types.h, ..., copyfile.h - not found
+2026-07-15T19:53:16.0906262Z -- Looking for 3 include files sys/types.h, ..., direct.h
+2026-07-15T19:53:16.7677383Z -- Looking for 3 include files sys/types.h, ..., direct.h - found
+2026-07-15T19:53:16.7679354Z -- Looking for 4 include files sys/types.h, ..., dlfcn.h
+2026-07-15T19:53:17.0257322Z -- Looking for 4 include files sys/types.h, ..., dlfcn.h - not found
+2026-07-15T19:53:17.0260200Z -- Looking for 5 include files sys/types.h, ..., ext2fs/ext2_fs.h
+2026-07-15T19:53:17.2799326Z -- Looking for 5 include files sys/types.h, ..., ext2fs/ext2_fs.h - not found
+2026-07-15T19:53:17.2800868Z -- Performing Test HAVE_WORKING_EXT2_IOC_GETFLAGS
+2026-07-15T19:53:17.5302473Z -- Performing Test HAVE_WORKING_EXT2_IOC_GETFLAGS - Failed
+2026-07-15T19:53:17.5304722Z -- Looking for 5 include files sys/types.h, ..., fcntl.h
+2026-07-15T19:53:18.1695209Z -- Looking for 5 include files sys/types.h, ..., fcntl.h - found
+2026-07-15T19:53:18.1697103Z -- Looking for 6 include files sys/types.h, ..., fnmatch.h
+2026-07-15T19:53:18.4292555Z -- Looking for 6 include files sys/types.h, ..., fnmatch.h - not found
+2026-07-15T19:53:18.4294873Z -- Looking for 6 include files sys/types.h, ..., grp.h
+2026-07-15T19:53:18.6879400Z -- Looking for 6 include files sys/types.h, ..., grp.h - not found
+2026-07-15T19:53:18.6881898Z -- Looking for 6 include files sys/types.h, ..., inttypes.h
+2026-07-15T19:53:19.3421173Z -- Looking for 6 include files sys/types.h, ..., inttypes.h - found
+2026-07-15T19:53:19.3423333Z -- Looking for 7 include files sys/types.h, ..., io.h
+2026-07-15T19:53:19.9908563Z -- Looking for 7 include files sys/types.h, ..., io.h - found
+2026-07-15T19:53:19.9910823Z -- Looking for 8 include files sys/types.h, ..., langinfo.h
+2026-07-15T19:53:20.2495153Z -- Looking for 8 include files sys/types.h, ..., langinfo.h - not found
+2026-07-15T19:53:20.2497229Z -- Looking for 8 include files sys/types.h, ..., limits.h
+2026-07-15T19:53:20.8955124Z -- Looking for 8 include files sys/types.h, ..., limits.h - found
+2026-07-15T19:53:20.8957296Z -- Looking for 9 include files sys/types.h, ..., linux/types.h
+2026-07-15T19:53:21.1525254Z -- Looking for 9 include files sys/types.h, ..., linux/types.h - not found
+2026-07-15T19:53:21.1527974Z -- Looking for 9 include files sys/types.h, ..., linux/fiemap.h
+2026-07-15T19:53:21.4107252Z -- Looking for 9 include files sys/types.h, ..., linux/fiemap.h - not found
+2026-07-15T19:53:21.4109638Z -- Looking for 9 include files sys/types.h, ..., linux/fs.h
+2026-07-15T19:53:21.6690543Z -- Looking for 9 include files sys/types.h, ..., linux/fs.h - not found
+2026-07-15T19:53:21.6691979Z -- Performing Test HAVE_WORKING_FS_IOC_GETFLAGS
+2026-07-15T19:53:21.9188830Z -- Performing Test HAVE_WORKING_FS_IOC_GETFLAGS - Failed
+2026-07-15T19:53:21.9190838Z -- Looking for 9 include files sys/types.h, ..., linux/magic.h
+2026-07-15T19:53:22.1775837Z -- Looking for 9 include files sys/types.h, ..., linux/magic.h - not found
+2026-07-15T19:53:22.1778420Z -- Looking for 10 include files sys/types.h, ..., membership.h
+2026-07-15T19:53:22.4362087Z -- Looking for 10 include files sys/types.h, ..., membership.h - not found
+2026-07-15T19:53:22.4364232Z -- Looking for 10 include files sys/types.h, ..., memory.h
+2026-07-15T19:53:23.1003864Z -- Looking for 10 include files sys/types.h, ..., memory.h - found
+2026-07-15T19:53:23.1006068Z -- Looking for 11 include files sys/types.h, ..., paths.h
+2026-07-15T19:53:23.3617266Z -- Looking for 11 include files sys/types.h, ..., paths.h - not found
+2026-07-15T19:53:23.3619752Z -- Looking for 11 include files sys/types.h, ..., process.h
+2026-07-15T19:53:24.0132257Z -- Looking for 11 include files sys/types.h, ..., process.h - found
+2026-07-15T19:53:24.0134128Z -- Looking for 12 include files sys/types.h, ..., pthread.h
+2026-07-15T19:53:24.2786070Z -- Looking for 12 include files sys/types.h, ..., pthread.h - not found
+2026-07-15T19:53:24.2788071Z -- Looking for 12 include files sys/types.h, ..., pwd.h
+2026-07-15T19:53:24.5532924Z -- Looking for 12 include files sys/types.h, ..., pwd.h - not found
+2026-07-15T19:53:24.5535121Z -- Looking for 12 include files sys/types.h, ..., readpassphrase.h
+2026-07-15T19:53:24.8325858Z -- Looking for 12 include files sys/types.h, ..., readpassphrase.h - not found
+2026-07-15T19:53:24.8327933Z -- Looking for 12 include files sys/types.h, ..., regex.h
+2026-07-15T19:53:25.1040217Z -- Looking for 12 include files sys/types.h, ..., regex.h - not found
+2026-07-15T19:53:25.1042297Z -- Looking for 12 include files sys/types.h, ..., signal.h
+2026-07-15T19:53:25.7637189Z -- Looking for 12 include files sys/types.h, ..., signal.h - found
+2026-07-15T19:53:25.7639390Z -- Looking for 13 include files sys/types.h, ..., spawn.h
+2026-07-15T19:53:26.0315161Z -- Looking for 13 include files sys/types.h, ..., spawn.h - not found
+2026-07-15T19:53:26.0317561Z -- Looking for 13 include files sys/types.h, ..., stdarg.h
+2026-07-15T19:53:26.6778896Z -- Looking for 13 include files sys/types.h, ..., stdarg.h - found
+2026-07-15T19:53:26.6781933Z -- Looking for 15 include files sys/types.h, ..., stdlib.h
+2026-07-15T19:53:27.3517542Z -- Looking for 15 include files sys/types.h, ..., stdlib.h - found
+2026-07-15T19:53:27.3520038Z -- Looking for 16 include files sys/types.h, ..., string.h
+2026-07-15T19:53:28.0021610Z -- Looking for 16 include files sys/types.h, ..., string.h - found
+2026-07-15T19:53:28.0023729Z -- Looking for 17 include files sys/types.h, ..., strings.h
+2026-07-15T19:53:28.2706361Z -- Looking for 17 include files sys/types.h, ..., strings.h - not found
+2026-07-15T19:53:28.2708595Z -- Looking for 17 include files sys/types.h, ..., sys/acl.h
+2026-07-15T19:53:28.5396845Z -- Looking for 17 include files sys/types.h, ..., sys/acl.h - not found
+2026-07-15T19:53:28.5399402Z -- Looking for 17 include files sys/types.h, ..., sys/cdefs.h
+2026-07-15T19:53:28.8063225Z -- Looking for 17 include files sys/types.h, ..., sys/cdefs.h - not found
+2026-07-15T19:53:28.8065771Z -- Looking for 17 include files sys/types.h, ..., sys/extattr.h
+2026-07-15T19:53:29.0774325Z -- Looking for 17 include files sys/types.h, ..., sys/extattr.h - not found
+2026-07-15T19:53:29.0777268Z -- Looking for 17 include files sys/types.h, ..., sys/mkdev.h
+2026-07-15T19:53:29.3486394Z -- Looking for 17 include files sys/types.h, ..., sys/mkdev.h - not found
+2026-07-15T19:53:29.3489683Z -- Looking for 17 include files sys/types.h, ..., sys/mount.h
+2026-07-15T19:53:29.6186085Z -- Looking for 17 include files sys/types.h, ..., sys/mount.h - not found
+2026-07-15T19:53:29.6188913Z -- Looking for 17 include files sys/types.h, ..., sys/param.h
+2026-07-15T19:53:29.8852765Z -- Looking for 17 include files sys/types.h, ..., sys/param.h - not found
+2026-07-15T19:53:29.8855216Z -- Looking for 17 include files sys/types.h, ..., sys/poll.h
+2026-07-15T19:53:30.1556421Z -- Looking for 17 include files sys/types.h, ..., sys/poll.h - not found
+2026-07-15T19:53:30.1559632Z -- Looking for 17 include files sys/types.h, ..., sys/richacl.h
+2026-07-15T19:53:30.4241922Z -- Looking for 17 include files sys/types.h, ..., sys/richacl.h - not found
+2026-07-15T19:53:30.4244226Z -- Looking for 17 include files sys/types.h, ..., sys/select.h
+2026-07-15T19:53:30.6912639Z -- Looking for 17 include files sys/types.h, ..., sys/select.h - not found
+2026-07-15T19:53:30.6915553Z -- Looking for 17 include files sys/types.h, ..., sys/stat.h
+2026-07-15T19:53:31.3447341Z -- Looking for 17 include files sys/types.h, ..., sys/stat.h - found
+2026-07-15T19:53:31.3449836Z -- Looking for 18 include files sys/types.h, ..., sys/statfs.h
+2026-07-15T19:53:31.6111658Z -- Looking for 18 include files sys/types.h, ..., sys/statfs.h - not found
+2026-07-15T19:53:31.6114089Z -- Looking for 18 include files sys/types.h, ..., sys/statvfs.h
+2026-07-15T19:53:31.8812908Z -- Looking for 18 include files sys/types.h, ..., sys/statvfs.h - not found
+2026-07-15T19:53:31.8815484Z -- Looking for 18 include files sys/types.h, ..., sys/sysmacros.h
+2026-07-15T19:53:32.1486094Z -- Looking for 18 include files sys/types.h, ..., sys/sysmacros.h - not found
+2026-07-15T19:53:32.1488455Z -- Looking for 18 include files sys/types.h, ..., sys/time.h
+2026-07-15T19:53:32.4190206Z -- Looking for 18 include files sys/types.h, ..., sys/time.h - not found
+2026-07-15T19:53:32.4192747Z -- Looking for 18 include files sys/types.h, ..., sys/utime.h
+2026-07-15T19:53:33.0707259Z -- Looking for 18 include files sys/types.h, ..., sys/utime.h - found
+2026-07-15T19:53:33.0710086Z -- Looking for 19 include files sys/types.h, ..., sys/vfs.h
+2026-07-15T19:53:33.3390465Z -- Looking for 19 include files sys/types.h, ..., sys/vfs.h - not found
+2026-07-15T19:53:33.3393151Z -- Looking for 19 include files sys/types.h, ..., sys/wait.h
+2026-07-15T19:53:33.6063675Z -- Looking for 19 include files sys/types.h, ..., sys/wait.h - not found
+2026-07-15T19:53:33.6066795Z -- Looking for 19 include files sys/types.h, ..., time.h
+2026-07-15T19:53:34.2605338Z -- Looking for 19 include files sys/types.h, ..., time.h - found
+2026-07-15T19:53:34.2608254Z -- Looking for 20 include files sys/types.h, ..., unistd.h
+2026-07-15T19:53:34.5371014Z -- Looking for 20 include files sys/types.h, ..., unistd.h - not found
+2026-07-15T19:53:34.5373361Z -- Looking for 20 include files sys/types.h, ..., utime.h
+2026-07-15T19:53:34.8102794Z -- Looking for 20 include files sys/types.h, ..., utime.h - not found
+2026-07-15T19:53:34.8105092Z -- Looking for 20 include files sys/types.h, ..., wchar.h
+2026-07-15T19:53:35.6525839Z -- Looking for 20 include files sys/types.h, ..., wchar.h - found
+2026-07-15T19:53:35.6528234Z -- Looking for 21 include files sys/types.h, ..., wctype.h
+2026-07-15T19:53:36.3683071Z -- Looking for 21 include files sys/types.h, ..., wctype.h - found
+2026-07-15T19:53:36.3686904Z -- Looking for 24 include files sys/types.h, ..., winioctl.h
+2026-07-15T19:53:37.2865684Z -- Looking for 24 include files sys/types.h, ..., winioctl.h - found
+2026-07-15T19:53:37.2867279Z -- Performing Test SAFE_TO_DEFINE_EXTENSIONS
+2026-07-15T19:53:37.9183813Z -- Performing Test SAFE_TO_DEFINE_EXTENSIONS - Success
+2026-07-15T19:53:38.1691266Z -- Found OpenSSL: optimized;C:/Program Files/OpenSSL/lib/VC/x64/MD/libcrypto.lib;debug;C:/Program Files/OpenSSL/lib/VC/x64/MDd/libcrypto.lib (found version "3.6.3")
+2026-07-15T19:53:38.1831596Z -- Looking for 25 include files sys/types.h, ..., openssl/evp.h
+2026-07-15T19:53:39.9597131Z -- Looking for 25 include files sys/types.h, ..., openssl/evp.h - found
+2026-07-15T19:53:39.9597810Z -- Looking for PKCS5_PBKDF2_HMAC_SHA1
+2026-07-15T19:53:40.6230869Z -- Looking for PKCS5_PBKDF2_HMAC_SHA1 - found
+2026-07-15T19:53:42.2092372Z -- Could NOT find LIBGCC (missing: LIBGCC_LIBRARY) 
+2026-07-15T19:53:42.2311270Z -- Could NOT find PCREPOSIX (missing: PCREPOSIX_LIBRARY PCRE_INCLUDE_DIR) 
+2026-07-15T19:53:42.2313272Z CMake Warning (author) at C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake:493 (message):
+2026-07-15T19:53:42.2313983Z   The package name passed to find_package_handle_standard_args() (PCRE) does
+2026-07-15T19:53:42.2314496Z   not match the name of the calling package (PCREPOSIX).  This can lead to
+2026-07-15T19:53:42.2315081Z   problems in calling code that expects find_package() result variables
+2026-07-15T19:53:42.2315505Z   (e.g., `_FOUND`) to follow a certain pattern.
+2026-07-15T19:53:42.2315823Z Call Stack (most recent call first):
+2026-07-15T19:53:42.2316285Z   third_party/libarchive/build/cmake/FindPCREPOSIX.cmake:23 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+2026-07-15T19:53:42.2316807Z   third_party/libarchive/CMakeLists.txt:1299 (FIND_PACKAGE)
+2026-07-15T19:53:42.2317225Z This warning is for project developers.  Use -Wno-author to suppress it.
+2026-07-15T19:53:42.2317505Z 
+2026-07-15T19:53:42.2317637Z -- Could NOT find PCRE (missing: PCRE_LIBRARY) 
+2026-07-15T19:53:42.2415067Z -- Could NOT find LIBGCC (missing: LIBGCC_LIBRARY) 
+2026-07-15T19:53:42.2707564Z -- Could NOT find PCRE2POSIX (missing: PCRE2POSIX_LIBRARY PCRE2_INCLUDE_DIR) 
+2026-07-15T19:53:42.2709581Z CMake Warning (author) at C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake:493 (message):
+2026-07-15T19:53:42.2710799Z   The package name passed to find_package_handle_standard_args() (PCRE2) does
+2026-07-15T19:53:42.2711535Z   not match the name of the calling package (PCRE2POSIX).  This can lead to
+2026-07-15T19:53:42.2712594Z   problems in calling code that expects find_package() result variables
+2026-07-15T19:53:42.2713189Z   (e.g., `_FOUND`) to follow a certain pattern.
+2026-07-15T19:53:42.2713632Z Call Stack (most recent call first):
+2026-07-15T19:53:42.2714341Z   third_party/libarchive/build/cmake/FindPCRE2POSIX.cmake:23 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+2026-07-15T19:53:42.2715167Z   third_party/libarchive/CMakeLists.txt:1361 (FIND_PACKAGE)
+2026-07-15T19:53:42.2715829Z This warning is for project developers.  Use -Wno-author to suppress it.
+2026-07-15T19:53:42.2716226Z 
+2026-07-15T19:53:42.2716401Z -- Could NOT find PCRE2 (missing: PCRE2_LIBRARY) 
+2026-07-15T19:53:42.2716829Z -- Looking for _CrtSetReportMode
+2026-07-15T19:53:42.9540384Z -- Looking for _CrtSetReportMode - found
+2026-07-15T19:53:43.1968658Z -- Looking for arc4random_buf
+2026-07-15T19:53:43.5798342Z -- Looking for arc4random_buf - not found
+2026-07-15T19:53:43.8196646Z -- Looking for chflags
+2026-07-15T19:53:44.2027734Z -- Looking for chflags - not found
+2026-07-15T19:53:44.4465044Z -- Looking for chown
+2026-07-15T19:53:44.8266292Z -- Looking for chown - not found
+2026-07-15T19:53:45.0905212Z -- Looking for chroot
+2026-07-15T19:53:45.4823088Z -- Looking for chroot - not found
+2026-07-15T19:53:45.7279646Z -- Looking for ctime_r
+2026-07-15T19:53:46.1096223Z -- Looking for ctime_r - not found
+2026-07-15T19:53:46.3539178Z -- Looking for fchdir
+2026-07-15T19:53:46.7364176Z -- Looking for fchdir - not found
+2026-07-15T19:53:46.9837875Z -- Looking for fchflags
+2026-07-15T19:53:47.3828789Z -- Looking for fchflags - not found
+2026-07-15T19:53:47.6336065Z -- Looking for fchmod
+2026-07-15T19:53:48.0967925Z -- Looking for fchmod - not found
+2026-07-15T19:53:48.3601918Z -- Looking for fchown
+2026-07-15T19:53:48.8686440Z -- Looking for fchown - not found
+2026-07-15T19:53:49.1157372Z -- Looking for fdopendir
+2026-07-15T19:53:49.5436699Z -- Looking for fdopendir - not found
+2026-07-15T19:53:49.8069195Z -- Looking for fnmatch
+2026-07-15T19:53:50.1973194Z -- Looking for fnmatch - not found
+2026-07-15T19:53:50.4422093Z -- Looking for fork
+2026-07-15T19:53:50.8266728Z -- Looking for fork - not found
+2026-07-15T19:53:51.0740629Z -- Looking for fstat
+2026-07-15T19:53:52.2587019Z -- Looking for fstat - found
+2026-07-15T19:53:52.5126556Z -- Looking for fstatat
+2026-07-15T19:53:52.8930752Z -- Looking for fstatat - not found
+2026-07-15T19:53:53.1340923Z -- Looking for fstatfs
+2026-07-15T19:53:53.5261388Z -- Looking for fstatfs - not found
+2026-07-15T19:53:53.7682668Z -- Looking for fstatvfs
+2026-07-15T19:53:54.1519554Z -- Looking for fstatvfs - not found
+2026-07-15T19:53:54.4039607Z -- Looking for futimens
+2026-07-15T19:53:54.7874701Z -- Looking for futimens - not found
+2026-07-15T19:53:55.0307938Z -- Looking for futimes
+2026-07-15T19:53:55.4293850Z -- Looking for futimes - not found
+2026-07-15T19:53:55.6745285Z -- Looking for futimesat
+2026-07-15T19:53:56.0610621Z -- Looking for futimesat - not found
+2026-07-15T19:53:56.3095097Z -- Looking for geteuid
+2026-07-15T19:53:56.6969989Z -- Looking for geteuid - not found
+2026-07-15T19:53:56.9438538Z -- Looking for getgrgid_r
+2026-07-15T19:53:57.3266450Z -- Looking for getgrgid_r - not found
+2026-07-15T19:53:57.5695221Z -- Looking for getgrnam_r
+2026-07-15T19:53:57.9572997Z -- Looking for getgrnam_r - not found
+2026-07-15T19:53:58.1996135Z -- Looking for getline
+2026-07-15T19:53:58.5828868Z -- Looking for getline - not found
+2026-07-15T19:53:58.8260760Z -- Looking for getpwnam_r
+2026-07-15T19:53:59.2066866Z -- Looking for getpwnam_r - not found
+2026-07-15T19:53:59.4502469Z -- Looking for getpid
+2026-07-15T19:54:00.0727677Z -- Looking for getpid - found
+2026-07-15T19:54:00.3129706Z -- Looking for getvfsbyname
+2026-07-15T19:54:00.6962924Z -- Looking for getvfsbyname - not found
+2026-07-15T19:54:00.9387071Z -- Looking for gmtime_r
+2026-07-15T19:54:01.3189854Z -- Looking for gmtime_r - not found
+2026-07-15T19:54:01.5646842Z -- Looking for lchflags
+2026-07-15T19:54:01.9573051Z -- Looking for lchflags - not found
+2026-07-15T19:54:02.2013337Z -- Looking for lchmod
+2026-07-15T19:54:02.5801059Z -- Looking for lchmod - not found
+2026-07-15T19:54:02.8248463Z -- Looking for lchown
+2026-07-15T19:54:03.2044766Z -- Looking for lchown - not found
+2026-07-15T19:54:03.4484031Z -- Looking for link
+2026-07-15T19:54:03.8311147Z -- Looking for link - not found
+2026-07-15T19:54:04.0744673Z -- Looking for linkat
+2026-07-15T19:54:04.4560245Z -- Looking for linkat - not found
+2026-07-15T19:54:04.7070641Z -- Looking for localtime_r
+2026-07-15T19:54:05.0910974Z -- Looking for localtime_r - not found
+2026-07-15T19:54:05.3321719Z -- Looking for lstat
+2026-07-15T19:54:05.7177921Z -- Looking for lstat - not found
+2026-07-15T19:54:05.9590346Z -- Looking for lutimes
+2026-07-15T19:54:06.3415211Z -- Looking for lutimes - not found
+2026-07-15T19:54:06.5817236Z -- Looking for mbrtowc
+2026-07-15T19:54:07.2051517Z -- Looking for mbrtowc - found
+2026-07-15T19:54:07.4479232Z -- Looking for memmove
+2026-07-15T19:54:07.6865087Z -- Looking for memmove - not found
+2026-07-15T19:54:07.9276356Z -- Looking for mkdir
+2026-07-15T19:54:08.6013919Z -- Looking for mkdir - found
+2026-07-15T19:54:08.8459937Z -- Looking for mkfifo
+2026-07-15T19:54:09.2414766Z -- Looking for mkfifo - not found
+2026-07-15T19:54:09.4855625Z -- Looking for mknod
+2026-07-15T19:54:09.8710262Z -- Looking for mknod - not found
+2026-07-15T19:54:10.1119113Z -- Looking for mkstemp
+2026-07-15T19:54:10.4966756Z -- Looking for mkstemp - not found
+2026-07-15T19:54:10.7368996Z -- Looking for nl_langinfo
+2026-07-15T19:54:11.1255030Z -- Looking for nl_langinfo - not found
+2026-07-15T19:54:11.3662037Z -- Looking for openat
+2026-07-15T19:54:11.7508786Z -- Looking for openat - not found
+2026-07-15T19:54:11.9965603Z -- Looking for poll
+2026-07-15T19:54:12.3817454Z -- Looking for poll - not found
+2026-07-15T19:54:12.6348469Z -- Looking for posix_spawnp
+2026-07-15T19:54:13.0259122Z -- Looking for posix_spawnp - not found
+2026-07-15T19:54:13.2716560Z -- Looking for readlink
+2026-07-15T19:54:13.6518781Z -- Looking for readlink - not found
+2026-07-15T19:54:13.8935670Z -- Looking for readpassphrase
+2026-07-15T19:54:14.2718348Z -- Looking for readpassphrase - not found
+2026-07-15T19:54:14.5147776Z -- Looking for select
+2026-07-15T19:54:14.9013375Z -- Looking for select - not found
+2026-07-15T19:54:15.1436848Z -- Looking for setenv
+2026-07-15T19:54:15.5270258Z -- Looking for setenv - not found
+2026-07-15T19:54:15.7672372Z -- Looking for sigaction
+2026-07-15T19:54:16.1619981Z -- Looking for sigaction - not found
+2026-07-15T19:54:16.4043480Z -- Looking for statfs
+2026-07-15T19:54:16.7821686Z -- Looking for statfs - not found
+2026-07-15T19:54:17.0300216Z -- Looking for statvfs
+2026-07-15T19:54:17.4107280Z -- Looking for statvfs - not found
+2026-07-15T19:54:17.6510698Z -- Looking for strchr
+2026-07-15T19:54:18.2782670Z -- Looking for strchr - found
+2026-07-15T19:54:18.5194346Z -- Looking for strdup
+2026-07-15T19:54:19.1624123Z -- Looking for strdup - found
+2026-07-15T19:54:19.4061765Z -- Looking for strerror
+2026-07-15T19:54:20.0903100Z -- Looking for strerror - found
+2026-07-15T19:54:20.3302867Z -- Looking for strncpy_s
+2026-07-15T19:54:20.9384737Z -- Looking for strncpy_s - found
+2026-07-15T19:54:21.1832116Z -- Looking for strnlen
+2026-07-15T19:54:21.7913049Z -- Looking for strnlen - found
+2026-07-15T19:54:22.0376758Z -- Looking for strrchr
+2026-07-15T19:54:22.6577591Z -- Looking for strrchr - found
+2026-07-15T19:54:22.8994822Z -- Looking for symlink
+2026-07-15T19:54:23.2887478Z -- Looking for symlink - not found
+2026-07-15T19:54:23.5330475Z -- Looking for sysconf
+2026-07-15T19:54:23.9128675Z -- Looking for sysconf - not found
+2026-07-15T19:54:24.1551753Z -- Looking for tcgetattr
+2026-07-15T19:54:24.5458016Z -- Looking for tcgetattr - not found
+2026-07-15T19:54:24.8053629Z -- Looking for tcsetattr
+2026-07-15T19:54:25.2021925Z -- Looking for tcsetattr - not found
+2026-07-15T19:54:25.4485910Z -- Looking for timegm
+2026-07-15T19:54:25.8324736Z -- Looking for timegm - not found
+2026-07-15T19:54:26.0784454Z -- Looking for tzset
+2026-07-15T19:54:26.6937844Z -- Looking for tzset - found
+2026-07-15T19:54:26.9390428Z -- Looking for unlinkat
+2026-07-15T19:54:27.3250906Z -- Looking for unlinkat - not found
+2026-07-15T19:54:27.5680622Z -- Looking for unsetenv
+2026-07-15T19:54:27.9489777Z -- Looking for unsetenv - not found
+2026-07-15T19:54:28.1923208Z -- Looking for utime
+2026-07-15T19:54:29.1191484Z -- Looking for utime - found
+2026-07-15T19:54:29.3663046Z -- Looking for utimensat
+2026-07-15T19:54:29.7490525Z -- Looking for utimensat - not found
+2026-07-15T19:54:29.9965070Z -- Looking for vfork
+2026-07-15T19:54:30.3788153Z -- Looking for vfork - not found
+2026-07-15T19:54:30.6198056Z -- Looking for wcrtomb
+2026-07-15T19:54:31.2515581Z -- Looking for wcrtomb - found
+2026-07-15T19:54:31.2517601Z -- Looking for wcscmp
+2026-07-15T19:54:31.9288466Z -- Looking for wcscmp - found
+2026-07-15T19:54:32.1727757Z -- Looking for wctomb
+2026-07-15T19:54:32.7856301Z -- Looking for wctomb - found
+2026-07-15T19:54:33.0318393Z -- Looking for _fseeki64
+2026-07-15T19:54:33.9117486Z -- Looking for _fseeki64 - found
+2026-07-15T19:54:34.1584105Z -- Looking for _get_timezone
+2026-07-15T19:54:34.7817086Z -- Looking for _get_timezone - found
+2026-07-15T19:54:34.7819584Z -- Looking for ctime_s
+2026-07-15T19:54:35.5121122Z -- Looking for ctime_s - found
+2026-07-15T19:54:35.5123434Z -- Looking for gmtime_s
+2026-07-15T19:54:36.1384043Z -- Looking for gmtime_s - found
+2026-07-15T19:54:36.1386622Z -- Looking for localtime_s
+2026-07-15T19:54:36.7662842Z -- Looking for localtime_s - found
+2026-07-15T19:54:36.7666121Z -- Looking for _mkgmtime
+2026-07-15T19:54:37.4734748Z -- Looking for _mkgmtime - found
+2026-07-15T19:54:37.4735931Z -- Looking for cygwin_conv_path
+2026-07-15T19:54:37.8701500Z -- Looking for cygwin_conv_path - not found
+2026-07-15T19:54:37.8714528Z -- Looking for strftime
+2026-07-15T19:54:38.5893173Z -- Looking for strftime - found
+2026-07-15T19:54:38.5896621Z -- Looking for vprintf
+2026-07-15T19:54:38.9629547Z -- Looking for vprintf - not found
+2026-07-15T19:54:38.9630213Z -- Looking for wmemcmp
+2026-07-15T19:54:39.3466239Z -- Looking for wmemcmp - not found
+2026-07-15T19:54:39.3466740Z -- Looking for wmemcpy
+2026-07-15T19:54:39.9995010Z -- Looking for wmemcpy - found
+2026-07-15T19:54:39.9995514Z -- Looking for wmemmove
+2026-07-15T19:54:40.6650615Z -- Looking for wmemmove - found
+2026-07-15T19:54:40.6653023Z -- Performing Test HAVE_STRUCT_VFSCONF
+2026-07-15T19:54:40.9102954Z -- Performing Test HAVE_STRUCT_VFSCONF - Failed
+2026-07-15T19:54:40.9104432Z -- Performing Test HAVE_STRUCT_XVFSCONF
+2026-07-15T19:54:41.1537787Z -- Performing Test HAVE_STRUCT_XVFSCONF - Failed
+2026-07-15T19:54:41.1539190Z -- Performing Test HAVE_STRUCT_STATFS
+2026-07-15T19:54:41.3941351Z -- Performing Test HAVE_STRUCT_STATFS - Failed
+2026-07-15T19:54:41.3942974Z -- Performing Test HAVE_READDIR_R
+2026-07-15T19:54:41.6385092Z -- Performing Test HAVE_READDIR_R - Failed
+2026-07-15T19:54:41.6386568Z -- Performing Test HAVE_DIRFD
+2026-07-15T19:54:41.8815035Z -- Performing Test HAVE_DIRFD - Failed
+2026-07-15T19:54:41.8816544Z -- Performing Test HAVE_READLINKAT
+2026-07-15T19:54:42.1275496Z -- Performing Test HAVE_READLINKAT - Failed
+2026-07-15T19:54:42.1277032Z -- Performing Test MAJOR_IN_MKDEV
+2026-07-15T19:54:42.3745038Z -- Performing Test MAJOR_IN_MKDEV - Failed
+2026-07-15T19:54:42.3746274Z -- Performing Test MAJOR_IN_SYSMACROS
+2026-07-15T19:54:42.6147576Z -- Performing Test MAJOR_IN_SYSMACROS - Failed
+2026-07-15T19:54:42.6150062Z -- Looking for EFTYPE
+2026-07-15T19:54:42.8570021Z -- Looking for EFTYPE - not found
+2026-07-15T19:54:42.8572523Z -- Looking for EILSEQ
+2026-07-15T19:54:43.4932323Z -- Looking for EILSEQ - found
+2026-07-15T19:54:43.4935196Z -- Looking for D_MD_ORDER
+2026-07-15T19:54:43.7386493Z -- Looking for D_MD_ORDER - not found
+2026-07-15T19:54:43.7389240Z -- Looking for INT32_MAX
+2026-07-15T19:54:44.3646243Z -- Looking for INT32_MAX - found
+2026-07-15T19:54:44.3648942Z -- Looking for INT32_MIN
+2026-07-15T19:54:44.9951251Z -- Looking for INT32_MIN - found
+2026-07-15T19:54:44.9954067Z -- Looking for INT64_MAX
+2026-07-15T19:54:45.6259362Z -- Looking for INT64_MAX - found
+2026-07-15T19:54:45.6262092Z -- Looking for INT64_MIN
+2026-07-15T19:54:46.2498141Z -- Looking for INT64_MIN - found
+2026-07-15T19:54:46.2500790Z -- Looking for INTMAX_MAX
+2026-07-15T19:54:46.8825862Z -- Looking for INTMAX_MAX - found
+2026-07-15T19:54:46.8828351Z -- Looking for INTMAX_MIN
+2026-07-15T19:54:47.5031351Z -- Looking for INTMAX_MIN - found
+2026-07-15T19:54:47.5033808Z -- Looking for UINT32_MAX
+2026-07-15T19:54:48.1349311Z -- Looking for UINT32_MAX - found
+2026-07-15T19:54:48.1351728Z -- Looking for UINT64_MAX
+2026-07-15T19:54:48.7742426Z -- Looking for UINT64_MAX - found
+2026-07-15T19:54:48.7744878Z -- Looking for UINTMAX_MAX
+2026-07-15T19:54:49.4001206Z -- Looking for UINTMAX_MAX - found
+2026-07-15T19:54:49.4003692Z -- Looking for SIZE_MAX
+2026-07-15T19:54:50.0254257Z -- Looking for SIZE_MAX - found
+2026-07-15T19:54:50.0256818Z -- Looking for SSIZE_MAX
+2026-07-15T19:54:50.2767510Z -- Looking for SSIZE_MAX - not found
+2026-07-15T19:54:50.2769889Z -- Performing Test HAVE_STRUCT_TM_TM_GMTOFF
+2026-07-15T19:54:50.5232897Z -- Performing Test HAVE_STRUCT_TM_TM_GMTOFF - Failed
+2026-07-15T19:54:50.5234693Z -- Performing Test HAVE_STRUCT_TM___TM_GMTOFF
+2026-07-15T19:54:50.7684697Z -- Performing Test HAVE_STRUCT_TM___TM_GMTOFF - Failed
+2026-07-15T19:54:50.7686676Z -- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIME
+2026-07-15T19:54:51.0098408Z -- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIME - Failed
+2026-07-15T19:54:51.0100313Z -- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
+2026-07-15T19:54:51.2531385Z -- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC - Failed
+2026-07-15T19:54:51.2533717Z -- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC
+2026-07-15T19:54:51.4969148Z -- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+2026-07-15T19:54:51.4971523Z -- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+2026-07-15T19:54:51.7372477Z -- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC - Failed
+2026-07-15T19:54:51.7374755Z -- Performing Test HAVE_STRUCT_STAT_ST_MTIME_N
+2026-07-15T19:54:51.9845155Z -- Performing Test HAVE_STRUCT_STAT_ST_MTIME_N - Failed
+2026-07-15T19:54:51.9847105Z -- Performing Test HAVE_STRUCT_STAT_ST_UMTIME
+2026-07-15T19:54:52.2266111Z -- Performing Test HAVE_STRUCT_STAT_ST_UMTIME - Failed
+2026-07-15T19:54:52.2268328Z -- Performing Test HAVE_STRUCT_STAT_ST_MTIME_USEC
+2026-07-15T19:54:52.4694260Z -- Performing Test HAVE_STRUCT_STAT_ST_MTIME_USEC - Failed
+2026-07-15T19:54:52.4696517Z -- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE
+2026-07-15T19:54:52.7126663Z -- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE - Failed
+2026-07-15T19:54:52.7128946Z -- Performing Test HAVE_STRUCT_STAT_ST_FLAGS
+2026-07-15T19:54:52.9549852Z -- Performing Test HAVE_STRUCT_STAT_ST_FLAGS - Failed
+2026-07-15T19:54:52.9557408Z -- Check size of unsigned short
+2026-07-15T19:54:53.6118867Z -- Check size of unsigned short - done
+2026-07-15T19:54:53.6121634Z -- Check size of unsigned
+2026-07-15T19:54:54.2730872Z -- Check size of unsigned - done
+2026-07-15T19:54:54.2734060Z -- Check size of __int64
+2026-07-15T19:54:54.9497568Z -- Check size of __int64 - done
+2026-07-15T19:54:54.9500973Z -- Check size of unsigned __int64
+2026-07-15T19:54:55.6112553Z -- Check size of unsigned __int64 - done
+2026-07-15T19:54:55.6115436Z -- Check size of int16_t
+2026-07-15T19:54:56.2866577Z -- Check size of int16_t - done
+2026-07-15T19:54:56.2869305Z -- Check size of int32_t
+2026-07-15T19:54:56.9433636Z -- Check size of int32_t - done
+2026-07-15T19:54:56.9436925Z -- Check size of int64_t
+2026-07-15T19:54:57.6065547Z -- Check size of int64_t - done
+2026-07-15T19:54:57.6068454Z -- Check size of intmax_t
+2026-07-15T19:54:58.2660070Z -- Check size of intmax_t - done
+2026-07-15T19:54:58.2662753Z -- Check size of uint8_t
+2026-07-15T19:54:58.9194755Z -- Check size of uint8_t - done
+2026-07-15T19:54:58.9197602Z -- Check size of uint16_t
+2026-07-15T19:54:59.5786436Z -- Check size of uint16_t - done
+2026-07-15T19:54:59.5789615Z -- Check size of uint32_t
+2026-07-15T19:55:00.4316589Z -- Check size of uint32_t - done
+2026-07-15T19:55:00.4319632Z -- Check size of uint64_t
+2026-07-15T19:55:01.0947127Z -- Check size of uint64_t - done
+2026-07-15T19:55:01.0950535Z -- Check size of uintmax_t
+2026-07-15T19:55:01.7636047Z -- Check size of uintmax_t - done
+2026-07-15T19:55:01.7638947Z -- Check size of dev_t
+2026-07-15T19:55:02.4374553Z -- Check size of dev_t - done
+2026-07-15T19:55:02.4377528Z -- Check size of gid_t
+2026-07-15T19:55:02.6817980Z -- Check size of gid_t - failed
+2026-07-15T19:55:02.6821088Z -- Check size of id_t
+2026-07-15T19:55:02.9272518Z -- Check size of id_t - failed
+2026-07-15T19:55:02.9277501Z -- Check size of mode_t
+2026-07-15T19:55:03.1747670Z -- Check size of mode_t - failed
+2026-07-15T19:55:03.1750986Z -- Check size of off_t
+2026-07-15T19:55:03.8364154Z -- Check size of off_t - done
+2026-07-15T19:55:03.8367445Z -- Check size of size_t
+2026-07-15T19:55:04.4977813Z -- Check size of size_t - done
+2026-07-15T19:55:04.4980507Z -- Check size of ssize_t
+2026-07-15T19:55:04.7441182Z -- Check size of ssize_t - failed
+2026-07-15T19:55:04.7444904Z -- Check size of uid_t
+2026-07-15T19:55:04.9868788Z -- Check size of uid_t - failed
+2026-07-15T19:55:04.9874029Z -- Check size of pid_t
+2026-07-15T19:55:05.2306042Z -- Check size of pid_t - failed
+2026-07-15T19:55:05.2309089Z -- Check size of intptr_t
+2026-07-15T19:55:05.8959536Z -- Check size of intptr_t - done
+2026-07-15T19:55:05.8962224Z -- Check size of uintptr_t
+2026-07-15T19:55:06.5573771Z -- Check size of uintptr_t - done
+2026-07-15T19:55:06.5576812Z -- Check size of wchar_t
+2026-07-15T19:55:07.2163996Z -- Check size of wchar_t - done
+2026-07-15T19:55:07.2164538Z -- Checking _FILE_OFFSET_BITS for large files
+2026-07-15T19:55:07.6994453Z -- Checking _FILE_OFFSET_BITS for large files - not needed
+2026-07-15T19:55:07.6997659Z -- Looking for setxattr in attr
+2026-07-15T19:55:07.9967704Z -- Looking for setxattr in attr - not found
+2026-07-15T19:55:07.9968247Z -- Looking for setxattr in gnu
+2026-07-15T19:55:08.2980364Z -- Looking for setxattr in gnu - not found
+2026-07-15T19:55:08.2982641Z -- Looking for EXTATTR_NAMESPACE_USER
+2026-07-15T19:55:08.5401663Z -- Looking for EXTATTR_NAMESPACE_USER - not found
+2026-07-15T19:55:08.5404205Z -- Looking for XATTR_NOFOLLOW
+2026-07-15T19:55:08.7760894Z -- Looking for XATTR_NOFOLLOW - not found
+2026-07-15T19:55:08.7761662Z -- Extended attributes support: none
+2026-07-15T19:55:08.7762884Z -- Looking for acl
+2026-07-15T19:55:09.1570117Z -- Looking for acl - not found
+2026-07-15T19:55:09.1570614Z -- Looking for facl
+2026-07-15T19:55:09.5390138Z -- Looking for facl - not found
+2026-07-15T19:55:09.5391033Z -- Looking for acl_get_file in acl
+2026-07-15T19:55:09.8446645Z -- Looking for acl_get_file in acl - not found
+2026-07-15T19:55:09.8448456Z -- Performing Test HAVE_ACL_T
+2026-07-15T19:55:10.0857561Z -- Performing Test HAVE_ACL_T - Failed
+2026-07-15T19:55:10.0859608Z -- Performing Test HAVE_ACL_ENTRY_T
+2026-07-15T19:55:10.3315977Z -- Performing Test HAVE_ACL_ENTRY_T - Failed
+2026-07-15T19:55:10.3317953Z -- Performing Test HAVE_ACL_PERMSET_T
+2026-07-15T19:55:10.5780148Z -- Performing Test HAVE_ACL_PERMSET_T - Failed
+2026-07-15T19:55:10.5782244Z -- Performing Test HAVE_ACL_TAG_T
+2026-07-15T19:55:10.8184622Z -- Performing Test HAVE_ACL_TAG_T - Failed
+2026-07-15T19:55:10.8185697Z -- Looking for richacl_get_file in richacl
+2026-07-15T19:55:11.1185104Z -- Looking for richacl_get_file in richacl - not found
+2026-07-15T19:55:11.1187162Z -- Performing Test HAVE_STRUCT_RICHACE
+2026-07-15T19:55:11.3582193Z -- Performing Test HAVE_STRUCT_RICHACE - Failed
+2026-07-15T19:55:11.3584482Z -- Performing Test HAVE_STRUCT_RICHACL
+2026-07-15T19:55:11.5982690Z -- Performing Test HAVE_STRUCT_RICHACL - Failed
+2026-07-15T19:55:11.5984116Z -- ACL support: none
+2026-07-15T19:55:11.6017216Z -- Checking support for ARCHIVE_CRYPTO_MD5_LIBC
+2026-07-15T19:55:12.0302963Z -- Checking support for ARCHIVE_CRYPTO_MD5_LIBC -- not found
+2026-07-15T19:55:12.0339778Z -- Checking support for ARCHIVE_CRYPTO_RMD160_LIBC
+2026-07-15T19:55:12.4634841Z -- Checking support for ARCHIVE_CRYPTO_RMD160_LIBC -- not found
+2026-07-15T19:55:12.4670651Z -- Checking support for ARCHIVE_CRYPTO_SHA1_LIBC
+2026-07-15T19:55:12.8925940Z -- Checking support for ARCHIVE_CRYPTO_SHA1_LIBC -- not found
+2026-07-15T19:55:12.8962390Z -- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC
+2026-07-15T19:55:13.3200647Z -- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC -- not found
+2026-07-15T19:55:13.3236290Z -- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC
+2026-07-15T19:55:13.7480632Z -- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC -- not found
+2026-07-15T19:55:13.7515011Z -- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC
+2026-07-15T19:55:14.1793348Z -- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC -- not found
+2026-07-15T19:55:14.1829837Z -- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC2
+2026-07-15T19:55:14.6108758Z -- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC2 -- not found
+2026-07-15T19:55:14.6146065Z -- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC2
+2026-07-15T19:55:15.0362692Z -- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC2 -- not found
+2026-07-15T19:55:15.0401142Z -- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC2
+2026-07-15T19:55:15.4672262Z -- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC2 -- not found
+2026-07-15T19:55:15.4709245Z -- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC3
+2026-07-15T19:55:15.8991030Z -- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC3 -- not found
+2026-07-15T19:55:15.9026450Z -- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC3
+2026-07-15T19:55:16.3253911Z -- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC3 -- not found
+2026-07-15T19:55:16.3290579Z -- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC3
+2026-07-15T19:55:16.7547902Z -- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC3 -- not found
+2026-07-15T19:55:16.7586899Z -- Checking support for ARCHIVE_CRYPTO_MD5_LIBSYSTEM
+2026-07-15T19:55:17.1850890Z -- Checking support for ARCHIVE_CRYPTO_MD5_LIBSYSTEM -- not found
+2026-07-15T19:55:17.1886161Z -- Checking support for ARCHIVE_CRYPTO_SHA1_LIBSYSTEM
+2026-07-15T19:55:17.6140059Z -- Checking support for ARCHIVE_CRYPTO_SHA1_LIBSYSTEM -- not found
+2026-07-15T19:55:17.6177247Z -- Checking support for ARCHIVE_CRYPTO_SHA256_LIBSYSTEM
+2026-07-15T19:55:18.0644014Z -- Checking support for ARCHIVE_CRYPTO_SHA256_LIBSYSTEM -- not found
+2026-07-15T19:55:18.0681263Z -- Checking support for ARCHIVE_CRYPTO_SHA384_LIBSYSTEM
+2026-07-15T19:55:18.4994420Z -- Checking support for ARCHIVE_CRYPTO_SHA384_LIBSYSTEM -- not found
+2026-07-15T19:55:18.5030255Z -- Checking support for ARCHIVE_CRYPTO_SHA512_LIBSYSTEM
+2026-07-15T19:55:18.9267356Z -- Checking support for ARCHIVE_CRYPTO_SHA512_LIBSYSTEM -- not found
+2026-07-15T19:55:18.9308227Z -- Checking support for ARCHIVE_CRYPTO_MD5_OPENSSL
+2026-07-15T19:55:19.9164990Z -- Checking support for ARCHIVE_CRYPTO_MD5_OPENSSL -- found
+2026-07-15T19:55:19.9197131Z -- Checking support for ARCHIVE_CRYPTO_RMD160_OPENSSL
+2026-07-15T19:55:20.7542234Z -- Checking support for ARCHIVE_CRYPTO_RMD160_OPENSSL -- found
+2026-07-15T19:55:20.7579965Z -- Checking support for ARCHIVE_CRYPTO_SHA1_OPENSSL
+2026-07-15T19:55:21.5866783Z -- Checking support for ARCHIVE_CRYPTO_SHA1_OPENSSL -- found
+2026-07-15T19:55:21.5900186Z -- Checking support for ARCHIVE_CRYPTO_SHA256_OPENSSL
+2026-07-15T19:55:22.4190505Z -- Checking support for ARCHIVE_CRYPTO_SHA256_OPENSSL -- found
+2026-07-15T19:55:22.4223549Z -- Checking support for ARCHIVE_CRYPTO_SHA384_OPENSSL
+2026-07-15T19:55:23.2569531Z -- Checking support for ARCHIVE_CRYPTO_SHA384_OPENSSL -- found
+2026-07-15T19:55:23.2601214Z -- Checking support for ARCHIVE_CRYPTO_SHA512_OPENSSL
+2026-07-15T19:55:24.0872650Z -- Checking support for ARCHIVE_CRYPTO_SHA512_OPENSSL -- found
+2026-07-15T19:55:24.0875925Z -- Performing Test HAVE_VISIBILITY_ATTR
+2026-07-15T19:55:24.3105364Z -- Performing Test HAVE_VISIBILITY_ATTR - Failed
+2026-07-15T19:55:24.3290695Z -- Performing Test HAVE_BUILTIN_EXPECT
+2026-07-15T19:55:24.5926662Z -- Performing Test HAVE_BUILTIN_EXPECT - Failed
+2026-07-15T19:55:24.5981389Z -- Found ZLIB: zlibstatic
+2026-07-15T19:55:24.6287967Z -- Looking for sched_yield
+2026-07-15T19:55:25.0303636Z -- Looking for sched_yield - not found
+2026-07-15T19:55:25.0305003Z -- Performing Test HAVE_SYSTEM
+2026-07-15T19:55:26.2401410Z -- Performing Test HAVE_SYSTEM - Success
+2026-07-15T19:55:26.2492802Z -- laf backend: skia
+2026-07-15T19:55:26.2493157Z -- laf zlib: zlibstatic
+2026-07-15T19:55:26.2493478Z -- laf libpng: png_static
+2026-07-15T19:55:26.2493794Z -- laf pixman: pixman
+2026-07-15T19:55:26.2494368Z -- laf freetype: D:/a/aseprite-builder/aseprite-builder/skia/out/Release-x64/freetype2.lib
+2026-07-15T19:55:26.2495202Z -- laf harfbuzz: D:/a/aseprite-builder/aseprite-builder/skia/out/Release-x64/harfbuzz.lib
+2026-07-15T19:55:26.2495935Z -- skia dir: D:/a/aseprite-builder/aseprite-builder/skia
+2026-07-15T19:55:26.2496752Z -- skia library: D:/a/aseprite-builder/aseprite-builder/skia/out/Release-x64/skia.lib
+2026-07-15T19:55:26.2497544Z -- skia library dir: D:/a/aseprite-builder/aseprite-builder/skia/out/Release-x64
+2026-07-15T19:55:26.2498692Z -- aseprite giflib: giflib
+2026-07-15T19:55:26.2499245Z -- aseprite libwebp: D:/a/aseprite-builder/aseprite-builder/skia/out/Release-x64/libwebp.lib
+2026-07-15T19:55:26.2499858Z -- aseprite libjpeg-turbo: D:/a/aseprite-builder/aseprite-builder/skia/out/Release-x64/libjpeg.lib
+2026-07-15T19:55:26.2947746Z -- Configuring done (230.3s)
+2026-07-15T19:55:26.9164916Z -- Generating done (0.6s)
+2026-07-15T19:55:26.9190401Z -- Build files have been written to: D:/a/aseprite-builder/aseprite-builder/build
+2026-07-15T19:55:26.9594304Z 
+2026-07-15T19:55:26.9594372Z 
+2026-07-15T19:55:26.9770352Z ##[debug]Finishing: Run CMake Configuration

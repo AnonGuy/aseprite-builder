@@ -1,0 +1,1663 @@
+﻿2026-07-15T19:55:29.5347773Z ##[debug]Evaluating condition for step: 'Compile with Ninja'
+2026-07-15T19:55:29.5351488Z ##[debug]Evaluating: success()
+2026-07-15T19:55:29.5352043Z ##[debug]Evaluating success:
+2026-07-15T19:55:29.5352586Z ##[debug]=> true
+2026-07-15T19:55:29.5353139Z ##[debug]Result: true
+2026-07-15T19:55:29.5354353Z ##[debug]Starting: Compile with Ninja
+2026-07-15T19:55:29.5463235Z ##[debug]Loading inputs
+2026-07-15T19:55:29.5464402Z ##[debug]Loading env
+2026-07-15T19:55:29.5468389Z ##[group]Run cd build
+2026-07-15T19:55:29.5468597Z [36;1mcd build[0m
+2026-07-15T19:55:29.5468792Z [36;1mninja -j 2 aseprite < NUL[0m
+2026-07-15T19:55:29.5489601Z shell: C:\Windows\system32\cmd.EXE /D /E:ON /V:OFF /S /C "CALL "{0}""
+2026-07-15T19:55:29.5489945Z env:
+2026-07-15T19:55:29.5490385Z   DOWNLOAD_URL: https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip
+2026-07-15T19:55:29.5490897Z   ASE_VER: v1.3.17.2
+2026-07-15T19:55:29.5491103Z   CommandPromptType: Native
+2026-07-15T19:55:29.5491486Z   DevEnvDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\
+2026-07-15T19:55:29.5492014Z   ExtensionSdkDir: C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+2026-07-15T19:55:29.5494619Z   EXTERNAL_INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T19:55:29.5496717Z   Framework40Version: v4.0
+2026-07-15T19:55:29.5496982Z   FrameworkDir: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T19:55:29.5497323Z   FrameworkDir64: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T19:55:29.5497611Z   FrameworkVersion: v4.0.30319
+2026-07-15T19:55:29.5497831Z   FrameworkVersion64: v4.0.30319
+2026-07-15T19:55:29.5498337Z   FSHARPINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools
+2026-07-15T19:55:29.5498902Z   HTMLHelpDir: C:\Program Files (x86)\HTML Help Workshop
+2026-07-15T19:55:29.5500948Z   INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T19:55:29.5504149Z   LIB: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\lib\um\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.26100.0\\um\x64
+2026-07-15T19:55:29.5506598Z   LIBPATH: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+2026-07-15T19:55:29.5509911Z   llvmArm64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\ARM64\bin
+2026-07-15T19:55:29.5510446Z   llvmX64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin
+2026-07-15T19:55:29.5510904Z   NETFXSDKDir: C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\
+2026-07-15T19:55:29.5524700Z   Path: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Team Tools\DiagnosticsHub\Collector;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\;C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T19:55:29.5539006Z   Platform: x64
+2026-07-15T19:55:29.5539197Z   UCRTVersion: 10.0.26100.0
+2026-07-15T19:55:29.5539485Z   UniversalCRTSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T19:55:29.5539792Z   use_x64_llvm: true
+2026-07-15T19:55:29.5540128Z   VCIDEInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\
+2026-07-15T19:55:29.5540634Z   VCINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\
+2026-07-15T19:55:29.5541100Z   VCPKG_ROOT: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T19:55:29.5541635Z   VCToolsInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\
+2026-07-15T19:55:29.5542244Z   VCToolsRedistDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Redist\MSVC\14.51.36231\
+2026-07-15T19:55:29.5542664Z   VCToolsVersion: 14.51.36231
+2026-07-15T19:55:29.5542886Z   VisualStudioVersion: 18.0
+2026-07-15T19:55:29.5543240Z   VS180COMNTOOLS: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\
+2026-07-15T19:55:29.5543627Z   VSCMD_ARG_app_plat: Desktop
+2026-07-15T19:55:29.5543835Z   VSCMD_ARG_HOST_ARCH: x64
+2026-07-15T19:55:29.5544036Z   VSCMD_ARG_TGT_ARCH: x64
+2026-07-15T19:55:29.5544224Z   VSCMD_VER: 18.7.3
+2026-07-15T19:55:29.5544505Z   VSINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\
+2026-07-15T19:55:29.5544958Z   VSSDK150INSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T19:55:29.5545417Z   VSSDKINSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T19:55:29.5546070Z   WindowsLibPath: C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0
+2026-07-15T19:55:29.5546681Z   WindowsSdkBinPath: C:\Program Files (x86)\Windows Kits\10\bin\
+2026-07-15T19:55:29.5547040Z   WindowsSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T19:55:29.5547334Z   WindowsSDKLibVersion: 10.0.26100.0\
+2026-07-15T19:55:29.5547685Z   WindowsSdkVerBinPath: C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\
+2026-07-15T19:55:29.5548053Z   WindowsSDKVersion: 10.0.26100.0\
+2026-07-15T19:55:29.5548487Z   WindowsSDK_ExecutablePath_x64: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\
+2026-07-15T19:55:29.5549136Z   WindowsSDK_ExecutablePath_x86: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\
+2026-07-15T19:55:29.5549701Z   __DOTNET_ADD_64BIT: 1
+2026-07-15T19:55:29.5549914Z   __DOTNET_PREFERRED_BITNESS: 64
+2026-07-15T19:55:29.5558407Z   __VSCMD_PREINIT_PATH: C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files (x86)\sbt\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer
+2026-07-15T19:55:29.5566757Z ##[endgroup]
+2026-07-15T19:55:29.5589609Z ##[debug]C:\Windows\system32\cmd.EXE /D /E:ON /V:OFF /S /C "CALL "D:\a\_temp\aa40cbb4-3db2-451e-8cdf-521181c0b9b5.cmd""
+2026-07-15T19:55:30.6166492Z [1/1570] Generating pnglibconf.c
+2026-07-15T19:55:30.6253045Z [2/1570] Generating scripts/symbols.out
+2026-07-15T19:55:30.6253984Z Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+2026-07-15T19:55:30.6254671Z Copyright (C) Microsoft Corporation.  All rights reserved.
+2026-07-15T19:55:30.6255079Z 
+2026-07-15T19:55:30.6255199Z symbols.c
+2026-07-15T19:55:30.7899118Z [3/1570] Generating pnglibconf.out
+2026-07-15T19:55:30.7899796Z Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+2026-07-15T19:55:30.7900473Z Copyright (C) Microsoft Corporation.  All rights reserved.
+2026-07-15T19:55:30.7900867Z 
+2026-07-15T19:55:30.7900995Z pnglibconf.c
+2026-07-15T19:55:30.8404043Z [4/1570] Generating pnglibconf.h
+2026-07-15T19:55:30.8962766Z [5/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\adler32.c.obj
+2026-07-15T19:55:30.9446423Z [6/1570] Generating scripts/sym.out
+2026-07-15T19:55:30.9447062Z Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+2026-07-15T19:55:30.9447973Z Copyright (C) Microsoft Corporation.  All rights reserved.
+2026-07-15T19:55:30.9448329Z 
+2026-07-15T19:55:30.9448425Z sym.c
+2026-07-15T19:55:31.0030625Z [7/1570] Generating scripts/vers.out
+2026-07-15T19:55:31.0031140Z Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+2026-07-15T19:55:31.0031570Z Copyright (C) Microsoft Corporation.  All rights reserved.
+2026-07-15T19:55:31.0031814Z 
+2026-07-15T19:55:31.0031881Z vers.c
+2026-07-15T19:55:31.0719412Z [8/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\compress.c.obj
+2026-07-15T19:55:31.1607922Z [9/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\crc32.c.obj
+2026-07-15T19:55:31.2548313Z [10/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\gzclose.c.obj
+2026-07-15T19:55:31.3683930Z [11/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\gzlib.c.obj
+2026-07-15T19:55:31.3722051Z [12/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\deflate.c.obj
+2026-07-15T19:55:31.5037246Z [13/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\gzwrite.c.obj
+2026-07-15T19:55:31.5156213Z [14/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\gzread.c.obj
+2026-07-15T19:55:31.7176637Z [15/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\infback.c.obj
+2026-07-15T19:55:31.8337703Z [16/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\inflate.c.obj
+2026-07-15T19:55:31.8357089Z [17/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\inftrees.c.obj
+2026-07-15T19:55:31.9510177Z [18/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\inffast.c.obj
+2026-07-15T19:55:32.0158299Z [19/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\uncompr.c.obj
+2026-07-15T19:55:32.0281492Z [20/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\trees.c.obj
+2026-07-15T19:55:32.0900908Z [21/1570] Building C object third_party\zlib\CMakeFiles\zlibstatic.dir\zutil.c.obj
+2026-07-15T19:55:32.1458954Z [22/1570] Generating scripts/pnglibconf.c
+2026-07-15T19:55:32.2578302Z [23/1570] Generating scripts/prefix.out
+2026-07-15T19:55:32.2579513Z Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+2026-07-15T19:55:32.2580227Z Copyright (C) Microsoft Corporation.  All rights reserved.
+2026-07-15T19:55:32.2580636Z 
+2026-07-15T19:55:32.2580742Z prefix.c
+2026-07-15T19:55:32.2903241Z [24/1570] Generating pngprefix.h
+2026-07-15T19:55:32.3511233Z [25/1570] Generating scripts/symbols.chk
+2026-07-15T19:55:32.3990004Z [26/1570] Generating libpng.vers
+2026-07-15T19:55:32.4474876Z [27/1570] Generating libpng.sym
+2026-07-15T19:55:32.4804270Z [28/1570] Linking C static library lib\zlibstatic.lib
+2026-07-15T19:55:33.3378485Z [29/1570] Generating scripts/intprefix.out
+2026-07-15T19:55:33.3379519Z Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
+2026-07-15T19:55:33.3380219Z Copyright (C) Microsoft Corporation.  All rights reserved.
+2026-07-15T19:55:33.3380601Z 
+2026-07-15T19:55:33.3380711Z intprefix.c
+2026-07-15T19:55:33.7726662Z [30/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\png.c.obj
+2026-07-15T19:55:34.0752779Z [31/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngerror.c.obj
+2026-07-15T19:55:34.3902422Z [32/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngget.c.obj
+2026-07-15T19:55:34.6789743Z [33/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngmem.c.obj
+2026-07-15T19:55:35.0440069Z [34/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngpread.c.obj
+2026-07-15T19:55:35.5227396Z [35/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngread.c.obj
+2026-07-15T19:55:35.8018347Z [36/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\base64.cpp.obj
+2026-07-15T19:55:35.8311946Z [37/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngrio.c.obj
+2026-07-15T19:55:36.4699015Z [38/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngrutil.c.obj
+2026-07-15T19:55:36.5332001Z [39/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngrtran.c.obj
+2026-07-15T19:55:36.8624388Z [40/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngset.c.obj
+2026-07-15T19:55:36.8753348Z [41/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngtrans.c.obj
+2026-07-15T19:55:37.1501888Z [42/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngwio.c.obj
+2026-07-15T19:55:37.2667805Z [43/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngwrite.c.obj
+2026-07-15T19:55:37.5497396Z [44/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngwtran.c.obj
+2026-07-15T19:55:37.7774412Z [45/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\pngwutil.c.obj
+2026-07-15T19:55:37.8831487Z [46/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\intel\intel_init.c.obj
+2026-07-15T19:55:38.1160794Z [47/1570] Building C object third_party\libpng\CMakeFiles\png_static.dir\intel\filter_sse2_intrinsics.c.obj
+2026-07-15T19:55:38.3928886Z [48/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\cfile.cpp.obj
+2026-07-15T19:55:38.7941041Z [49/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\chrono.cpp.obj
+2026-07-15T19:55:39.0080858Z [50/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\convert_to.cpp.obj
+2026-07-15T19:55:39.8817137Z [51/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\debug.cpp.obj
+2026-07-15T19:55:39.9775245Z [52/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\dll.cpp.obj
+2026-07-15T19:55:40.4320956Z [53/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\errno_string.cpp.obj
+2026-07-15T19:55:40.5281733Z [54/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\exception.cpp.obj
+2026-07-15T19:55:41.4662243Z [55/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\file_content.cpp.obj
+2026-07-15T19:55:41.5089628Z [56/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\file_handle.cpp.obj
+2026-07-15T19:55:42.4339159Z [57/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\launcher.cpp.obj
+2026-07-15T19:55:43.4398785Z [58/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\log.cpp.obj
+2026-07-15T19:55:43.9212432Z [59/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\mem_utils.cpp.obj
+2026-07-15T19:55:44.4083280Z [60/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\memory.cpp.obj
+2026-07-15T19:55:45.1662188Z [61/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\fs.cpp.obj
+2026-07-15T19:55:45.6011621Z [62/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\memory_dump.cpp.obj
+2026-07-15T19:55:46.0985568Z [63/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\platform.cpp.obj
+2026-07-15T19:55:46.5320094Z [64/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\process.cpp.obj
+2026-07-15T19:55:47.2009753Z [65/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\replace_string.cpp.obj
+2026-07-15T19:55:47.2621854Z [66/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\program_options.cpp.obj
+2026-07-15T19:55:47.8261788Z [67/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\rw_lock.cpp.obj
+2026-07-15T19:55:47.9329559Z [68/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\serialization.cpp.obj
+2026-07-15T19:55:48.1612334Z [69/1570] Building C object laf\base\CMakeFiles\laf-base.dir\sha1_rfc3174.c.obj
+2026-07-15T19:55:48.7259664Z [70/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\sha1.cpp.obj
+2026-07-15T19:55:48.9774211Z [71/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\split_string.cpp.obj
+2026-07-15T19:55:49.8242003Z [72/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\string.cpp.obj
+2026-07-15T19:55:49.8747318Z [73/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\system_console.cpp.obj
+2026-07-15T19:55:50.7135013Z [74/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\task.cpp.obj
+2026-07-15T19:55:50.8225298Z [75/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\thread.cpp.obj
+2026-07-15T19:55:51.5669598Z [76/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\thread_pool.cpp.obj
+2026-07-15T19:55:51.7442403Z [77/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\time.cpp.obj
+2026-07-15T19:55:52.2603799Z [78/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\version.cpp.obj
+2026-07-15T19:55:52.6433986Z [79/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\platform_win.cpp.obj
+2026-07-15T19:55:53.1125571Z [80/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\uuid_win.cpp.obj
+2026-07-15T19:55:53.5929873Z [81/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\win\registry.cpp.obj
+2026-07-15T19:55:54.3456625Z [82/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\win\ver_query_values.cpp.obj
+2026-07-15T19:55:54.3850282Z [83/1570] Linking C static library lib\libpng16_static.lib
+2026-07-15T19:55:54.5720566Z [84/1570] Building CXX object laf\base\CMakeFiles\laf-base.dir\win\win32_exception.cpp.obj
+2026-07-15T19:55:54.8402764Z [85/1570] Building CXX object laf\clip\CMakeFiles\clip.dir\clip.cpp.obj
+2026-07-15T19:55:54.9489622Z [86/1570] Building CXX object laf\clip\CMakeFiles\clip.dir\image.cpp.obj
+2026-07-15T19:55:55.6595929Z [87/1570] Building CXX object laf\clip\CMakeFiles\clip.dir\clip_win.cpp.obj
+2026-07-15T19:55:55.8481786Z [88/1570] Building CXX object laf\clip\CMakeFiles\clip.dir\clip_win_bmp.cpp.obj
+2026-07-15T19:55:55.8993917Z [89/1570] Linking CXX static library lib\laf-base.lib
+2026-07-15T19:55:56.5230518Z [90/1570] Building CXX object laf\gfx\CMakeFiles\laf-gfx.dir\color_space.cpp.obj
+2026-07-15T19:55:57.0629553Z [91/1570] Building CXX object laf\gfx\CMakeFiles\laf-gfx.dir\hsl.cpp.obj
+2026-07-15T19:55:57.0782091Z [92/1570] Building CXX object laf\clip\CMakeFiles\clip.dir\clip_win_wic.cpp.obj
+2026-07-15T19:55:57.5860426Z [93/1570] Building CXX object laf\gfx\CMakeFiles\laf-gfx.dir\hsv.cpp.obj
+2026-07-15T19:55:57.5952459Z [94/1570] Building CXX object laf\gfx\CMakeFiles\laf-gfx.dir\rgb.cpp.obj
+2026-07-15T19:55:58.1462318Z [95/1570] Building CXX object laf\gfx\CMakeFiles\laf-gfx.dir\region_skia.cpp.obj
+2026-07-15T19:55:58.4061291Z [96/1570] Building CXX object laf\gfx\CMakeFiles\laf-gfx.dir\packing_rects.cpp.obj
+2026-07-15T19:55:58.4399420Z [97/1570] Generating ../bin/icudtl.dat
+2026-07-15T19:55:58.4721553Z [98/1570] Linking CXX static library lib\clip.lib
+2026-07-15T19:55:58.5315658Z [99/1570] Linking CXX static library lib\laf-gfx.lib
+2026-07-15T19:55:58.5856824Z [100/1570] Building CXX object third_party\cityhash\CMakeFiles\cityhash.dir\src\city.cc.obj
+2026-07-15T19:55:58.9902408Z [101/1570] Building CXX object laf\ft\CMakeFiles\laf-ft.dir\stream.cpp.obj
+2026-07-15T19:55:59.0216265Z [102/1570] Building CXX object laf\ft\CMakeFiles\laf-ft.dir\lib.cpp.obj
+2026-07-15T19:55:59.9006031Z [103/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\common\event_queue.cpp.obj
+2026-07-15T19:55:59.9346706Z [104/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\common\main.cpp.obj
+2026-07-15T19:56:00.6084698Z [105/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\dnd.cpp.obj
+2026-07-15T19:56:00.6509756Z [106/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\common\system.cpp.obj
+2026-07-15T19:56:01.3052282Z [107/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\event.cpp.obj
+2026-07-15T19:56:01.6824349Z [108/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\error.cpp.obj
+2026-07-15T19:56:02.0309631Z [109/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\none\system.cpp.obj
+2026-07-15T19:56:02.4258350Z [110/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\window.cpp.obj
+2026-07-15T19:56:03.2656783Z [111/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\win\color_space.cpp.obj
+2026-07-15T19:56:03.9872368Z [112/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\win\dnd.cpp.obj
+2026-07-15T19:56:04.6257461Z [113/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\win\event_queue.cpp.obj
+2026-07-15T19:56:04.9206126Z [114/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\win\keys.cpp.obj
+2026-07-15T19:56:05.8803060Z [115/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\win\system.cpp.obj
+2026-07-15T19:56:05.8834394Z [116/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\win\winapi.cpp.obj
+2026-07-15T19:56:07.2634335Z [117/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\win\window_dde.cpp.obj
+2026-07-15T19:56:09.0435468Z [118/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\win\wintab.cpp.obj
+2026-07-15T19:56:09.1999489Z [119/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\win\window.cpp.obj
+2026-07-15T19:56:09.7850735Z [120/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\skia\skia_color_space.cpp.obj
+2026-07-15T19:56:10.1904150Z [121/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\skia\skia_gl.cpp.obj
+2026-07-15T19:56:11.0625549Z [122/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\skia\skia_surface.cpp.obj
+2026-07-15T19:56:11.8599641Z [123/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\skia\skia_system.cpp.obj
+2026-07-15T19:56:12.5640648Z [124/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\skia\skia_window.cpp.obj
+2026-07-15T19:56:13.0485800Z [125/1570] Building CXX object src\fixmath\CMakeFiles\fixmath-lib.dir\fixmath.cpp.obj
+2026-07-15T19:56:13.2358196Z [126/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lapi.c.obj
+2026-07-15T19:56:13.5066647Z [127/1570] Building CXX object laf\os\CMakeFiles\laf-os.dir\skia\skia_window_win.cpp.obj
+2026-07-15T19:56:13.5748306Z [128/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lctype.c.obj
+2026-07-15T19:56:13.7484842Z [129/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lcode.c.obj
+2026-07-15T19:56:13.7693798Z [130/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\ldebug.c.obj
+2026-07-15T19:56:13.9063241Z [131/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\ldump.c.obj
+2026-07-15T19:56:13.9571701Z [132/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\ldo.c.obj
+2026-07-15T19:56:14.0154795Z [133/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lfunc.c.obj
+2026-07-15T19:56:14.2758368Z [134/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\llex.c.obj
+2026-07-15T19:56:14.3118451Z [135/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lgc.c.obj
+2026-07-15T19:56:14.3621435Z [136/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lmem.c.obj
+2026-07-15T19:56:14.4208121Z [137/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lopcodes.c.obj
+2026-07-15T19:56:14.5005500Z [138/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lobject.c.obj
+2026-07-15T19:56:14.6906469Z [139/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lstate.c.obj
+2026-07-15T19:56:14.8019499Z [140/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lparser.c.obj
+2026-07-15T19:56:14.8161969Z [141/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lstring.c.obj
+2026-07-15T19:56:14.9598083Z [142/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\ltm.c.obj
+2026-07-15T19:56:14.9844609Z [143/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\ltable.c.obj
+2026-07-15T19:56:15.0972036Z [144/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lundump.c.obj
+2026-07-15T19:56:15.2012031Z [145/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lzio.c.obj
+2026-07-15T19:56:15.3108693Z [146/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\ltests.c.obj
+2026-07-15T19:56:15.9211536Z [147/1570] Building CXX object third_party\tinyxml2\CMakeFiles\tinyxml2.dir\tinyxml2.cpp.obj
+2026-07-15T19:56:16.2820672Z [148/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\altsvc.c.obj
+2026-07-15T19:56:16.3570279Z [149/1570] Building CXX object third_party\CMakeFiles\lua.dir\lua\lvm.c.obj
+2026-07-15T19:56:16.4642979Z [150/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\amigaos.c.obj
+2026-07-15T19:56:16.5324883Z [151/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\asyn-ares.c.obj
+2026-07-15T19:56:16.6992798Z [152/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\asyn-thread.c.obj
+2026-07-15T19:56:16.7533313Z [153/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\base64.c.obj
+2026-07-15T19:56:16.9021284Z [154/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\bufref.c.obj
+2026-07-15T19:56:16.9259396Z [155/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\c-hyper.c.obj
+2026-07-15T19:56:17.1291771Z [156/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\conncache.c.obj
+2026-07-15T19:56:17.3246489Z [157/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\connect.c.obj
+2026-07-15T19:56:17.3957443Z [158/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\content_encoding.c.obj
+2026-07-15T19:56:17.6180559Z [159/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_addrinfo.c.obj
+2026-07-15T19:56:17.6978117Z [160/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\cookie.c.obj
+2026-07-15T19:56:17.8075418Z [161/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_ctype.c.obj
+2026-07-15T19:56:17.8841007Z [162/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_des.c.obj
+2026-07-15T19:56:17.9910212Z [163/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_endian.c.obj
+2026-07-15T19:56:18.0983982Z [164/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_fnmatch.c.obj
+2026-07-15T19:56:18.1746384Z [165/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_get_line.c.obj
+2026-07-15T19:56:18.2823143Z [166/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_gethostname.c.obj
+2026-07-15T19:56:18.3524225Z [167/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_gssapi.c.obj
+2026-07-15T19:56:18.4602143Z [168/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_memrchr.c.obj
+2026-07-15T19:56:18.5335513Z [169/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_multibyte.c.obj
+2026-07-15T19:56:18.6887033Z [170/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_ntlm_core.c.obj
+2026-07-15T19:56:18.7089615Z [171/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_ntlm_wb.c.obj
+2026-07-15T19:56:18.8608083Z [172/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_path.c.obj
+2026-07-15T19:56:18.9131739Z [173/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_range.c.obj
+2026-07-15T19:56:19.0393877Z [174/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_rtmp.c.obj
+2026-07-15T19:56:19.1821333Z [175/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_sasl.c.obj
+2026-07-15T19:56:19.2453141Z [176/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_sspi.c.obj
+2026-07-15T19:56:19.3668792Z [177/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\curl_threads.c.obj
+2026-07-15T19:56:19.4606759Z [178/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\dict.c.obj
+2026-07-15T19:56:19.6613609Z [179/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\doh.c.obj
+2026-07-15T19:56:19.6663199Z [180/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\dotdot.c.obj
+2026-07-15T19:56:19.8457102Z [181/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\dynbuf.c.obj
+2026-07-15T19:56:19.9306610Z [182/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\easy.c.obj
+2026-07-15T19:56:20.0442378Z [183/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\easygetopt.c.obj
+2026-07-15T19:56:20.1044767Z [184/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\easyoptions.c.obj
+2026-07-15T19:56:20.2833425Z [185/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\escape.c.obj
+2026-07-15T19:56:20.3609536Z [186/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\file.c.obj
+2026-07-15T19:56:20.4674543Z [187/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\fileinfo.c.obj
+2026-07-15T19:56:20.6589469Z [188/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\formdata.c.obj
+2026-07-15T19:56:20.9404054Z [189/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\ftp.c.obj
+2026-07-15T19:56:21.0042785Z [190/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\ftplistparser.c.obj
+2026-07-15T19:56:21.1266561Z [191/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\getenv.c.obj
+2026-07-15T19:56:21.2622279Z [192/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\getinfo.c.obj
+2026-07-15T19:56:21.3618329Z [193/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\gopher.c.obj
+2026-07-15T19:56:21.4595096Z [194/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\hash.c.obj
+2026-07-15T19:56:21.5665040Z [195/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\hmac.c.obj
+2026-07-15T19:56:21.6640271Z [196/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\hostasyn.c.obj
+2026-07-15T19:56:21.7577822Z [197/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\hostcheck.c.obj
+2026-07-15T19:56:21.9288534Z [198/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\hostip.c.obj
+2026-07-15T19:56:21.9494855Z [199/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\hostip4.c.obj
+2026-07-15T19:56:22.1127267Z [200/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\hostsyn.c.obj
+2026-07-15T19:56:22.1274275Z [201/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\hostip6.c.obj
+2026-07-15T19:56:22.3611909Z [202/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\hsts.c.obj
+2026-07-15T19:56:22.5905543Z [203/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\http.c.obj
+2026-07-15T19:56:22.6349260Z [204/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\http2.c.obj
+2026-07-15T19:56:22.8077256Z [205/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\http_chunks.c.obj
+2026-07-15T19:56:22.8326781Z [206/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\http_digest.c.obj
+2026-07-15T19:56:23.0319531Z [207/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\http_negotiate.c.obj
+2026-07-15T19:56:23.0363667Z [208/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\http_ntlm.c.obj
+2026-07-15T19:56:23.2703871Z [209/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\http_aws_sigv4.c.obj
+2026-07-15T19:56:23.3251700Z [210/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\http_proxy.c.obj
+2026-07-15T19:56:23.4434391Z [211/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\idn_win32.c.obj
+2026-07-15T19:56:23.5035876Z [212/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\if2ip.c.obj
+2026-07-15T19:56:23.7517599Z [213/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\inet_ntop.c.obj
+2026-07-15T19:56:23.7732663Z [214/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\imap.c.obj
+2026-07-15T19:56:23.9168065Z [215/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\inet_pton.c.obj
+2026-07-15T19:56:23.9409863Z [216/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\krb5.c.obj
+2026-07-15T19:56:24.1244228Z [217/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\llist.c.obj
+2026-07-15T19:56:24.2543083Z [218/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\ldap.c.obj
+2026-07-15T19:56:24.3277132Z [219/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\md4.c.obj
+2026-07-15T19:56:24.4576666Z [220/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\md5.c.obj
+2026-07-15T19:56:24.5069712Z [221/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\memdebug.c.obj
+2026-07-15T19:56:24.7934619Z [222/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\mime.c.obj
+2026-07-15T19:56:24.9055587Z [223/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\mprintf.c.obj
+2026-07-15T19:56:25.0620701Z [224/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\mqtt.c.obj
+2026-07-15T19:56:25.2979786Z [225/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\netrc.c.obj
+2026-07-15T19:56:25.4262596Z [226/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\multi.c.obj
+2026-07-15T19:56:25.4708346Z [227/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\non-ascii.c.obj
+2026-07-15T19:56:25.6002891Z [228/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\nonblock.c.obj
+2026-07-15T19:56:25.6398695Z [229/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\openldap.c.obj
+2026-07-15T19:56:25.8156685Z [230/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\parsedate.c.obj
+2026-07-15T19:56:25.8898672Z [231/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\pingpong.c.obj
+2026-07-15T19:56:26.1360298Z [232/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\progress.c.obj
+2026-07-15T19:56:26.1450131Z [233/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\pop3.c.obj
+2026-07-15T19:56:26.3058137Z [234/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\psl.c.obj
+2026-07-15T19:56:26.3800810Z [235/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\rand.c.obj
+2026-07-15T19:56:26.4860464Z [236/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\rename.c.obj
+2026-07-15T19:56:26.6192645Z [237/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\rtsp.c.obj
+2026-07-15T19:56:26.7366336Z [238/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\select.c.obj
+2026-07-15T19:56:26.8734503Z [239/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\sendf.c.obj
+2026-07-15T19:56:27.0633703Z [240/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\sha256.c.obj
+2026-07-15T19:56:27.2815602Z [241/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\setopt.c.obj
+2026-07-15T19:56:27.2907905Z [242/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\share.c.obj
+2026-07-15T19:56:27.4670869Z [243/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\slist.c.obj
+2026-07-15T19:56:27.5896192Z [244/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\smb.c.obj
+2026-07-15T19:56:27.7930202Z [245/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\socketpair.c.obj
+2026-07-15T19:56:27.7995602Z [246/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\smtp.c.obj
+2026-07-15T19:56:27.9658371Z [247/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\socks_gssapi.c.obj
+2026-07-15T19:56:28.0724886Z [248/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\socks.c.obj
+2026-07-15T19:56:28.2325179Z [249/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\socks_sspi.c.obj
+2026-07-15T19:56:28.2746486Z [250/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\speedcheck.c.obj
+2026-07-15T19:56:28.4292008Z [251/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\splay.c.obj
+2026-07-15T19:56:28.4667688Z [252/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\strcase.c.obj
+2026-07-15T19:56:28.6514313Z [253/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\strdup.c.obj
+2026-07-15T19:56:28.6856974Z [254/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\strerror.c.obj
+2026-07-15T19:56:28.8395717Z [255/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\strtok.c.obj
+2026-07-15T19:56:28.8699322Z [256/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\strtoofft.c.obj
+2026-07-15T19:56:29.0380079Z [257/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\system_win32.c.obj
+2026-07-15T19:56:29.1915654Z [258/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\telnet.c.obj
+2026-07-15T19:56:29.3383398Z [259/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\tftp.c.obj
+2026-07-15T19:56:29.3831193Z [260/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\timeval.c.obj
+2026-07-15T19:56:29.6943373Z [261/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\transfer.c.obj
+2026-07-15T19:56:29.8606505Z [262/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\url.c.obj
+2026-07-15T19:56:30.0645003Z [263/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\urlapi.c.obj
+2026-07-15T19:56:30.0982232Z [264/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\version.c.obj
+2026-07-15T19:56:30.2473835Z [265/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\version_win32.c.obj
+2026-07-15T19:56:30.2763368Z [266/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\warnless.c.obj
+2026-07-15T19:56:30.4276698Z [267/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\wildcard.c.obj
+2026-07-15T19:56:30.6501598Z [268/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\cleartext.c.obj
+2026-07-15T19:56:30.8388115Z [269/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\x509asn1.c.obj
+2026-07-15T19:56:30.8501838Z [270/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\cram.c.obj
+2026-07-15T19:56:31.0652233Z [271/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\digest.c.obj
+2026-07-15T19:56:31.0858855Z [272/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\digest_sspi.c.obj
+2026-07-15T19:56:31.2367187Z [273/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\gsasl.c.obj
+2026-07-15T19:56:31.2559380Z [274/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\krb5_gssapi.c.obj
+2026-07-15T19:56:31.4251350Z [275/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\ntlm.c.obj
+2026-07-15T19:56:31.4537004Z [276/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\krb5_sspi.c.obj
+2026-07-15T19:56:31.6393926Z [277/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\ntlm_sspi.c.obj
+2026-07-15T19:56:31.6505992Z [278/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\oauth2.c.obj
+2026-07-15T19:56:31.8092690Z [279/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\spnego_gssapi.c.obj
+2026-07-15T19:56:31.8714586Z [280/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\spnego_sspi.c.obj
+2026-07-15T19:56:31.9922735Z [281/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vauth\vauth.c.obj
+2026-07-15T19:56:32.0459455Z [282/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\bearssl.c.obj
+2026-07-15T19:56:32.1648127Z [283/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\gskit.c.obj
+2026-07-15T19:56:32.2206613Z [284/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\gtls.c.obj
+2026-07-15T19:56:32.3617401Z [285/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\keylog.c.obj
+2026-07-15T19:56:32.3939256Z [286/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\mbedtls.c.obj
+2026-07-15T19:56:32.5387282Z [287/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\mbedtls_threadlock.c.obj
+2026-07-15T19:56:32.5679563Z [288/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\mesalink.c.obj
+2026-07-15T19:56:32.7114996Z [289/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\nss.c.obj
+2026-07-15T19:56:32.7402679Z [290/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\openssl.c.obj
+2026-07-15T19:56:32.8834301Z [291/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\rustls.c.obj
+2026-07-15T19:56:33.1162450Z [292/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\schannel.c.obj
+2026-07-15T19:56:33.2244548Z [293/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\schannel_verify.c.obj
+2026-07-15T19:56:33.3172134Z [294/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\sectransp.c.obj
+2026-07-15T19:56:33.5068151Z [295/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\wolfssl.c.obj
+2026-07-15T19:56:33.5171877Z [296/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vtls\vtls.c.obj
+2026-07-15T19:56:33.6785617Z [297/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vquic\ngtcp2.c.obj
+2026-07-15T19:56:33.6841026Z [298/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vquic\quiche.c.obj
+2026-07-15T19:56:33.8485055Z [299/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vquic\vquic.c.obj
+2026-07-15T19:56:33.8508290Z [300/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vssh\libssh.c.obj
+2026-07-15T19:56:34.0209009Z [301/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vssh\libssh2.c.obj
+2026-07-15T19:56:34.2409256Z [302/1570] Building C object third_party\curl\lib\CMakeFiles\libcurl.dir\vssh\wolfssh.c.obj
+2026-07-15T19:56:35.2169852Z [303/1570] Building RC object third_party\curl\lib\CMakeFiles\libcurl.dir\libcurl.rc.res
+2026-07-15T19:56:36.5506384Z [304/1570] Building CXX object third_party\fmt\CMakeFiles\fmt.dir\src\os.cc.obj
+2026-07-15T19:56:36.7531873Z [305/1570] Linking CXX static library lib\cityhash.lib
+2026-07-15T19:56:36.9836288Z [306/1570] Linking CXX static library lib\laf-ft.lib
+2026-07-15T19:56:37.0596388Z [307/1570] Linking CXX static library lib\laf-os.lib
+2026-07-15T19:56:37.2414937Z [308/1570] Building CXX object third_party\fmt\CMakeFiles\fmt.dir\src\format.cc.obj
+2026-07-15T19:56:37.2416379Z D:\a\aseprite-builder\aseprite-builder\aseprite\third_party\fmt\include\fmt\base.h(930): warning C4834: discarding return value of function with [[nodiscard]] attribute
+2026-07-15T19:56:37.2419075Z D:\a\aseprite-builder\aseprite-builder\aseprite\third_party\fmt\include\fmt\base.h(930): note: the template instantiation context (the oldest one first) is
+2026-07-15T19:56:37.2428925Z D:\a\aseprite-builder\aseprite-builder\aseprite\third_party\fmt\src\format.cc(13): note: see reference to function template instantiation 'fmt::v12::locale_ref::locale_ref<std::locale,0>(const std::locale &)' being compiled
+2026-07-15T19:56:37.9609956Z [309/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\draw_text.cpp.obj
+2026-07-15T19:56:38.0939139Z [310/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\draw_text_shaper.cpp.obj
+2026-07-15T19:56:38.8341143Z [311/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\sprite_sheet_font.cpp.obj
+2026-07-15T19:56:38.9220029Z [312/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\font_mgr.cpp.obj
+2026-07-15T19:56:39.5992810Z [313/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\sprite_sheet_typeface.cpp.obj
+2026-07-15T19:56:39.9471263Z [314/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\sprite_text_blob.cpp.obj
+2026-07-15T19:56:40.7457017Z [315/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\text_blob.cpp.obj
+2026-07-15T19:56:40.8761264Z [316/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\sprite_text_blob_shaper.cpp.obj
+2026-07-15T19:56:41.3896317Z [317/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\text_blob_shaper.cpp.obj
+2026-07-15T19:56:41.7904394Z [318/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\freetype_font.cpp.obj
+2026-07-15T19:56:42.1838072Z [319/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\skia_font.cpp.obj
+2026-07-15T19:56:42.5884150Z [320/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\skia_font_mgr.cpp.obj
+2026-07-15T19:56:43.0713824Z [321/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\skia_text_blob.cpp.obj
+2026-07-15T19:56:43.5332268Z [322/1570] Building CXX object src\observable\CMakeFiles\obs.dir\obs\connection.cpp.obj
+2026-07-15T19:56:43.6275928Z [323/1570] Building CXX object laf\text\CMakeFiles\laf-text.dir\skia_text_blob_shaper.cpp.obj
+2026-07-15T19:56:44.2750874Z [324/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algo.cpp.obj
+2026-07-15T19:56:45.1479071Z [325/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\fill_selection.cpp.obj
+2026-07-15T19:56:45.3959445Z [326/1570] Building CXX object src\cfg\CMakeFiles\cfg-lib.dir\cfg.cpp.obj
+2026-07-15T19:56:46.0198074Z [327/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\flip_image.cpp.obj
+2026-07-15T19:56:46.2517415Z [328/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\floodfill.cpp.obj
+2026-07-15T19:56:46.6824053Z [329/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\modify_selection.cpp.obj
+2026-07-15T19:56:47.0427761Z [330/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\polygon.cpp.obj
+2026-07-15T19:56:47.7417215Z [331/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\random_image.cpp.obj
+2026-07-15T19:56:47.9228989Z [332/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\resize_image.cpp.obj
+2026-07-15T19:56:48.9011921Z [333/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\rotate.cpp.obj
+2026-07-15T19:56:48.9037657Z [334/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\rotsprite.cpp.obj
+2026-07-15T19:56:50.4980456Z [335/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\shift_image.cpp.obj
+2026-07-15T19:56:50.7945115Z [336/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\shrink_bounds.cpp.obj
+2026-07-15T19:56:51.2090493Z [337/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\algorithm\stroke_selection.cpp.obj
+2026-07-15T19:56:51.3431367Z [338/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\anidir.cpp.obj
+2026-07-15T19:56:52.0063020Z [339/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\blend_funcs.cpp.obj
+2026-07-15T19:56:52.1684278Z [340/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\blend_image.cpp.obj
+2026-07-15T19:56:52.7296520Z [341/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\blend_mode.cpp.obj
+2026-07-15T19:56:53.1347762Z [342/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\brush.cpp.obj
+2026-07-15T19:56:53.3747481Z [343/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\brush_type.cpp.obj
+2026-07-15T19:56:54.2395166Z [344/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\cel.cpp.obj
+2026-07-15T19:56:54.5704680Z [345/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\cel_data.cpp.obj
+2026-07-15T19:56:55.6954305Z [346/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\cel_io.cpp.obj
+2026-07-15T19:56:55.9141744Z [347/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\cel_data_io.cpp.obj
+2026-07-15T19:56:56.4631875Z [348/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\color.cpp.obj
+2026-07-15T19:56:56.9653644Z [349/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\cels_range.cpp.obj
+2026-07-15T19:56:57.2277337Z [350/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\compressed_image.cpp.obj
+2026-07-15T19:56:58.6258560Z [351/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\file\act_file.cpp.obj
+2026-07-15T19:56:58.6807461Z [352/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\document.cpp.obj
+2026-07-15T19:56:59.3317622Z [353/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\file\col_file.cpp.obj
+2026-07-15T19:57:01.0433853Z [354/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\file\gpl_file.cpp.obj
+2026-07-15T19:57:01.1212338Z [355/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\file\hex_file.cpp.obj
+2026-07-15T19:57:01.8921755Z [356/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\frames_sequence.cpp.obj
+2026-07-15T19:57:03.0943507Z [357/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\file\pal_file.cpp.obj
+2026-07-15T19:57:03.1463931Z [358/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\grid.cpp.obj
+2026-07-15T19:57:03.8260505Z [359/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\grid_io.cpp.obj
+2026-07-15T19:57:04.1707512Z [360/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\image.cpp.obj
+2026-07-15T19:57:04.6045768Z [361/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\image_impl.cpp.obj
+2026-07-15T19:57:05.1049035Z [362/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\image_io.cpp.obj
+2026-07-15T19:57:05.3786729Z [363/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\image_iterators2.cpp.obj
+2026-07-15T19:57:06.8072371Z [364/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\layer.cpp.obj
+2026-07-15T19:57:07.4593949Z [365/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\layer_io.cpp.obj
+2026-07-15T19:57:07.9600137Z [366/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\layer_list.cpp.obj
+2026-07-15T19:57:08.7045068Z [367/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\layer_tilemap.cpp.obj
+2026-07-15T19:57:09.0308266Z [368/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\mask.cpp.obj
+2026-07-15T19:57:09.9646312Z [369/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\mask_boundaries.cpp.obj
+2026-07-15T19:57:10.1062041Z [370/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\mask_io.cpp.obj
+2026-07-15T19:57:10.8923959Z [371/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\object.cpp.obj
+2026-07-15T19:57:11.6098616Z [372/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\octree_map.cpp.obj
+2026-07-15T19:57:12.5071994Z [373/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\palette.cpp.obj
+2026-07-15T19:57:12.5545064Z [374/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\palette_io.cpp.obj
+2026-07-15T19:57:13.8318360Z [375/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\primitives.cpp.obj
+2026-07-15T19:57:14.3293106Z [376/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\playback.cpp.obj
+2026-07-15T19:57:14.7123240Z [377/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\remap.cpp.obj
+2026-07-15T19:57:15.2741193Z [378/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\rgbmap_base.cpp.obj
+2026-07-15T19:57:15.4489868Z [379/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\render_plan.cpp.obj
+2026-07-15T19:57:15.9226788Z [380/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\rgbmap_rgb5a3.cpp.obj
+2026-07-15T19:57:16.1665952Z [381/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\selected_frames.cpp.obj
+2026-07-15T19:57:17.3821203Z [382/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\selected_layers.cpp.obj
+2026-07-15T19:57:17.9428018Z [383/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\slice.cpp.obj
+2026-07-15T19:57:19.0158850Z [384/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\slices.cpp.obj
+2026-07-15T19:57:19.0373689Z [385/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\slice_io.cpp.obj
+2026-07-15T19:57:19.8334905Z [386/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\sort_palette.cpp.obj
+2026-07-15T19:57:20.9191892Z [387/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\sprite.cpp.obj
+2026-07-15T19:57:21.1425255Z [388/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\sprites.cpp.obj
+2026-07-15T19:57:21.6573124Z [389/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\string_io.cpp.obj
+2026-07-15T19:57:22.4038067Z [390/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\subobjects_io.cpp.obj
+2026-07-15T19:57:22.7664589Z [391/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\tag.cpp.obj
+2026-07-15T19:57:23.8553130Z [392/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\tags.cpp.obj
+2026-07-15T19:57:24.0132226Z [393/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\tag_io.cpp.obj
+2026-07-15T19:57:24.8669956Z [394/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\tile_primitives.cpp.obj
+2026-07-15T19:57:26.1454499Z [395/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\tileset.cpp.obj
+2026-07-15T19:57:26.8721091Z [396/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\tileset_io.cpp.obj
+2026-07-15T19:57:27.3602508Z [397/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\tilesets.cpp.obj
+2026-07-15T19:57:29.0362345Z [398/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\user_data.cpp.obj
+2026-07-15T19:57:30.2562658Z [399/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\user_data_io.cpp.obj
+2026-07-15T19:57:30.4359008Z [400/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\uuid_io.cpp.obj
+2026-07-15T19:57:30.5435995Z [401/1570] Linking CXX static library lib\fixmath-lib.lib
+2026-07-15T19:57:30.6478662Z [402/1570] Building CXX object src\doc\CMakeFiles\doc-lib.dir\util.cpp.obj
+2026-07-15T19:57:30.8884661Z [403/1570] Building CXX object src\flic\CMakeFiles\flic-lib.dir\decoder.cpp.obj
+2026-07-15T19:57:31.0954800Z [404/1570] Building CXX object src\flic\CMakeFiles\flic-lib.dir\encoder.cpp.obj
+2026-07-15T19:57:31.1412722Z [405/1570] Building C object src\ver\CMakeFiles\ver-lib.dir\info.c.obj
+2026-07-15T19:57:31.2411472Z [406/1570] Building CXX object src\flic\CMakeFiles\flic-lib.dir\stdio.cpp.obj
+2026-07-15T19:57:31.2790231Z [407/1570] Linking CXX static library lib\lua.lib
+2026-07-15T19:57:31.3049667Z [408/1570] Building C object third_party\CMakeFiles\tinyexpr.dir\tinyexpr\tinyexpr.c.obj
+2026-07-15T19:57:31.4606987Z [409/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\lbaselib.c.obj
+2026-07-15T19:57:31.4752105Z [410/1570] Building CXX object third_party\CMakeFiles\lauxlib.dir\lua\lauxlib.c.obj
+2026-07-15T19:57:31.5621739Z [411/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\lcorolib.c.obj
+2026-07-15T19:57:31.6037717Z [412/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\ldblib.c.obj
+2026-07-15T19:57:31.6614118Z [413/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\linit.c.obj
+2026-07-15T19:57:31.7846760Z [414/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\liolib.c.obj
+2026-07-15T19:57:31.8571058Z [415/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\lmathlib.c.obj
+2026-07-15T19:57:31.9867927Z [416/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\loslib.c.obj
+2026-07-15T19:57:32.2819044Z [417/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\lstrlib.c.obj
+2026-07-15T19:57:32.3728772Z [418/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\loadlib.c.obj
+2026-07-15T19:57:32.4303754Z [419/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\ltablib.c.obj
+2026-07-15T19:57:32.5260892Z [420/1570] Building CXX object third_party\CMakeFiles\lualib.dir\lua\lutf8lib.c.obj
+2026-07-15T19:57:32.6296647Z [421/1570] Building C object third_party\giflib\CMakeFiles\giflib.dir\dgif_lib.c.obj
+2026-07-15T19:57:32.6842461Z [422/1570] Building C object third_party\giflib\CMakeFiles\giflib.dir\egif_lib.c.obj
+2026-07-15T19:57:32.7016393Z [423/1570] Building C object third_party\giflib\CMakeFiles\giflib.dir\gif_err.c.obj
+2026-07-15T19:57:32.7758307Z [424/1570] Building C object third_party\giflib\CMakeFiles\giflib.dir\gif_hash.c.obj
+2026-07-15T19:57:32.7833710Z [425/1570] Building C object third_party\giflib\CMakeFiles\giflib.dir\gif_font.c.obj
+2026-07-15T19:57:32.8350098Z [426/1570] Building C object third_party\giflib\CMakeFiles\giflib.dir\openbsd-reallocarray.c.obj
+2026-07-15T19:57:32.8753033Z [427/1570] Building C object third_party\giflib\CMakeFiles\giflib.dir\gifalloc.c.obj
+2026-07-15T19:57:32.9111203Z [428/1570] Linking CXX static library lib\tinyxml2.lib
+2026-07-15T19:57:32.9741768Z [429/1570] Building C object third_party\giflib\CMakeFiles\giflib.dir\quantize.c.obj
+2026-07-15T19:57:33.0406680Z [430/1570] Linking C static library lib\libcurl.lib
+2026-07-15T19:57:33.0802033Z [431/1570] Linking CXX static library lib\fmt.lib
+2026-07-15T19:57:33.4052265Z [432/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\blocks.c.obj
+2026-07-15T19:57:33.4951181Z [433/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\buffer.c.obj
+2026-07-15T19:57:33.6637464Z [434/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\cmark.c.obj
+2026-07-15T19:57:33.7866772Z [435/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\cmark_ctype.c.obj
+2026-07-15T19:57:33.9570041Z [436/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\commonmark.c.obj
+2026-07-15T19:57:33.9628208Z [437/1570] Building CXX object third_party\TinyEXIF\CMakeFiles\TinyEXIFstatic.dir\TinyEXIF.cpp.obj
+2026-07-15T19:57:34.0247888Z [438/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\houdini_href_e.c.obj
+2026-07-15T19:57:34.0266547Z [439/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\houdini_html_e.c.obj
+2026-07-15T19:57:34.1453843Z [440/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\html.c.obj
+2026-07-15T19:57:34.1526335Z [441/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\houdini_html_u.c.obj
+2026-07-15T19:57:34.2641769Z [442/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\iterator.c.obj
+2026-07-15T19:57:34.4168461Z [443/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\latex.c.obj
+2026-07-15T19:57:34.4282827Z [444/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\inlines.c.obj
+2026-07-15T19:57:34.5386925Z [445/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\man.c.obj
+2026-07-15T19:57:34.5471653Z [446/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\node.c.obj
+2026-07-15T19:57:34.6277372Z [447/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\references.c.obj
+2026-07-15T19:57:34.6460836Z [448/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\render.c.obj
+2026-07-15T19:57:35.0210278Z [449/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\utf8.c.obj
+2026-07-15T19:57:35.1098439Z [450/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\xml.c.obj
+2026-07-15T19:57:36.0603098Z [451/1570] Building C object third_party\cmark\src\CMakeFiles\cmark.dir\scanners.c.obj
+2026-07-15T19:57:36.4938779Z [452/1570] Building CXX object third_party\json11\CMakeFiles\json11.dir\json11.cpp.obj
+2026-07-15T19:57:36.6146480Z [453/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_acl.c.obj
+2026-07-15T19:57:36.8597670Z [454/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_check_magic.c.obj
+2026-07-15T19:57:36.9311588Z [455/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_cmdline.c.obj
+2026-07-15T19:57:37.1682873Z [456/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_cryptor.c.obj
+2026-07-15T19:57:37.2257263Z [457/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_digest.c.obj
+2026-07-15T19:57:37.5318267Z [458/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_entry_copy_stat.c.obj
+2026-07-15T19:57:37.5413676Z [459/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_entry.c.obj
+2026-07-15T19:57:37.8172471Z [460/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_entry_link_resolver.c.obj
+2026-07-15T19:57:37.8515982Z [461/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_entry_sparse.c.obj
+2026-07-15T19:57:38.1114184Z [462/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_entry_stat.c.obj
+2026-07-15T19:57:38.1525078Z [463/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_entry_strmode.c.obj
+2026-07-15T19:57:38.4371269Z [464/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_entry_xattr.c.obj
+2026-07-15T19:57:38.4825625Z [465/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_getdate.c.obj
+2026-07-15T19:57:38.7241138Z [466/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_hmac.c.obj
+2026-07-15T19:57:38.8709805Z [467/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_match.c.obj
+2026-07-15T19:57:39.0702903Z [468/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_options.c.obj
+2026-07-15T19:57:39.1409669Z [469/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_pack_dev.c.obj
+2026-07-15T19:57:39.4376457Z [470/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_pathmatch.c.obj
+2026-07-15T19:57:39.6744093Z [471/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_ppmd8.c.obj
+2026-07-15T19:57:39.9726545Z [472/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_ppmd7.c.obj
+2026-07-15T19:57:39.9938256Z [473/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_random.c.obj
+2026-07-15T19:57:40.2836965Z [474/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_rb.c.obj
+2026-07-15T19:57:40.4018546Z [475/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read.c.obj
+2026-07-15T19:57:40.6542645Z [476/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_add_passphrase.c.obj
+2026-07-15T19:57:40.7195142Z [477/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_append_filter.c.obj
+2026-07-15T19:57:40.9692067Z [478/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_data_into_fd.c.obj
+2026-07-15T19:57:40.9718066Z [479/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_disk_entry_from_file.c.obj
+2026-07-15T19:57:41.0066289Z [480/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_disk_posix.c.obj
+2026-07-15T19:57:41.2275392Z [481/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_disk_set_standard_lookup.c.obj
+2026-07-15T19:57:41.3004849Z [482/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_extract.c.obj
+2026-07-15T19:57:41.5340298Z [483/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_extract2.c.obj
+2026-07-15T19:57:41.5600347Z [484/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_open_fd.c.obj
+2026-07-15T19:57:41.7903647Z [485/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_open_file.c.obj
+2026-07-15T19:57:41.8877161Z [486/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_open_filename.c.obj
+2026-07-15T19:57:42.0614761Z [487/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_open_memory.c.obj
+2026-07-15T19:57:42.1960264Z [488/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_set_format.c.obj
+2026-07-15T19:57:42.3663018Z [489/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_set_options.c.obj
+2026-07-15T19:57:42.4953189Z [490/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_all.c.obj
+2026-07-15T19:57:42.6660506Z [491/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_by_code.c.obj
+2026-07-15T19:57:42.7932729Z [492/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_bzip2.c.obj
+2026-07-15T19:57:43.0068483Z [493/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_compress.c.obj
+2026-07-15T19:57:43.1225171Z [494/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_gzip.c.obj
+2026-07-15T19:57:43.3032882Z [495/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_grzip.c.obj
+2026-07-15T19:57:43.4178218Z [496/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_lrzip.c.obj
+2026-07-15T19:57:43.6053568Z [497/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_lz4.c.obj
+2026-07-15T19:57:43.7081518Z [498/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_lzop.c.obj
+2026-07-15T19:57:43.8940556Z [499/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_none.c.obj
+2026-07-15T19:57:44.0298618Z [500/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_program.c.obj
+2026-07-15T19:57:44.2093012Z [501/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_rpm.c.obj
+2026-07-15T19:57:44.3963833Z [502/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_uu.c.obj
+2026-07-15T19:57:44.5348686Z [503/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_xz.c.obj
+2026-07-15T19:57:44.6968453Z [504/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_filter_zstd.c.obj
+2026-07-15T19:57:45.0016606Z [505/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_all.c.obj
+2026-07-15T19:57:45.2250254Z [506/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_7zip.c.obj
+2026-07-15T19:57:45.3826219Z [507/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_ar.c.obj
+2026-07-15T19:57:45.5274405Z [508/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_by_code.c.obj
+2026-07-15T19:57:45.9774961Z [509/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_cab.c.obj
+2026-07-15T19:57:45.9820225Z [510/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_cpio.c.obj
+2026-07-15T19:57:46.2748828Z [511/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_empty.c.obj
+2026-07-15T19:57:46.4995918Z [512/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_iso9660.c.obj
+2026-07-15T19:57:46.9173826Z [513/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_lha.c.obj
+2026-07-15T19:57:47.0225125Z [514/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_mtree.c.obj
+2026-07-15T19:57:47.6987120Z [515/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_rar5.c.obj
+2026-07-15T19:57:47.8112061Z [516/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_rar.c.obj
+2026-07-15T19:57:47.9989399Z [517/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_raw.c.obj
+2026-07-15T19:57:48.3773193Z [518/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_tar.c.obj
+2026-07-15T19:57:48.4169713Z [519/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_warc.c.obj
+2026-07-15T19:57:48.7145147Z [520/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_xar.c.obj
+2026-07-15T19:57:49.0091808Z [521/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_support_format_zip.c.obj
+2026-07-15T19:57:49.3837097Z [522/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_string_sprintf.c.obj
+2026-07-15T19:57:49.4559019Z [523/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_string.c.obj
+2026-07-15T19:57:49.7296699Z [524/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_util.c.obj
+2026-07-15T19:57:49.7521364Z [525/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_version_details.c.obj
+2026-07-15T19:57:50.0224366Z [526/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_virtual.c.obj
+2026-07-15T19:57:50.0817467Z [527/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write.c.obj
+2026-07-15T19:57:50.2948452Z [528/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_disk_posix.c.obj
+2026-07-15T19:57:50.3832785Z [529/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_disk_set_standard_lookup.c.obj
+2026-07-15T19:57:50.5715503Z [530/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_open_fd.c.obj
+2026-07-15T19:57:50.6570137Z [531/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_open_file.c.obj
+2026-07-15T19:57:50.8820471Z [532/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_open_filename.c.obj
+2026-07-15T19:57:50.9207273Z [533/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_open_memory.c.obj
+2026-07-15T19:57:51.1747457Z [534/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter.c.obj
+2026-07-15T19:57:51.2272622Z [535/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_b64encode.c.obj
+2026-07-15T19:57:51.4709245Z [536/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_by_name.c.obj
+2026-07-15T19:57:51.5232722Z [537/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_bzip2.c.obj
+2026-07-15T19:57:51.8032184Z [538/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_compress.c.obj
+2026-07-15T19:57:51.8115883Z [539/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_grzip.c.obj
+2026-07-15T19:57:52.1053542Z [540/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_lrzip.c.obj
+2026-07-15T19:57:52.1228394Z [541/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_gzip.c.obj
+2026-07-15T19:57:52.4028073Z [542/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_lz4.c.obj
+2026-07-15T19:57:52.4165483Z [543/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_lzop.c.obj
+2026-07-15T19:57:52.6576279Z [544/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_none.c.obj
+2026-07-15T19:57:52.7378602Z [545/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_program.c.obj
+2026-07-15T19:57:52.9746115Z [546/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_uuencode.c.obj
+2026-07-15T19:57:53.0352536Z [547/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_xz.c.obj
+2026-07-15T19:57:53.2766497Z [548/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_add_filter_zstd.c.obj
+2026-07-15T19:57:53.3274812Z [549/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format.c.obj
+2026-07-15T19:57:53.6795710Z [550/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_ar.c.obj
+2026-07-15T19:57:53.7904320Z [551/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_7zip.c.obj
+2026-07-15T19:57:53.9686282Z [552/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_by_name.c.obj
+2026-07-15T19:57:54.0421512Z [553/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_cpio.c.obj
+2026-07-15T19:57:54.3169802Z [554/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_cpio_binary.c.obj
+2026-07-15T19:57:54.3866173Z [555/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_cpio_newc.c.obj
+2026-07-15T19:57:54.6650890Z [556/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_cpio_odc.c.obj
+2026-07-15T19:57:54.6919546Z [557/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_filter_by_ext.c.obj
+2026-07-15T19:57:55.0684419Z [558/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_gnutar.c.obj
+2026-07-15T19:57:55.6991352Z [559/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_mtree.c.obj
+2026-07-15T19:57:55.7418452Z [560/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_iso9660.c.obj
+2026-07-15T19:57:56.0496445Z [561/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_raw.c.obj
+2026-07-15T19:57:56.2880663Z [562/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_pax.c.obj
+2026-07-15T19:57:56.3955272Z [563/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_shar.c.obj
+2026-07-15T19:57:56.7502369Z [564/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_ustar.c.obj
+2026-07-15T19:57:56.8036100Z [565/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_v7tar.c.obj
+2026-07-15T19:57:57.0666463Z [566/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_warc.c.obj
+2026-07-15T19:57:57.1249132Z [567/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_xar.c.obj
+2026-07-15T19:57:57.4591868Z [568/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_options.c.obj
+2026-07-15T19:57:57.5236064Z [569/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_format_zip.c.obj
+2026-07-15T19:57:57.7555285Z [570/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_set_passphrase.c.obj
+2026-07-15T19:57:57.7621228Z [571/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\filter_fork_posix.c.obj
+2026-07-15T19:57:57.9949966Z [572/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\xxhash.c.obj
+2026-07-15T19:57:58.0556388Z [573/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_entry_copy_bhfi.c.obj
+2026-07-15T19:57:58.4419370Z [574/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_windows.c.obj
+2026-07-15T19:57:58.4553301Z [575/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_read_disk_windows.c.obj
+2026-07-15T19:57:58.7966721Z [576/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\filter_fork_windows.c.obj
+2026-07-15T19:57:58.9337215Z [577/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_write_disk_windows.c.obj
+2026-07-15T19:57:59.0993536Z [578/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_blake2sp_ref.c.obj
+2026-07-15T19:57:59.8810965Z [579/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXBench.cpp.obj
+2026-07-15T19:58:00.2132962Z [580/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXCancellationRequest.cpp.obj
+2026-07-15T19:58:00.6857565Z [581/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXConnectionState.cpp.obj
+2026-07-15T19:58:01.6453421Z [582/1570] Building C object third_party\libarchive\libarchive\CMakeFiles\archive_static.dir\archive_blake2s_ref.c.obj
+2026-07-15T19:58:01.6503006Z [583/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXDNSLookup.cpp.obj
+2026-07-15T19:58:01.7323053Z [584/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXExponentialBackoff.cpp.obj
+2026-07-15T19:58:02.1358441Z [585/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXGzipCodec.cpp.obj
+2026-07-15T19:58:02.4183361Z [586/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXGetFreePort.cpp.obj
+2026-07-15T19:58:04.3736008Z [587/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXHttp.cpp.obj
+2026-07-15T19:58:05.4548754Z [588/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXHttpClient.cpp.obj
+2026-07-15T19:58:06.4227944Z [589/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXNetSystem.cpp.obj
+2026-07-15T19:58:06.6472298Z [590/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXHttpServer.cpp.obj
+2026-07-15T19:58:06.7916696Z [591/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSelectInterrupt.cpp.obj
+2026-07-15T19:58:06.8440870Z [592/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSelectInterruptPipe.cpp.obj
+2026-07-15T19:58:07.4369196Z [593/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSelectInterruptFactory.cpp.obj
+2026-07-15T19:58:07.7500718Z [594/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSelectInterruptEvent.cpp.obj
+2026-07-15T19:58:08.1654211Z [595/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSetThreadName.cpp.obj
+2026-07-15T19:58:08.6463006Z [596/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSocket.cpp.obj
+2026-07-15T19:58:08.9852334Z [597/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSocketConnect.cpp.obj
+2026-07-15T19:58:09.1731758Z [598/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSocketFactory.cpp.obj
+2026-07-15T19:58:10.1436795Z [599/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSocketTLSOptions.cpp.obj
+2026-07-15T19:58:10.9157734Z [600/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXSocketServer.cpp.obj
+2026-07-15T19:58:10.9246486Z [601/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXStrCaseCompare.cpp.obj
+2026-07-15T19:58:11.5398334Z [602/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXUrlParser.cpp.obj
+2026-07-15T19:58:11.6289604Z [603/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXUdpSocket.cpp.obj
+2026-07-15T19:58:12.4191953Z [604/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXUserAgent.cpp.obj
+2026-07-15T19:58:12.5765810Z [605/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXUuid.cpp.obj
+2026-07-15T19:58:12.9878432Z [606/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocketCloseConstants.cpp.obj
+2026-07-15T19:58:13.8372582Z [607/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocket.cpp.obj
+2026-07-15T19:58:15.0706364Z [608/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocketHttpHeaders.cpp.obj
+2026-07-15T19:58:15.7260311Z [609/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocketPerMessageDeflate.cpp.obj
+2026-07-15T19:58:16.3687956Z [610/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocketPerMessageDeflateCodec.cpp.obj
+2026-07-15T19:58:16.4255043Z [611/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocketHandshake.cpp.obj
+2026-07-15T19:58:17.4198946Z [612/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocketPerMessageDeflateOptions.cpp.obj
+2026-07-15T19:58:17.8303834Z [613/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocketProxyServer.cpp.obj
+2026-07-15T19:58:19.7574406Z [614/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocketTransport.cpp.obj
+2026-07-15T19:58:20.1331416Z [615/1570] Building CXX object third_party\IXWebSocket\CMakeFiles\ixwebsocket.dir\ixwebsocket\IXWebSocketServer.cpp.obj
+2026-07-15T19:58:20.4674963Z [616/1570] Building CXX object laf\dlgs\CMakeFiles\laf-dlgs.dir\file_dialog.cpp.obj
+2026-07-15T19:58:20.5062531Z [617/1570] Linking CXX static library lib\laf-text.lib
+2026-07-15T19:58:20.5419879Z [618/1570] Linking CXX static library lib\obs.lib
+2026-07-15T19:58:20.9070926Z [619/1570] Building CXX object src\undo\CMakeFiles\undo.dir\undo_history.cpp.obj
+2026-07-15T19:58:20.9412303Z [620/1570] Linking CXX static library lib\cfg-lib.lib
+2026-07-15T19:58:21.0331430Z [621/1570] Linking CXX static library lib\doc-lib.lib
+2026-07-15T19:58:21.6790946Z [622/1570] Building CXX object laf\dlgs\CMakeFiles\laf-dlgs.dir\win\file_dialog_win.cpp.obj
+2026-07-15T19:58:22.3923868Z [623/1570] Building CXX object src\view\CMakeFiles\view-lib.dir\cels.cpp.obj
+2026-07-15T19:58:22.6836630Z [624/1570] Building CXX object src\view\CMakeFiles\view-lib.dir\layers.cpp.obj
+2026-07-15T19:58:23.5050315Z [625/1570] Building CXX object src\view\CMakeFiles\view-lib.dir\range.cpp.obj
+2026-07-15T19:58:23.8343481Z [626/1570] Building CXX object src\view\CMakeFiles\view-lib.dir\utils.cpp.obj
+2026-07-15T19:58:24.3498730Z [627/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\brightness_contrast_filter.cpp.obj
+2026-07-15T19:58:24.5256422Z [628/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\color_curve.cpp.obj
+2026-07-15T19:58:25.0836190Z [629/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\convolution_matrix.cpp.obj
+2026-07-15T19:58:25.5308870Z [630/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\color_curve_filter.cpp.obj
+2026-07-15T19:58:25.8896179Z [631/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\convolution_matrix_filter.cpp.obj
+2026-07-15T19:58:26.3879925Z [632/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\filter.cpp.obj
+2026-07-15T19:58:26.7220275Z [633/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\hue_saturation_filter.cpp.obj
+2026-07-15T19:58:27.1026259Z [634/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\invert_color_filter.cpp.obj
+2026-07-15T19:58:27.6154704Z [635/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\median_filter.cpp.obj
+2026-07-15T19:58:27.9325413Z [636/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\outline_filter.cpp.obj
+2026-07-15T19:58:27.9661810Z [637/1570] Linking CXX static library lib\flic-lib.lib
+2026-07-15T19:58:28.4086979Z [638/1570] Building CXX object src\filters\CMakeFiles\filters-lib.dir\replace_color_filter.cpp.obj
+2026-07-15T19:58:28.4379382Z [639/1570] Building CXX object src\tga\CMakeFiles\tga-lib.dir\decoder.cpp.obj
+2026-07-15T19:58:28.7739570Z [640/1570] Building CXX object src\tga\CMakeFiles\tga-lib.dir\image_iterator.cpp.obj
+2026-07-15T19:58:28.8337233Z [641/1570] Building CXX object src\tga\CMakeFiles\tga-lib.dir\encoder.cpp.obj
+2026-07-15T19:58:29.1144234Z [642/1570] Building CXX object src\tga\CMakeFiles\tga-lib.dir\stdio.cpp.obj
+2026-07-15T19:58:29.5245934Z [643/1570] Building CXX object src\render\CMakeFiles\render-lib.dir\error_diffusion.cpp.obj
+2026-07-15T19:58:30.2700737Z [644/1570] Building CXX object src\render\CMakeFiles\render-lib.dir\gradient.cpp.obj
+2026-07-15T19:58:30.3276077Z [645/1570] Building CXX object src\render\CMakeFiles\render-lib.dir\get_sprite_pixel.cpp.obj
+2026-07-15T19:58:30.9992182Z [646/1570] Building CXX object src\render\CMakeFiles\render-lib.dir\ordered_dither.cpp.obj
+2026-07-15T19:58:32.1119629Z [647/1570] Building CXX object src\render\CMakeFiles\render-lib.dir\quantization.cpp.obj
+2026-07-15T19:58:32.3475234Z [648/1570] Building CXX object src\render\CMakeFiles\render-lib.dir\rasterize.cpp.obj
+2026-07-15T19:58:32.8715679Z [649/1570] Building CXX object src\render\CMakeFiles\render-lib.dir\zoom.cpp.obj
+2026-07-15T19:58:33.8030206Z [650/1570] Building CXX object src\dio\CMakeFiles\dio-lib.dir\aseprite_common.cpp.obj
+2026-07-15T19:58:34.7617715Z [651/1570] Building CXX object src\render\CMakeFiles\render-lib.dir\render.cpp.obj
+2026-07-15T19:58:35.7741502Z [652/1570] Building CXX object src\dio\CMakeFiles\dio-lib.dir\decode_file.cpp.obj
+2026-07-15T19:58:37.3134933Z [653/1570] Building CXX object src\dio\CMakeFiles\dio-lib.dir\decoder.cpp.obj
+2026-07-15T19:58:37.7891679Z [654/1570] Building CXX object src\dio\CMakeFiles\dio-lib.dir\aseprite_decoder.cpp.obj
+2026-07-15T19:58:37.8203085Z [655/1570] Building CXX object src\dio\CMakeFiles\dio-lib.dir\detect_format.cpp.obj
+2026-07-15T19:58:37.8888560Z [656/1570] Building CXX object src\dio\CMakeFiles\dio-lib.dir\stdio.cpp.obj
+2026-07-15T19:58:38.6769074Z [657/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\app_state.cpp.obj
+2026-07-15T19:58:39.0265004Z [658/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\alert.cpp.obj
+2026-07-15T19:58:39.5925247Z [659/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\box.cpp.obj
+2026-07-15T19:58:40.0642796Z [660/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\button.cpp.obj
+2026-07-15T19:58:40.8713420Z [661/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\component.cpp.obj
+2026-07-15T19:58:40.9201965Z [662/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\combobox.cpp.obj
+2026-07-15T19:58:41.5449896Z [663/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\cursor.cpp.obj
+2026-07-15T19:58:41.9388962Z [664/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\display.cpp.obj
+2026-07-15T19:58:42.4101686Z [665/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\event.cpp.obj
+2026-07-15T19:58:42.8520104Z [666/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\entry.cpp.obj
+2026-07-15T19:58:43.4886941Z [667/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\fit_bounds.cpp.obj
+2026-07-15T19:58:43.9769927Z [668/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\graphics.cpp.obj
+2026-07-15T19:58:44.6249428Z [669/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\grid.cpp.obj
+2026-07-15T19:58:44.8419899Z [670/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\image_view.cpp.obj
+2026-07-15T19:58:45.6684464Z [671/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\int_entry.cpp.obj
+2026-07-15T19:58:45.8999707Z [672/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\intern.cpp.obj
+2026-07-15T19:58:46.5188128Z [673/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\layer.cpp.obj
+2026-07-15T19:58:46.6053633Z [674/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\label.cpp.obj
+2026-07-15T19:58:47.4368290Z [675/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\link_label.cpp.obj
+2026-07-15T19:58:47.8881557Z [676/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\listbox.cpp.obj
+2026-07-15T19:58:48.3735135Z [677/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\listitem.cpp.obj
+2026-07-15T19:58:49.9079177Z [678/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\menu.cpp.obj
+2026-07-15T19:58:49.9107115Z [679/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\manager.cpp.obj
+2026-07-15T19:58:50.7059799Z [680/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\message_loop.cpp.obj
+2026-07-15T19:58:50.7294831Z [681/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\message.cpp.obj
+2026-07-15T19:58:51.4089046Z [682/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\paint.cpp.obj
+2026-07-15T19:58:51.7000514Z [683/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\move_region.cpp.obj
+2026-07-15T19:58:52.2305872Z [684/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\paint_event.cpp.obj
+2026-07-15T19:58:52.4759087Z [685/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\panel.cpp.obj
+2026-07-15T19:58:52.8760624Z [686/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\property.cpp.obj
+2026-07-15T19:58:53.2051496Z [687/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\popup_window.cpp.obj
+2026-07-15T19:58:53.3657514Z [688/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\register_message.cpp.obj
+2026-07-15T19:58:53.9522988Z [689/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\resize_event.cpp.obj
+2026-07-15T19:58:54.2292778Z [690/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\scroll_bar.cpp.obj
+2026-07-15T19:58:54.7115178Z [691/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\scroll_helper.cpp.obj
+2026-07-15T19:58:55.1252655Z [692/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\scroll_window.cpp.obj
+2026-07-15T19:58:55.5329389Z [693/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\separator.cpp.obj
+2026-07-15T19:58:56.0650437Z [694/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\shortcut.cpp.obj
+2026-07-15T19:58:56.3225116Z [695/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\size_hint_event.cpp.obj
+2026-07-15T19:58:57.0868894Z [696/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\slider.cpp.obj
+2026-07-15T19:58:58.0450388Z [697/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\style.cpp.obj
+2026-07-15T19:58:58.1325987Z [698/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\splitter.cpp.obj
+2026-07-15T19:58:58.9446710Z [699/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\system.cpp.obj
+2026-07-15T19:58:58.9962474Z [700/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\textbox.cpp.obj
+2026-07-15T19:58:59.8820535Z [701/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\textcmd.cpp.obj
+2026-07-15T19:59:00.5829363Z [702/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\textedit.cpp.obj
+2026-07-15T19:59:01.4256006Z [703/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\theme.cpp.obj
+2026-07-15T19:59:01.6543783Z [704/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\timer.cpp.obj
+2026-07-15T19:59:02.6618133Z [705/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\tooltips.cpp.obj
+2026-07-15T19:59:02.7331644Z [706/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\view.cpp.obj
+2026-07-15T19:59:03.4812759Z [707/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\viewport.cpp.obj
+2026-07-15T19:59:04.4838900Z [708/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\widget.cpp.obj
+2026-07-15T19:59:04.5187229Z [709/1570] Linking C static library lib\ver-lib.lib
+2026-07-15T19:59:04.9596143Z [710/1570] Building CXX object src\ui\CMakeFiles\ui-lib.dir\window.cpp.obj
+2026-07-15T19:59:05.2623262Z [711/1570] Building CXX object src\net\CMakeFiles\net-lib.dir\http_headers.cpp.obj
+2026-07-15T19:59:05.8661359Z [712/1570] Building CXX object src\net\CMakeFiles\net-lib.dir\http_response.cpp.obj
+2026-07-15T19:59:05.9858862Z [713/1570] Building CXX object src\net\CMakeFiles\net-lib.dir\http_request.cpp.obj
+2026-07-15T19:59:06.9969916Z [714/1570] Building CXX object src\updater\CMakeFiles\updater-lib.dir\user_agent.cpp.obj
+2026-07-15T19:59:07.2638101Z [715/1570] Building CXX object src\gen\CMakeFiles\gen.dir\check_strings.cpp.obj
+2026-07-15T19:59:08.1999951Z [716/1570] Building CXX object src\gen\CMakeFiles\gen.dir\gen.cpp.obj
+2026-07-15T19:59:08.6299183Z [717/1570] Building CXX object src\gen\CMakeFiles\gen.dir\pref_types.cpp.obj
+2026-07-15T19:59:09.2929032Z [718/1570] Building CXX object src\gen\CMakeFiles\gen.dir\strings_class.cpp.obj
+2026-07-15T19:59:10.0097550Z [719/1570] Building CXX object src\gen\CMakeFiles\gen.dir\theme_class.cpp.obj
+2026-07-15T19:59:10.1293249Z [720/1570] Linking C static library lib\tinyexpr.lib
+2026-07-15T19:59:10.1727959Z [721/1570] Linking CXX static library lib\lauxlib.lib
+2026-07-15T19:59:10.2379290Z [722/1570] Linking CXX static library lib\lualib.lib
+2026-07-15T19:59:10.2766737Z [723/1570] Linking C static library lib\giflib.lib
+2026-07-15T19:59:10.3201399Z [724/1570] Linking CXX static library lib\TinyEXIF.lib
+2026-07-15T19:59:10.3624668Z [725/1570] Linking C static library lib\cmark.lib
+2026-07-15T19:59:10.4060981Z [726/1570] Linking CXX static library lib\json11.lib
+2026-07-15T19:59:10.4688098Z [727/1570] Linking C static library lib\archive.lib
+2026-07-15T19:59:10.5483399Z [728/1570] Linking CXX static library lib\ixwebsocket.lib
+2026-07-15T19:59:10.5845098Z [729/1570] Linking CXX static library lib\laf-dlgs.lib
+2026-07-15T19:59:10.6227230Z [730/1570] Linking CXX static library lib\undo.lib
+2026-07-15T19:59:10.6627431Z [731/1570] Linking CXX static library lib\view-lib.lib
+2026-07-15T19:59:10.7073428Z [732/1570] Linking CXX static library lib\filters-lib.lib
+2026-07-15T19:59:10.7459499Z [733/1570] Linking CXX static library lib\tga-lib.lib
+2026-07-15T19:59:10.7868796Z [734/1570] Linking CXX static library lib\render-lib.lib
+2026-07-15T19:59:10.8319593Z [735/1570] Linking CXX static library lib\dio-lib.lib
+2026-07-15T19:59:10.9078700Z [736/1570] Building CXX object src\gen\CMakeFiles\gen.dir\ui_class.cpp.obj
+2026-07-15T19:59:10.9097142Z [737/1570] Linking CXX static library lib\ui-lib.lib
+2026-07-15T19:59:10.9404868Z [738/1570] Generating ../bin/data/AUTHORS.md
+2026-07-15T19:59:10.9461285Z [739/1570] Linking CXX static library lib\net-lib.lib
+2026-07-15T19:59:10.9718114Z [740/1570] Generating ../bin/data/EULA.txt
+2026-07-15T19:59:10.9801715Z [741/1570] Linking CXX static library lib\updater-lib.lib
+2026-07-15T19:59:11.0023489Z [742/1570] Generating ../bin/data/README.md
+2026-07-15T19:59:11.0308277Z [743/1570] Generating ../bin/data/convmatr.def
+2026-07-15T19:59:11.0578101Z [744/1570] Generating ../bin/data/docs/LICENSES.md
+2026-07-15T19:59:11.0844744Z [745/1570] Generating ../bin/data/extensions/adigunpolack-palettes/aap-64.gpl
+2026-07-15T19:59:11.1137591Z [746/1570] Generating ../bin/data/extensions/adigunpolack-palettes/aap-micro12.gpl
+2026-07-15T19:59:11.1422837Z [747/1570] Generating ../bin/data/extensions/adigunpolack-palettes/aap-radiantxv.gpl
+2026-07-15T19:59:11.1710755Z [748/1570] Generating ../bin/data/extensions/adigunpolack-palettes/aap-splendor128.gpl
+2026-07-15T19:59:11.1980468Z [749/1570] Generating ../bin/data/extensions/adigunpolack-palettes/package.json
+2026-07-15T19:59:11.2242888Z [750/1570] Generating ../bin/data/extensions/adigunpolack-palettes/simplejpc-16.gpl
+2026-07-15T19:59:11.2504792Z [751/1570] Generating ../bin/data/extensions/arne-palettes/a64.gpl
+2026-07-15T19:59:11.2773480Z [752/1570] Generating ../bin/data/extensions/arne-palettes/arne16.gpl
+2026-07-15T19:59:11.3029825Z [753/1570] Generating ../bin/data/extensions/arne-palettes/arne32.gpl
+2026-07-15T19:59:11.3288845Z [754/1570] Generating ../bin/data/extensions/arne-palettes/cg-arne.gpl
+2026-07-15T19:59:11.3543559Z [755/1570] Generating ../bin/data/extensions/arne-palettes/copper-tech.gpl
+2026-07-15T19:59:11.3807946Z [756/1570] Generating ../bin/data/extensions/arne-palettes/cpc-boy.gpl
+2026-07-15T19:59:11.4071685Z [757/1570] Generating ../bin/data/extensions/arne-palettes/eroge-copper.gpl
+2026-07-15T19:59:11.4331661Z [758/1570] Generating ../bin/data/extensions/arne-palettes/jmp.gpl
+2026-07-15T19:59:11.4585489Z [759/1570] Generating ../bin/data/extensions/arne-palettes/package.json
+2026-07-15T19:59:11.4833848Z [760/1570] Generating ../bin/data/extensions/arne-palettes/psygnosia.gpl
+2026-07-15T19:59:11.5085104Z [761/1570] Generating ../bin/data/extensions/aseprite-theme/LICENSE.txt
+2026-07-15T19:59:11.5334933Z [762/1570] Generating ../bin/data/extensions/aseprite-theme/dark/sheet.aseprite-data
+2026-07-15T19:59:11.5585991Z [763/1570] Generating ../bin/data/extensions/aseprite-theme/dark/sheet.png
+2026-07-15T19:59:11.5849046Z [764/1570] Generating ../bin/data/extensions/aseprite-theme/dark/theme.xml
+2026-07-15T19:59:11.6132439Z [765/1570] Generating ../bin/data/extensions/aseprite-theme/package.json
+2026-07-15T19:59:11.6388866Z [766/1570] Generating ../bin/data/extensions/aseprite-theme/sheet.aseprite-data
+2026-07-15T19:59:11.6643595Z [767/1570] Generating ../bin/data/extensions/aseprite-theme/sheet.png
+2026-07-15T19:59:11.6896656Z [768/1570] Generating ../bin/data/extensions/aseprite-theme/theme.xml
+2026-07-15T19:59:11.7149155Z [769/1570] Generating ../bin/data/extensions/bayer-matrices/bayer2x2.bmp
+2026-07-15T19:59:11.7400790Z [770/1570] Generating ../bin/data/extensions/bayer-matrices/bayer4x4.bmp
+2026-07-15T19:59:11.7674614Z [771/1570] Generating ../bin/data/extensions/bayer-matrices/bayer8x8.bmp
+2026-07-15T19:59:11.7945643Z [772/1570] Generating ../bin/data/extensions/bayer-matrices/package.json
+2026-07-15T19:59:11.8218160Z [773/1570] Generating ../bin/data/extensions/davitmasia-palettes/matriax8c.gpl
+2026-07-15T19:59:11.8491377Z [774/1570] Generating ../bin/data/extensions/davitmasia-palettes/package.json
+2026-07-15T19:59:11.8777007Z [775/1570] Generating ../bin/data/extensions/dawnbringer-palettes/db16.gpl
+2026-07-15T19:59:11.9038555Z [776/1570] Generating ../bin/data/extensions/dawnbringer-palettes/db32.gpl
+2026-07-15T19:59:11.9299496Z [777/1570] Generating ../bin/data/extensions/dawnbringer-palettes/package.json
+2026-07-15T19:59:11.9556594Z [778/1570] Generating ../bin/data/extensions/endesga-palettes/arq16.gpl
+2026-07-15T19:59:11.9814496Z [779/1570] Generating ../bin/data/extensions/endesga-palettes/arq4.gpl
+2026-07-15T19:59:12.0076536Z [780/1570] Generating ../bin/data/extensions/endesga-palettes/edg16.gpl
+2026-07-15T19:59:12.0335315Z [781/1570] Generating ../bin/data/extensions/endesga-palettes/edg32.gpl
+2026-07-15T19:59:12.0589416Z [782/1570] Generating ../bin/data/extensions/endesga-palettes/edg8.gpl
+2026-07-15T19:59:12.0842760Z [783/1570] Generating ../bin/data/extensions/endesga-palettes/en4.gpl
+2026-07-15T19:59:12.1106496Z [784/1570] Generating ../bin/data/extensions/endesga-palettes/enos16.gpl
+2026-07-15T19:59:12.1362670Z [785/1570] Generating ../bin/data/extensions/endesga-palettes/hept32.gpl
+2026-07-15T19:59:12.1633232Z [786/1570] Generating ../bin/data/extensions/endesga-palettes/package.json
+2026-07-15T19:59:12.1890875Z [787/1570] Generating ../bin/data/extensions/hardware-palettes/apple-ii.gpl
+2026-07-15T19:59:12.2147447Z [788/1570] Generating ../bin/data/extensions/hardware-palettes/atari2600-ntsc.gpl
+2026-07-15T19:59:12.2432777Z [789/1570] Generating ../bin/data/extensions/hardware-palettes/atari2600-pal.gpl
+2026-07-15T19:59:12.2751219Z [790/1570] Generating ../bin/data/extensions/hardware-palettes/cga.gpl
+2026-07-15T19:59:12.3028476Z [791/1570] Generating ../bin/data/extensions/hardware-palettes/cga0.gpl
+2026-07-15T19:59:12.3301839Z [792/1570] Generating ../bin/data/extensions/hardware-palettes/cga0hi.gpl
+2026-07-15T19:59:12.3569276Z [793/1570] Generating ../bin/data/extensions/hardware-palettes/cga1.gpl
+2026-07-15T19:59:12.3831427Z [794/1570] Generating ../bin/data/extensions/hardware-palettes/cga1hi.gpl
+2026-07-15T19:59:12.4103688Z [795/1570] Generating ../bin/data/extensions/hardware-palettes/cga3rd.gpl
+2026-07-15T19:59:12.4377143Z [796/1570] Generating ../bin/data/extensions/hardware-palettes/cga3rdhi.gpl
+2026-07-15T19:59:12.4682502Z [797/1570] Generating ../bin/data/extensions/hardware-palettes/commodore-plus4.gpl
+2026-07-15T19:59:12.4971666Z [798/1570] Generating ../bin/data/extensions/hardware-palettes/commodore-vic20.gpl
+2026-07-15T19:59:12.5252573Z [799/1570] Generating ../bin/data/extensions/hardware-palettes/commodore64.gpl
+2026-07-15T19:59:12.5519610Z [800/1570] Generating ../bin/data/extensions/hardware-palettes/cpc.gpl
+2026-07-15T19:59:12.5784489Z [801/1570] Generating ../bin/data/extensions/hardware-palettes/gameboy-color-type1.gpl
+2026-07-15T19:59:12.6054407Z [802/1570] Generating ../bin/data/extensions/hardware-palettes/gameboy.gpl
+2026-07-15T19:59:12.6345171Z [803/1570] Generating ../bin/data/extensions/hardware-palettes/master-system.gpl
+2026-07-15T19:59:12.6631784Z [804/1570] Generating ../bin/data/extensions/hardware-palettes/msx1.gpl
+2026-07-15T19:59:12.6895314Z [805/1570] Generating ../bin/data/extensions/hardware-palettes/msx2.gpl
+2026-07-15T19:59:12.7158244Z [806/1570] Generating ../bin/data/extensions/hardware-palettes/nes-ntsc.gpl
+2026-07-15T19:59:12.7426029Z [807/1570] Generating ../bin/data/extensions/hardware-palettes/nes.gpl
+2026-07-15T19:59:12.7699648Z [808/1570] Generating ../bin/data/extensions/hardware-palettes/package.json
+2026-07-15T19:59:12.7972047Z [809/1570] Generating ../bin/data/extensions/hardware-palettes/teletext.gpl
+2026-07-15T19:59:12.8248497Z [810/1570] Generating ../bin/data/extensions/hardware-palettes/vga-13h.gpl
+2026-07-15T19:59:12.8514649Z [811/1570] Generating ../bin/data/extensions/hardware-palettes/virtualboy.gpl
+2026-07-15T19:59:12.8777496Z [812/1570] Generating ../bin/data/extensions/hardware-palettes/zx-spectrum.gpl
+2026-07-15T19:59:12.9076342Z [813/1570] Generating ../bin/data/extensions/hyohnoo-palettes/mail24.gpl
+2026-07-15T19:59:12.9362694Z [814/1570] Generating ../bin/data/extensions/hyohnoo-palettes/package.json
+2026-07-15T19:59:12.9636534Z [815/1570] Generating ../bin/data/extensions/javierguerrero-palettes/nyx8.gpl
+2026-07-15T19:59:12.9907493Z [816/1570] Generating ../bin/data/extensions/javierguerrero-palettes/package.json
+2026-07-15T19:59:13.0197499Z [817/1570] Generating ../bin/data/extensions/pico8-palette/package.json
+2026-07-15T19:59:13.0487700Z [818/1570] Generating ../bin/data/extensions/pico8-palette/pico-8.gpl
+2026-07-15T19:59:13.0763062Z [819/1570] Generating ../bin/data/extensions/pinetreepizza-palettes/bubblegum-16.gpl
+2026-07-15T19:59:13.1036884Z [820/1570] Generating ../bin/data/extensions/pinetreepizza-palettes/package.json
+2026-07-15T19:59:13.1315464Z [821/1570] Generating ../bin/data/extensions/pinetreepizza-palettes/rosy-42.gpl
+2026-07-15T19:59:13.1590832Z [822/1570] Generating ../bin/data/extensions/software-palettes/google-ui.gpl
+2026-07-15T19:59:13.1866986Z [823/1570] Generating ../bin/data/extensions/software-palettes/minecraft.gpl
+2026-07-15T19:59:13.2137292Z [824/1570] Generating ../bin/data/extensions/software-palettes/monokai.gpl
+2026-07-15T19:59:13.2408025Z [825/1570] Generating ../bin/data/extensions/software-palettes/package.json
+2026-07-15T19:59:13.2679860Z [826/1570] Generating ../bin/data/extensions/software-palettes/smile-basic.gpl
+2026-07-15T19:59:13.2958475Z [827/1570] Generating ../bin/data/extensions/software-palettes/solarized.gpl
+2026-07-15T19:59:13.3229197Z [828/1570] Generating ../bin/data/extensions/software-palettes/web-safe-colors.gpl
+2026-07-15T19:59:13.3501037Z [829/1570] Generating ../bin/data/extensions/software-palettes/win16.gpl
+2026-07-15T19:59:13.3767199Z [830/1570] Generating ../bin/data/extensions/software-palettes/x11.gpl
+2026-07-15T19:59:13.4037849Z [831/1570] Generating ../bin/data/extensions/zughy-palettes/package.json
+2026-07-15T19:59:13.4311893Z [832/1570] Generating ../bin/data/extensions/zughy-palettes/zughy-32.gpl
+2026-07-15T19:59:13.4594455Z [833/1570] Generating ../bin/data/fonts/LICENSE.txt
+2026-07-15T19:59:13.4895963Z [834/1570] Generating ../bin/data/fonts/aseprite_font.png
+2026-07-15T19:59:13.5185625Z [835/1570] Generating ../bin/data/fonts/aseprite_mini.png
+2026-07-15T19:59:13.5457889Z [836/1570] Generating ../bin/data/fonts/fonts.xml
+2026-07-15T19:59:13.5732860Z [837/1570] Generating ../bin/data/gui.xml
+2026-07-15T19:59:13.6028159Z [838/1570] Generating ../bin/data/icons/ase.ico
+2026-07-15T19:59:13.6309793Z [839/1570] Generating ../bin/data/icons/ase128.png
+2026-07-15T19:59:13.6595880Z [840/1570] Generating ../bin/data/icons/ase16.png
+2026-07-15T19:59:13.6865817Z [841/1570] Generating ../bin/data/icons/ase20.png
+2026-07-15T19:59:13.7140161Z [842/1570] Generating ../bin/data/icons/ase24.png
+2026-07-15T19:59:13.7411991Z [843/1570] Generating ../bin/data/icons/ase256.png
+2026-07-15T19:59:13.7681592Z [844/1570] Generating ../bin/data/icons/ase28.png
+2026-07-15T19:59:13.7944977Z [845/1570] Generating ../bin/data/icons/ase32.png
+2026-07-15T19:59:13.8208811Z [846/1570] Generating ../bin/data/icons/ase48.png
+2026-07-15T19:59:13.8464813Z [847/1570] Generating ../bin/data/icons/ase64.png
+2026-07-15T19:59:13.8733940Z [848/1570] Generating ../bin/data/icons/doc.ico
+2026-07-15T19:59:13.9001537Z [849/1570] Generating ../bin/data/icons/doc128.png
+2026-07-15T19:59:13.9269813Z [850/1570] Generating ../bin/data/icons/doc16.png
+2026-07-15T19:59:13.9526409Z [851/1570] Generating ../bin/data/icons/doc256.png
+2026-07-15T19:59:13.9778646Z [852/1570] Generating ../bin/data/icons/doc32.png
+2026-07-15T19:59:14.0055278Z [853/1570] Generating ../bin/data/icons/doc48.png
+2026-07-15T19:59:14.0332052Z [854/1570] Generating ../bin/data/icons/doc64.png
+2026-07-15T19:59:14.0595491Z [855/1570] Generating ../bin/data/icons/ext.ico
+2026-07-15T19:59:14.0849448Z [856/1570] Generating ../bin/data/icons/ext128.png
+2026-07-15T19:59:14.1102668Z [857/1570] Generating ../bin/data/icons/ext16.png
+2026-07-15T19:59:14.1355466Z [858/1570] Generating ../bin/data/icons/ext256.png
+2026-07-15T19:59:14.1628137Z [859/1570] Generating ../bin/data/icons/ext32.png
+2026-07-15T19:59:14.1915641Z [860/1570] Generating ../bin/data/icons/ext48.png
+2026-07-15T19:59:14.2192091Z [861/1570] Generating ../bin/data/icons/ext64.png
+2026-07-15T19:59:14.2453451Z [862/1570] Generating ../bin/data/icons/hd/asehd-blush.png
+2026-07-15T19:59:14.2737165Z [863/1570] Generating ../bin/data/icons/hd/asehd.png
+2026-07-15T19:59:14.3005422Z [864/1570] Generating ../bin/data/palettes/tags.gpl
+2026-07-15T19:59:14.3260617Z [865/1570] Generating ../bin/data/pref.xml
+2026-07-15T19:59:14.3514538Z [866/1570] Generating ../bin/data/strings/README.md
+2026-07-15T19:59:14.3767683Z [867/1570] Generating ../bin/data/strings/en.ini
+2026-07-15T19:59:14.4043393Z [868/1570] Generating ../bin/data/widgets/about.xml
+2026-07-15T19:59:14.4296365Z [869/1570] Generating ../bin/data/widgets/advanced_mode.xml
+2026-07-15T19:59:14.4545301Z [870/1570] Generating ../bin/data/widgets/aseprite_update.xml
+2026-07-15T19:59:14.4794505Z [871/1570] Generating ../bin/data/widgets/ask_for_color_profile.xml
+2026-07-15T19:59:14.5046550Z [872/1570] Generating ../bin/data/widgets/brush_slot_params.xml
+2026-07-15T19:59:14.5300361Z [873/1570] Generating ../bin/data/widgets/canvas_size.xml
+2026-07-15T19:59:14.5548967Z [874/1570] Generating ../bin/data/widgets/cel_properties.xml
+2026-07-15T19:59:14.5801261Z [875/1570] Generating ../bin/data/widgets/color_curve_point.xml
+2026-07-15T19:59:14.6055156Z [876/1570] Generating ../bin/data/widgets/color_mode.xml
+2026-07-15T19:59:14.6306327Z [877/1570] Generating ../bin/data/widgets/convolution_matrix.xml
+2026-07-15T19:59:14.6556723Z [878/1570] Generating ../bin/data/widgets/css_options.xml
+2026-07-15T19:59:14.6820324Z [879/1570] Generating ../bin/data/widgets/debugger.xml
+2026-07-15T19:59:14.7095130Z [880/1570] Generating ../bin/data/widgets/despeckle.xml
+2026-07-15T19:59:14.7377860Z [881/1570] Generating ../bin/data/widgets/duplicate_sprite.xml
+2026-07-15T19:59:14.7650915Z [882/1570] Generating ../bin/data/widgets/dynamics.xml
+2026-07-15T19:59:14.7922062Z [883/1570] Generating ../bin/data/widgets/enter_license.xml
+2026-07-15T19:59:14.8198073Z [884/1570] Generating ../bin/data/widgets/export_file.xml
+2026-07-15T19:59:14.8466617Z [885/1570] Generating ../bin/data/widgets/export_sprite_sheet.xml
+2026-07-15T19:59:14.8736655Z [886/1570] Generating ../bin/data/widgets/file_selector.xml
+2026-07-15T19:59:14.9010892Z [887/1570] Generating ../bin/data/widgets/font_popup.xml
+2026-07-15T19:59:14.9265313Z [888/1570] Generating ../bin/data/widgets/font_style.xml
+2026-07-15T19:59:14.9514293Z [889/1570] Generating ../bin/data/widgets/frame_properties.xml
+2026-07-15T19:59:14.9761984Z [890/1570] Generating ../bin/data/widgets/gif_options.xml
+2026-07-15T19:59:15.0014272Z [891/1570] Generating ../bin/data/widgets/goto_frame.xml
+2026-07-15T19:59:15.0279330Z [892/1570] Generating ../bin/data/widgets/grid_settings.xml
+2026-07-15T19:59:15.0540150Z [893/1570] Generating ../bin/data/widgets/home_view.xml
+2026-07-15T19:59:15.0797394Z [894/1570] Generating ../bin/data/widgets/import_sprite_sheet.xml
+2026-07-15T19:59:15.1060841Z [895/1570] Generating ../bin/data/widgets/incompat_file.xml
+2026-07-15T19:59:15.1324783Z [896/1570] Generating ../bin/data/widgets/jpeg_options.xml
+2026-07-15T19:59:15.1588014Z [897/1570] Generating ../bin/data/widgets/keyboard_shortcuts.xml
+2026-07-15T19:59:15.1850356Z [898/1570] Generating ../bin/data/widgets/layer_properties.xml
+2026-07-15T19:59:15.2112474Z [899/1570] Generating ../bin/data/widgets/modify_selection.xml
+2026-07-15T19:59:15.2375240Z [900/1570] Generating ../bin/data/widgets/new_folder_window.xml
+2026-07-15T19:59:15.2640108Z [901/1570] Generating ../bin/data/widgets/new_layer.xml
+2026-07-15T19:59:15.2901391Z [902/1570] Generating ../bin/data/widgets/new_layout.xml
+2026-07-15T19:59:15.3165771Z [903/1570] Generating ../bin/data/widgets/new_sprite.xml
+2026-07-15T19:59:15.3441731Z [904/1570] Generating ../bin/data/widgets/open_sequence.xml
+2026-07-15T19:59:15.3732868Z [905/1570] Generating ../bin/data/widgets/options.xml
+2026-07-15T19:59:15.4003679Z [906/1570] Generating ../bin/data/widgets/outline.xml
+2026-07-15T19:59:15.4269148Z [907/1570] Generating ../bin/data/widgets/palette_from_sprite.xml
+2026-07-15T19:59:15.4522256Z [908/1570] Generating ../bin/data/widgets/palette_popup.xml
+2026-07-15T19:59:15.4778874Z [909/1570] Generating ../bin/data/widgets/palette_size.xml
+2026-07-15T19:59:15.5043332Z [910/1570] Generating ../bin/data/widgets/paste_text.xml
+2026-07-15T19:59:15.5317004Z [911/1570] Generating ../bin/data/widgets/replace_color.xml
+2026-07-15T19:59:15.5587707Z [912/1570] Generating ../bin/data/widgets/run_command.xml
+2026-07-15T19:59:15.5866599Z [913/1570] Generating ../bin/data/widgets/script_access.xml
+2026-07-15T19:59:15.6146577Z [914/1570] Generating ../bin/data/widgets/select_shortcut.xml
+2026-07-15T19:59:15.6413053Z [915/1570] Generating ../bin/data/widgets/send_crash.xml
+2026-07-15T19:59:15.6683209Z [916/1570] Generating ../bin/data/widgets/slice_properties.xml
+2026-07-15T19:59:15.6953051Z [917/1570] Generating ../bin/data/widgets/sprite_properties.xml
+2026-07-15T19:59:15.7215242Z [918/1570] Generating ../bin/data/widgets/sprite_size.xml
+2026-07-15T19:59:15.7471710Z [919/1570] Generating ../bin/data/widgets/svg_options.xml
+2026-07-15T19:59:15.7740515Z [920/1570] Generating ../bin/data/widgets/tag_properties.xml
+2026-07-15T19:59:15.7996034Z [921/1570] Generating ../bin/data/widgets/tga_options.xml
+2026-07-15T19:59:15.8250648Z [922/1570] Generating ../bin/data/widgets/tileset_selector.xml
+2026-07-15T19:59:15.8522038Z [923/1570] Generating ../bin/data/widgets/tileset_selector_window.xml
+2026-07-15T19:59:15.8806737Z [924/1570] Generating ../bin/data/widgets/timeline_conf.xml
+2026-07-15T19:59:15.9094480Z [925/1570] Generating ../bin/data/widgets/undo_history.xml
+2026-07-15T19:59:15.9354630Z [926/1570] Generating ../bin/data/widgets/user_data.xml
+2026-07-15T19:59:15.9617938Z [927/1570] Generating ../bin/data/widgets/webp_options.xml
+2026-07-15T19:59:18.7611841Z [928/1570] Linking CXX executable bin\gen.exe
+2026-07-15T19:59:18.8049124Z [929/1570] Generating advanced_mode.xml.h
+2026-07-15T19:59:18.8069008Z [930/1570] Generating about.xml.h
+2026-07-15T19:59:18.8472708Z [931/1570] Generating aseprite_update.xml.h
+2026-07-15T19:59:18.8489260Z [932/1570] Generating ask_for_color_profile.xml.h
+2026-07-15T19:59:18.8886715Z [933/1570] Generating brush_slot_params.xml.h
+2026-07-15T19:59:18.8906767Z [934/1570] Generating canvas_size.xml.h
+2026-07-15T19:59:18.9287037Z [935/1570] Generating cel_properties.xml.h
+2026-07-15T19:59:18.9305186Z [936/1570] Generating color_curve_point.xml.h
+2026-07-15T19:59:18.9697331Z [937/1570] Generating color_mode.xml.h
+2026-07-15T19:59:18.9717727Z [938/1570] Generating convolution_matrix.xml.h
+2026-07-15T19:59:19.0112286Z [939/1570] Generating css_options.xml.h
+2026-07-15T19:59:19.0128879Z [940/1570] Generating debugger.xml.h
+2026-07-15T19:59:19.0537876Z [941/1570] Generating duplicate_sprite.xml.h
+2026-07-15T19:59:19.0554963Z [942/1570] Generating despeckle.xml.h
+2026-07-15T19:59:19.0949286Z [943/1570] Generating dynamics.xml.h
+2026-07-15T19:59:19.0967209Z [944/1570] Generating enter_license.xml.h
+2026-07-15T19:59:19.1367082Z [945/1570] Generating export_sprite_sheet.xml.h
+2026-07-15T19:59:19.1384183Z [946/1570] Generating export_file.xml.h
+2026-07-15T19:59:19.1766349Z [947/1570] Generating file_selector.xml.h
+2026-07-15T19:59:19.1785235Z [948/1570] Generating font_popup.xml.h
+2026-07-15T19:59:19.2196357Z [949/1570] Generating font_style.xml.h
+2026-07-15T19:59:19.2214016Z [950/1570] Generating frame_properties.xml.h
+2026-07-15T19:59:19.2622731Z [951/1570] Generating gif_options.xml.h
+2026-07-15T19:59:19.2644088Z [952/1570] Generating goto_frame.xml.h
+2026-07-15T19:59:19.3043072Z [953/1570] Generating grid_settings.xml.h
+2026-07-15T19:59:19.3062816Z [954/1570] Generating home_view.xml.h
+2026-07-15T19:59:19.3465321Z [955/1570] Generating incompat_file.xml.h
+2026-07-15T19:59:19.3485766Z [956/1570] Generating import_sprite_sheet.xml.h
+2026-07-15T19:59:19.3905805Z [957/1570] Generating jpeg_options.xml.h
+2026-07-15T19:59:19.3925928Z [958/1570] Generating keyboard_shortcuts.xml.h
+2026-07-15T19:59:19.4315818Z [959/1570] Generating layer_properties.xml.h
+2026-07-15T19:59:19.4332169Z [960/1570] Generating modify_selection.xml.h
+2026-07-15T19:59:19.4702970Z [961/1570] Generating new_folder_window.xml.h
+2026-07-15T19:59:19.4734736Z [962/1570] Generating new_layer.xml.h
+2026-07-15T19:59:19.5106588Z [963/1570] Generating new_layout.xml.h
+2026-07-15T19:59:19.5126413Z [964/1570] Generating new_sprite.xml.h
+2026-07-15T19:59:19.5499404Z [965/1570] Generating open_sequence.xml.h
+2026-07-15T19:59:19.5532441Z [966/1570] Generating options.xml.h
+2026-07-15T19:59:19.5902028Z [967/1570] Generating outline.xml.h
+2026-07-15T19:59:19.5939489Z [968/1570] Generating palette_from_sprite.xml.h
+2026-07-15T19:59:19.6318700Z [969/1570] Generating palette_popup.xml.h
+2026-07-15T19:59:19.6336832Z [970/1570] Generating palette_size.xml.h
+2026-07-15T19:59:19.6712540Z [971/1570] Generating paste_text.xml.h
+2026-07-15T19:59:19.6731752Z [972/1570] Generating replace_color.xml.h
+2026-07-15T19:59:19.7119609Z [973/1570] Generating run_command.xml.h
+2026-07-15T19:59:19.7140495Z [974/1570] Generating script_access.xml.h
+2026-07-15T19:59:19.7532547Z [975/1570] Generating select_shortcut.xml.h
+2026-07-15T19:59:19.7552243Z [976/1570] Generating send_crash.xml.h
+2026-07-15T19:59:19.7927202Z [977/1570] Generating slice_properties.xml.h
+2026-07-15T19:59:19.7963107Z [978/1570] Generating sprite_properties.xml.h
+2026-07-15T19:59:19.8394573Z [979/1570] Generating sprite_size.xml.h
+2026-07-15T19:59:19.8415475Z [980/1570] Generating svg_options.xml.h
+2026-07-15T19:59:19.8823403Z [981/1570] Generating tga_options.xml.h
+2026-07-15T19:59:19.8840442Z [982/1570] Generating tag_properties.xml.h
+2026-07-15T19:59:19.9233179Z [983/1570] Generating tileset_selector.xml.h
+2026-07-15T19:59:19.9249972Z [984/1570] Generating tileset_selector_window.xml.h
+2026-07-15T19:59:19.9674699Z [985/1570] Generating undo_history.xml.h
+2026-07-15T19:59:19.9691774Z [986/1570] Generating timeline_conf.xml.h
+2026-07-15T19:59:20.0082004Z [987/1570] Generating user_data.xml.h
+2026-07-15T19:59:20.0101257Z [988/1570] Generating webp_options.xml.h
+2026-07-15T19:59:20.0515104Z [989/1570] Generating pref.xml.h
+2026-07-15T19:59:20.0534303Z [990/1570] Generating pref.xml.cpp
+2026-07-15T19:59:20.0940215Z [991/1570] Generating theme.xml.h
+2026-07-15T19:59:20.0996096Z [992/1570] Generating strings.ini.h
+2026-07-15T19:59:20.1254435Z [993/1570] Generating check-translations.txt
+2026-07-15T19:59:20.1347984Z [994/1570] Generating command_ids.ini.h
+2026-07-15T19:59:21.6337784Z [995/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\fonts\font_path_win.cpp.obj
+2026-07-15T19:59:22.4916908Z [996/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\decode_webp.cpp.obj
+2026-07-15T19:59:26.4050469Z [997/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\crash\backup_observer.cpp.obj
+2026-07-15T19:59:27.4455520Z [998/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\pref.xml.cpp.obj
+2026-07-15T19:59:29.6980883Z [999/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\crash\data_recovery.cpp.obj
+2026-07-15T19:59:31.3327451Z [1000/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\crash\read_document.cpp.obj
+2026-07-15T19:59:33.1926747Z [1001/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\crash\session.cpp.obj
+2026-07-15T19:59:34.2323349Z [1002/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\crash\write_document.cpp.obj
+2026-07-15T19:59:36.9120980Z [1003/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\data_recovery_view.cpp.obj
+2026-07-15T19:59:39.1201098Z [1004/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\ase_format.cpp.obj
+2026-07-15T19:59:40.2259642Z [1005/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\bmp_format.cpp.obj
+2026-07-15T19:59:41.9456621Z [1006/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\css_format.cpp.obj
+2026-07-15T19:59:42.8078081Z [1007/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\fli_format.cpp.obj
+2026-07-15T19:59:45.9034023Z [1008/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\gif_format.cpp.obj
+2026-07-15T19:59:46.0360535Z [1009/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\ico_format.cpp.obj
+2026-07-15T19:59:48.8252967Z [1010/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\pcx_format.cpp.obj
+2026-07-15T19:59:50.4128703Z [1011/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\jpeg_format.cpp.obj
+2026-07-15T19:59:52.3373562Z [1012/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\png_format.cpp.obj
+2026-07-15T19:59:53.4080474Z [1013/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\qoi_format.cpp.obj
+2026-07-15T19:59:56.7625632Z [1014/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\svg_format.cpp.obj
+2026-07-15T19:59:57.9610450Z [1015/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\tga_format.cpp.obj
+2026-07-15T20:00:00.1851644Z [1016/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\webp_format.cpp.obj
+2026-07-15T20:00:00.5854614Z [1017/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\websocket_class.cpp.obj
+2026-07-15T20:00:01.6015715Z [1018/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_developer_console.cpp.obj
+2026-07-15T20:00:01.8839520Z [1019/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_open_script_folder.cpp.obj
+2026-07-15T20:00:05.3112129Z [1020/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\debugger.cpp.obj
+2026-07-15T20:00:05.3620775Z [1021/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_run_script.cpp.obj
+2026-07-15T20:00:06.7637797Z [1022/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\app_command_object.cpp.obj
+2026-07-15T20:00:07.0375281Z [1023/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\app_clipboard_object.cpp.obj
+2026-07-15T20:00:08.2371475Z [1024/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\app_fs_object.cpp.obj
+2026-07-15T20:00:09.5071695Z [1025/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\app_os_object.cpp.obj
+2026-07-15T20:00:11.5139658Z [1026/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\app_object.cpp.obj
+2026-07-15T20:00:11.8503160Z [1027/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\app_theme_object.cpp.obj
+2026-07-15T20:00:12.9619147Z [1028/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\brush_class.cpp.obj
+2026-07-15T20:00:13.9188747Z [1029/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\canvas_widget.cpp.obj
+2026-07-15T20:00:15.8143151Z [1030/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\cels_class.cpp.obj
+2026-07-15T20:00:16.4638538Z [1031/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\cel_class.cpp.obj
+2026-07-15T20:00:17.5195641Z [1032/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\color_class.cpp.obj
+2026-07-15T20:00:17.5665690Z [1033/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\color_space_class.cpp.obj
+2026-07-15T20:00:20.5927448Z [1034/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\editor_class.cpp.obj
+2026-07-15T20:00:22.8352028Z [1035/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\dialog_class.cpp.obj
+2026-07-15T20:00:25.7994979Z [1036/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\engine.cpp.obj
+2026-07-15T20:00:28.1544040Z [1037/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\events_class.cpp.obj
+2026-07-15T20:00:28.6020179Z [1038/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\frame_class.cpp.obj
+2026-07-15T20:00:29.9762806Z [1039/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\frames_class.cpp.obj
+2026-07-15T20:00:30.6555871Z [1040/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\graphics_context.cpp.obj
+2026-07-15T20:00:31.1691915Z [1041/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\grid_class.cpp.obj
+2026-07-15T20:00:32.8192155Z [1042/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\image_iterator_class.cpp.obj
+2026-07-15T20:00:33.8492605Z [1043/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\image_class.cpp.obj
+2026-07-15T20:00:34.1096144Z [1044/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\image_spec_class.cpp.obj
+2026-07-15T20:00:34.9295148Z [1045/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\json_class.cpp.obj
+2026-07-15T20:00:35.2071634Z [1046/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\images_class.cpp.obj
+2026-07-15T20:00:35.4355134Z [1047/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\keys.cpp.obj
+2026-07-15T20:00:36.8337284Z [1048/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\layers_class.cpp.obj
+2026-07-15T20:00:37.3759513Z [1049/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\luacpp.cpp.obj
+2026-07-15T20:00:38.5539191Z [1050/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\layer_class.cpp.obj
+2026-07-15T20:00:40.0305742Z [1051/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\palettes_class.cpp.obj
+2026-07-15T20:00:40.2618762Z [1052/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\palette_class.cpp.obj
+2026-07-15T20:00:40.6268184Z [1053/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\pixel_color_object.cpp.obj
+2026-07-15T20:00:41.4198616Z [1054/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\point_class.cpp.obj
+2026-07-15T20:00:41.6613613Z [1055/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\plugin_class.cpp.obj
+2026-07-15T20:00:43.8064732Z [1056/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\preferences_object.cpp.obj
+2026-07-15T20:00:43.9920368Z [1057/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\properties_class.cpp.obj
+2026-07-15T20:00:45.2391648Z [1058/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\rectangle_class.cpp.obj
+2026-07-15T20:00:45.9565351Z [1059/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\require.cpp.obj
+2026-07-15T20:00:46.9230422Z [1060/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\range_class.cpp.obj
+2026-07-15T20:00:47.8330313Z [1061/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\script_input_chain.cpp.obj
+2026-07-15T20:00:48.8706558Z [1062/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\security.cpp.obj
+2026-07-15T20:00:49.8250119Z [1063/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\selection_class.cpp.obj
+2026-07-15T20:00:50.5479857Z [1064/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\site_class.cpp.obj
+2026-07-15T20:00:50.6784599Z [1065/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\size_class.cpp.obj
+2026-07-15T20:00:52.1061027Z [1066/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\slices_class.cpp.obj
+2026-07-15T20:00:53.1171164Z [1067/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\slice_class.cpp.obj
+2026-07-15T20:00:55.1388908Z [1068/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\sprites_class.cpp.obj
+2026-07-15T20:00:55.4368526Z [1069/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\sprite_class.cpp.obj
+2026-07-15T20:00:56.2092734Z [1070/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\tabs_widget.cpp.obj
+2026-07-15T20:00:57.9381091Z [1071/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\tags_class.cpp.obj
+2026-07-15T20:00:58.0217088Z [1072/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\tag_class.cpp.obj
+2026-07-15T20:01:00.5547234Z [1073/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\tile_class.cpp.obj
+2026-07-15T20:01:00.7805652Z [1074/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\tileset_class.cpp.obj
+2026-07-15T20:01:01.8533928Z [1075/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\timer_class.cpp.obj
+2026-07-15T20:01:02.0740088Z [1076/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\tilesets_class.cpp.obj
+2026-07-15T20:01:02.9724447Z [1077/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\tool_class.cpp.obj
+2026-07-15T20:01:03.0937003Z [1078/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\uuid_class.cpp.obj
+2026-07-15T20:01:03.7655974Z [1079/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\version_class.cpp.obj
+2026-07-15T20:01:04.8829346Z [1080/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\window_class.cpp.obj
+2026-07-15T20:01:06.5577050Z [1081/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\script\values.cpp.obj
+2026-07-15T20:01:06.7521349Z [1082/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\shell.cpp.obj
+2026-07-15T20:01:08.4084692Z [1083/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\active_site_handler.cpp.obj
+2026-07-15T20:01:08.5779540Z [1084/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\devconsole_view.cpp.obj
+2026-07-15T20:01:10.0714077Z [1085/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\app_brushes.cpp.obj
+2026-07-15T20:01:12.1596896Z [1086/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\app.cpp.obj
+2026-07-15T20:01:12.7989354Z [1087/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\app_menus.cpp.obj
+2026-07-15T20:01:12.9615875Z [1088/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\check_update.cpp.obj
+2026-07-15T20:01:14.1342640Z [1089/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cli\app_options.cpp.obj
+2026-07-15T20:01:14.9827907Z [1090/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cli\cli_open_file.cpp.obj
+2026-07-15T20:01:17.0731935Z [1091/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cli\default_cli_delegate.cpp.obj
+2026-07-15T20:01:17.5937607Z [1092/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cli\cli_processor.cpp.obj
+2026-07-15T20:01:19.8900943Z [1093/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cli\preview_cli_delegate.cpp.obj
+2026-07-15T20:01:19.8995871Z [1094/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\closed_docs.cpp.obj
+2026-07-15T20:01:20.4414612Z [1095/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd.cpp.obj
+2026-07-15T20:01:21.4350639Z [1096/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\add_cel.cpp.obj
+2026-07-15T20:01:21.8036439Z [1097/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\add_frame.cpp.obj
+2026-07-15T20:01:22.9473989Z [1098/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\add_layer.cpp.obj
+2026-07-15T20:01:23.1142805Z [1099/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\add_palette.cpp.obj
+2026-07-15T20:01:24.5138877Z [1100/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\add_slice.cpp.obj
+2026-07-15T20:01:24.6328407Z [1101/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\add_tag.cpp.obj
+2026-07-15T20:01:26.0294669Z [1102/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\add_tileset.cpp.obj
+2026-07-15T20:01:26.6458749Z [1103/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\add_tile.cpp.obj
+2026-07-15T20:01:27.3958920Z [1104/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\assign_color_profile.cpp.obj
+2026-07-15T20:01:28.1045356Z [1105/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\background_from_layer.cpp.obj
+2026-07-15T20:01:28.6071339Z [1106/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\clear_cel.cpp.obj
+2026-07-15T20:01:29.2977641Z [1107/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\clear_image.cpp.obj
+2026-07-15T20:01:29.8924902Z [1108/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\clear_mask.cpp.obj
+2026-07-15T20:01:30.5312316Z [1109/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\clear_rect.cpp.obj
+2026-07-15T20:01:31.4240068Z [1110/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\clear_slices.cpp.obj
+2026-07-15T20:01:31.6247160Z [1111/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\configure_background.cpp.obj
+2026-07-15T20:01:32.9012696Z [1112/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\convert_color_profile.cpp.obj
+2026-07-15T20:01:33.1417799Z [1113/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\copy_cel.cpp.obj
+2026-07-15T20:01:33.8477898Z [1114/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\copy_rect.cpp.obj
+2026-07-15T20:01:33.9365794Z [1115/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\copy_frame.cpp.obj
+2026-07-15T20:01:34.9536881Z [1116/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\crop_cel.cpp.obj
+2026-07-15T20:01:35.0789374Z [1117/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\copy_region.cpp.obj
+2026-07-15T20:01:36.1092327Z [1118/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\deselect_mask.cpp.obj
+2026-07-15T20:01:36.8171836Z [1119/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\flip_image.cpp.obj
+2026-07-15T20:01:36.9719013Z [1120/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\flatten_layers.cpp.obj
+2026-07-15T20:01:37.9838137Z [1121/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\flip_mask.cpp.obj
+2026-07-15T20:01:38.1523660Z [1122/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\flip_masked_cel.cpp.obj
+2026-07-15T20:01:39.0028620Z [1123/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\layer_from_background.cpp.obj
+2026-07-15T20:01:39.6248604Z [1124/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\move_cel.cpp.obj
+2026-07-15T20:01:40.2344801Z [1125/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\move_layer.cpp.obj
+2026-07-15T20:01:40.6994085Z [1126/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\patch_cel.cpp.obj
+2026-07-15T20:01:41.4703473Z [1127/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remap_colors.cpp.obj
+2026-07-15T20:01:42.1482761Z [1128/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remap_tilemaps.cpp.obj
+2026-07-15T20:01:42.6432840Z [1129/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remap_tileset.cpp.obj
+2026-07-15T20:01:43.2025747Z [1130/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remove_cel.cpp.obj
+2026-07-15T20:01:43.9835897Z [1131/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remove_frame.cpp.obj
+2026-07-15T20:01:44.1931864Z [1132/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remove_layer.cpp.obj
+2026-07-15T20:01:44.5949517Z [1133/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remove_palette.cpp.obj
+2026-07-15T20:01:44.8134767Z [1134/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remove_slice.cpp.obj
+2026-07-15T20:01:45.2167121Z [1135/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remove_tag.cpp.obj
+2026-07-15T20:01:45.9492360Z [1136/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remove_tile.cpp.obj
+2026-07-15T20:01:46.3003720Z [1137/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\remove_tileset.cpp.obj
+2026-07-15T20:01:47.2028651Z [1138/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\replace_image.cpp.obj
+2026-07-15T20:01:47.6063146Z [1139/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\replace_tileset.cpp.obj
+2026-07-15T20:01:48.4511572Z [1140/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\reselect_mask.cpp.obj
+2026-07-15T20:01:48.8369691Z [1141/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_cel_bounds.cpp.obj
+2026-07-15T20:01:49.5057357Z [1142/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_cel_data.cpp.obj
+2026-07-15T20:01:50.0756670Z [1143/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_cel_frame.cpp.obj
+2026-07-15T20:01:50.7331667Z [1144/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_cel_opacity.cpp.obj
+2026-07-15T20:01:51.3157557Z [1145/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_cel_position.cpp.obj
+2026-07-15T20:01:51.9809923Z [1146/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_cel_zindex.cpp.obj
+2026-07-15T20:01:52.5431245Z [1147/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_frame_duration.cpp.obj
+2026-07-15T20:01:53.7040349Z [1148/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_last_point.cpp.obj
+2026-07-15T20:01:54.0292668Z [1149/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_grid_bounds.cpp.obj
+2026-07-15T20:01:54.9272089Z [1150/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_layer_flags.cpp.obj
+2026-07-15T20:01:54.9834202Z [1151/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_layer_blend_mode.cpp.obj
+2026-07-15T20:01:56.1928597Z [1152/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_layer_name.cpp.obj
+2026-07-15T20:01:56.2465367Z [1153/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_layer_opacity.cpp.obj
+2026-07-15T20:01:57.4220072Z [1154/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_mask.cpp.obj
+2026-07-15T20:01:57.4899945Z [1155/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_layer_tileset.cpp.obj
+2026-07-15T20:01:58.5807326Z [1156/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_mask_position.cpp.obj
+2026-07-15T20:01:58.7194076Z [1157/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_palette.cpp.obj
+2026-07-15T20:01:59.9639492Z [1158/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_pixel_ratio.cpp.obj
+2026-07-15T20:02:00.1438176Z [1159/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_pixel_format.cpp.obj
+2026-07-15T20:02:00.9930044Z [1160/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_slice_key.cpp.obj
+2026-07-15T20:02:01.4291889Z [1161/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_slice_name.cpp.obj
+2026-07-15T20:02:02.2491781Z [1162/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_sprite_size.cpp.obj
+2026-07-15T20:02:02.7121460Z [1163/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_sprite_tile_management_plugin.cpp.obj
+2026-07-15T20:02:03.1634879Z [1164/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tag_anidir.cpp.obj
+2026-07-15T20:02:03.5950354Z [1165/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tag_color.cpp.obj
+2026-07-15T20:02:04.4342537Z [1166/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tag_name.cpp.obj
+2026-07-15T20:02:04.8636593Z [1167/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tag_range.cpp.obj
+2026-07-15T20:02:05.3335337Z [1168/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tag_repeat.cpp.obj
+2026-07-15T20:02:06.4782939Z [1169/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tile_data.cpp.obj
+2026-07-15T20:02:06.9949578Z [1170/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tile_data_properties.cpp.obj
+2026-07-15T20:02:08.4895849Z [1171/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tileset_base_index.cpp.obj
+2026-07-15T20:02:08.5277382Z [1172/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tile_data_property.cpp.obj
+2026-07-15T20:02:09.6621021Z [1173/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tileset_match_flags.cpp.obj
+2026-07-15T20:02:09.7570783Z [1174/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_tileset_name.cpp.obj
+2026-07-15T20:02:10.8746169Z [1175/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_total_frames.cpp.obj
+2026-07-15T20:02:10.9614891Z [1176/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_transparent_color.cpp.obj
+2026-07-15T20:02:12.5344215Z [1177/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_user_data_properties.cpp.obj
+2026-07-15T20:02:12.8309133Z [1178/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_user_data.cpp.obj
+2026-07-15T20:02:14.2886863Z [1179/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\shift_masked_cel.cpp.obj
+2026-07-15T20:02:14.3205847Z [1180/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\set_user_data_property.cpp.obj
+2026-07-15T20:02:15.3304577Z [1181/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\trim_cel.cpp.obj
+2026-07-15T20:02:15.9189981Z [1182/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\unlink_cel.cpp.obj
+2026-07-15T20:02:16.3702130Z [1183/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\with_cel.cpp.obj
+2026-07-15T20:02:16.9671399Z [1184/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\with_image.cpp.obj
+2026-07-15T20:02:17.0483352Z [1185/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\with_document.cpp.obj
+2026-07-15T20:02:17.8341998Z [1186/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\with_layer.cpp.obj
+2026-07-15T20:02:17.9075454Z [1187/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\with_slice.cpp.obj
+2026-07-15T20:02:18.7549590Z [1188/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\with_tag.cpp.obj
+2026-07-15T20:02:18.7744611Z [1189/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\with_sprite.cpp.obj
+2026-07-15T20:02:19.3504991Z [1190/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd_sequence.cpp.obj
+2026-07-15T20:02:19.7352869Z [1191/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd\with_tileset.cpp.obj
+2026-07-15T20:02:21.1205241Z [1192/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\cmd_transaction.cpp.obj
+2026-07-15T20:02:21.4542901Z [1193/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\color.cpp.obj
+2026-07-15T20:02:23.2992860Z [1194/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\color_picker.cpp.obj
+2026-07-15T20:02:23.5643644Z [1195/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\color_spaces.cpp.obj
+2026-07-15T20:02:24.3045063Z [1196/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\color_utils.cpp.obj
+2026-07-15T20:02:25.6590700Z [1197/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\apply.cpp.obj
+2026-07-15T20:02:25.7612261Z [1198/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_about.cpp.obj
+2026-07-15T20:02:28.3703837Z [1199/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_add_color.cpp.obj
+2026-07-15T20:02:28.4378949Z [1200/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_advanced_mode.cpp.obj
+2026-07-15T20:02:29.4657499Z [1201/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_cancel.cpp.obj
+2026-07-15T20:02:29.9928687Z [1202/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_background_from_layer.cpp.obj
+2026-07-15T20:02:32.4868963Z [1203/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_canvas_size.cpp.obj
+2026-07-15T20:02:33.3945547Z [1204/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_cel_opacity.cpp.obj
+2026-07-15T20:02:36.0634346Z [1205/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_cel_properties.cpp.obj
+2026-07-15T20:02:37.0415804Z [1206/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_change_brush.cpp.obj
+2026-07-15T20:02:38.1013602Z [1207/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_change_color.cpp.obj
+2026-07-15T20:02:38.8585702Z [1208/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_clear.cpp.obj
+2026-07-15T20:02:40.7523828Z [1209/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_change_pixel_format.cpp.obj
+2026-07-15T20:02:41.0921910Z [1210/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_clear_cel.cpp.obj
+2026-07-15T20:02:41.5688629Z [1211/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_clear_recent_files.cpp.obj
+2026-07-15T20:02:42.1938316Z [1212/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_close_file.cpp.obj
+2026-07-15T20:02:44.2944731Z [1213/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_contiguous_fill.cpp.obj
+2026-07-15T20:02:44.4963984Z [1214/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_color_quantization.cpp.obj
+2026-07-15T20:02:45.0735380Z [1215/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_copy.cpp.obj
+2026-07-15T20:02:46.3551452Z [1216/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_copy_cel.cpp.obj
+2026-07-15T20:02:46.5106675Z [1217/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_copy_merged.cpp.obj
+2026-07-15T20:02:47.2600249Z [1218/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_cut.cpp.obj
+2026-07-15T20:02:49.0089097Z [1219/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_deselect_mask.cpp.obj
+2026-07-15T20:02:49.0977216Z [1220/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_crop.cpp.obj
+2026-07-15T20:02:50.6489963Z [1221/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_duplicate_layer.cpp.obj
+2026-07-15T20:02:51.1641878Z [1222/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_discard_brush.cpp.obj
+2026-07-15T20:02:52.6229531Z [1223/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_duplicate_slice.cpp.obj
+2026-07-15T20:02:53.4144500Z [1224/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_duplicate_sprite.cpp.obj
+2026-07-15T20:02:53.5991224Z [1225/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_duplicate_view.cpp.obj
+2026-07-15T20:02:54.4230164Z [1226/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_enter_license.cpp.obj
+2026-07-15T20:02:55.1589038Z [1227/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_exit.cpp.obj
+2026-07-15T20:02:57.6013063Z [1228/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_eyedropper.cpp.obj
+2026-07-15T20:02:59.3965254Z [1229/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_export_sprite_sheet.cpp.obj
+2026-07-15T20:03:00.5065355Z [1230/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_fill_and_stroke.cpp.obj
+2026-07-15T20:03:01.4042939Z [1231/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_fit_screen.cpp.obj
+2026-07-15T20:03:02.9922315Z [1232/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_flatten_layers.cpp.obj
+2026-07-15T20:03:04.3317975Z [1233/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_flip.cpp.obj
+2026-07-15T20:03:05.7569645Z [1234/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_frame_properties.cpp.obj
+2026-07-15T20:03:07.0766677Z [1235/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_fullscreen_mode.cpp.obj
+2026-07-15T20:03:07.3367866Z [1236/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_frame_tag_properties.cpp.obj
+2026-07-15T20:03:09.5951008Z [1237/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_goto_frame.cpp.obj
+2026-07-15T20:03:09.7332957Z [1238/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_fullscreen_preview.cpp.obj
+2026-07-15T20:03:10.6114863Z [1239/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_goto_tab.cpp.obj
+2026-07-15T20:03:12.0736532Z [1240/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_goto_layer.cpp.obj
+2026-07-15T20:03:13.1358220Z [1241/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_grid.cpp.obj
+2026-07-15T20:03:13.2323004Z [1242/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_home.cpp.obj
+2026-07-15T20:03:14.7978438Z [1243/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_invert_mask.cpp.obj
+2026-07-15T20:03:16.7960215Z [1244/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_import_sprite_sheet.cpp.obj
+2026-07-15T20:03:17.4818693Z [1245/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_launch.cpp.obj
+2026-07-15T20:03:18.6085164Z [1246/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_keyboard_shortcuts.cpp.obj
+2026-07-15T20:03:19.3142050Z [1247/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_layer_from_background.cpp.obj
+2026-07-15T20:03:20.2318618Z [1248/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_layer_lock.cpp.obj
+2026-07-15T20:03:22.6186330Z [1249/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_layer_opacity.cpp.obj
+2026-07-15T20:03:24.4383338Z [1250/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_layer_properties.cpp.obj
+2026-07-15T20:03:24.5044183Z [1251/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_layer_visibility.cpp.obj
+2026-07-15T20:03:26.3725004Z [1252/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_link_cels.cpp.obj
+2026-07-15T20:03:26.5249759Z [1253/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_load_mask.cpp.obj
+2026-07-15T20:03:27.7836541Z [1254/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_load_palette.cpp.obj
+2026-07-15T20:03:28.8373466Z [1255/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_mask_all.cpp.obj
+2026-07-15T20:03:30.7319732Z [1256/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_mask_by_color.cpp.obj
+2026-07-15T20:03:31.3587403Z [1257/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_mask_content.cpp.obj
+2026-07-15T20:03:32.9594327Z [1258/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_merge_down_layer.cpp.obj
+2026-07-15T20:03:34.8411713Z [1259/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_modify_selection.cpp.obj
+2026-07-15T20:03:35.3888149Z [1260/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_move_cel.cpp.obj
+2026-07-15T20:03:37.3869682Z [1261/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_move_mask.cpp.obj
+2026-07-15T20:03:38.2975156Z [1262/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_new_brush.cpp.obj
+2026-07-15T20:03:40.5457554Z [1263/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_new_file.cpp.obj
+2026-07-15T20:03:41.2451595Z [1264/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_new_frame.cpp.obj
+2026-07-15T20:03:43.5524728Z [1265/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_new_frame_tag.cpp.obj
+2026-07-15T20:03:45.1876015Z [1266/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_new_layer.cpp.obj
+2026-07-15T20:03:45.5516823Z [1267/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_new_sprite_from_selection.cpp.obj
+2026-07-15T20:03:46.6472778Z [1268/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_open_browser.cpp.obj
+2026-07-15T20:03:47.3311485Z [1269/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_onionskin.cpp.obj
+2026-07-15T20:03:48.7878641Z [1270/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_open_group.cpp.obj
+2026-07-15T20:03:49.4992515Z [1271/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_open_file.cpp.obj
+2026-07-15T20:03:50.3168024Z [1272/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_open_in_folder.cpp.obj
+2026-07-15T20:03:50.9687696Z [1273/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_open_with_app.cpp.obj
+2026-07-15T20:03:52.7283344Z [1274/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_palette_editor.cpp.obj
+2026-07-15T20:03:56.2201207Z [1275/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_palette_size.cpp.obj
+2026-07-15T20:03:56.5129075Z [1276/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_options.cpp.obj
+2026-07-15T20:03:57.8499282Z [1277/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_paste.cpp.obj
+2026-07-15T20:03:59.4704098Z [1278/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_paste_text.cpp.obj
+2026-07-15T20:03:59.9254653Z [1279/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_pixel_perfect_mode.cpp.obj
+2026-07-15T20:04:01.5859418Z [1280/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_refresh.cpp.obj
+2026-07-15T20:04:01.7153216Z [1281/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_play_animation.cpp.obj
+2026-07-15T20:04:03.2094916Z [1282/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_remove_frame.cpp.obj
+2026-07-15T20:04:04.0046189Z [1283/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_remove_frame_tag.cpp.obj
+2026-07-15T20:04:06.2099446Z [1284/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_remove_layer.cpp.obj
+2026-07-15T20:04:06.7578475Z [1285/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_remove_slice.cpp.obj
+2026-07-15T20:04:07.1697566Z [1286/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_reopen_closed_file.cpp.obj
+2026-07-15T20:04:08.6933474Z [1287/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_reselect_mask.cpp.obj
+2026-07-15T20:04:09.0027530Z [1288/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_repeat_last_export.cpp.obj
+2026-07-15T20:04:10.8324327Z [1289/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_reverse_frames.cpp.obj
+2026-07-15T20:04:11.7370274Z [1290/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_rotate.cpp.obj
+2026-07-15T20:04:14.6123560Z [1291/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_run_command.cpp.obj
+2026-07-15T20:04:15.3434842Z [1292/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_save_file.cpp.obj
+2026-07-15T20:04:16.7242484Z [1293/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_save_mask.cpp.obj
+2026-07-15T20:04:17.3564571Z [1294/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_save_palette.cpp.obj
+2026-07-15T20:04:19.1227443Z [1295/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_scroll.cpp.obj
+2026-07-15T20:04:19.3105702Z [1296/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_scroll_center.cpp.obj
+2026-07-15T20:04:21.1915279Z [1297/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_select_palette.cpp.obj
+2026-07-15T20:04:21.8961637Z [1298/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_select_tile.cpp.obj
+2026-07-15T20:04:23.6043342Z [1299/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_set_color_selector.cpp.obj
+2026-07-15T20:04:25.1590302Z [1300/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_set_ink_type.cpp.obj
+2026-07-15T20:04:26.6464864Z [1301/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_set_loop_section.cpp.obj
+2026-07-15T20:04:27.2741645Z [1302/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_set_palette.cpp.obj
+2026-07-15T20:04:28.9961836Z [1303/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_set_palette_entry_size.cpp.obj
+2026-07-15T20:04:29.4899834Z [1304/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_set_same_ink.cpp.obj
+2026-07-15T20:04:31.0299955Z [1305/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_show.cpp.obj
+2026-07-15T20:04:32.1285938Z [1306/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_slice_properties.cpp.obj
+2026-07-15T20:04:35.2989210Z [1307/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_sprite_properties.cpp.obj
+2026-07-15T20:04:35.6042399Z [1308/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_sprite_size.cpp.obj
+2026-07-15T20:04:37.3993152Z [1309/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_swap_checkerboard_colors.cpp.obj
+2026-07-15T20:04:37.9097958Z [1310/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_switch_colors.cpp.obj
+2026-07-15T20:04:39.9799801Z [1311/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_symmetry_mode.cpp.obj
+2026-07-15T20:04:40.2871122Z [1312/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_tiled_mode.cpp.obj
+2026-07-15T20:04:42.2236412Z [1313/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_timeline.cpp.obj
+2026-07-15T20:04:42.2761630Z [1314/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_toggle_preview.cpp.obj
+2026-07-15T20:04:43.5638267Z [1315/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_toggle_tiles_mode.cpp.obj
+2026-07-15T20:04:44.3269043Z [1316/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_toggle_timeline_thumbnails.cpp.obj
+2026-07-15T20:04:45.9115759Z [1317/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_undo.cpp.obj
+2026-07-15T20:04:46.9067436Z [1318/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_undo_history.cpp.obj
+2026-07-15T20:04:47.9083833Z [1319/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_unlink_cel.cpp.obj
+2026-07-15T20:04:48.7899521Z [1320/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\command.cpp.obj
+2026-07-15T20:04:49.3337685Z [1321/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\cmd_zoom.cpp.obj
+2026-07-15T20:04:50.0060472Z [1322/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\commands.cpp.obj
+2026-07-15T20:04:51.6394324Z [1323/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\copy_path.cpp.obj
+2026-07-15T20:04:52.2939134Z [1324/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\convert_layer.cpp.obj
+2026-07-15T20:04:53.2520714Z [1325/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\export_tileset.cpp.obj
+2026-07-15T20:04:54.5117840Z [1326/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\cmd_brightness_contrast.cpp.obj
+2026-07-15T20:04:55.3782224Z [1327/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\cmd_color_curve.cpp.obj
+2026-07-15T20:04:57.0807346Z [1328/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\cmd_convolution_matrix.cpp.obj
+2026-07-15T20:04:57.9904096Z [1329/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\cmd_despeckle.cpp.obj
+2026-07-15T20:04:59.7902114Z [1330/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\cmd_hue_saturation.cpp.obj
+2026-07-15T20:05:00.0069028Z [1331/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\cmd_invert_color.cpp.obj
+2026-07-15T20:05:02.5544479Z [1332/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\cmd_outline.cpp.obj
+2026-07-15T20:05:02.9942428Z [1333/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\cmd_replace_color.cpp.obj
+2026-07-15T20:05:03.7854875Z [1334/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\convolution_matrix_stock.cpp.obj
+2026-07-15T20:05:03.8660556Z [1335/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\color_curve_editor.cpp.obj
+2026-07-15T20:05:06.3004840Z [1336/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\filter_preview.cpp.obj
+2026-07-15T20:05:06.4377171Z [1337/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\filter_manager_impl.cpp.obj
+2026-07-15T20:05:08.8369637Z [1338/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\filter_target_buttons.cpp.obj
+2026-07-15T20:05:09.1696430Z [1339/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\filter_window.cpp.obj
+2026-07-15T20:05:11.6646743Z [1340/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\filters\filter_worker.cpp.obj
+2026-07-15T20:05:11.6710469Z [1341/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\move_colors_command.cpp.obj
+2026-07-15T20:05:13.4555024Z [1342/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\move_tiles_command.cpp.obj
+2026-07-15T20:05:14.8520527Z [1343/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\move_thing.cpp.obj
+2026-07-15T20:05:15.4007322Z [1344/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\quick_command.cpp.obj
+2026-07-15T20:05:15.9777141Z [1345/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\new_params.cpp.obj
+2026-07-15T20:05:18.1308625Z [1346/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\screenshot.cpp.obj
+2026-07-15T20:05:18.5679072Z [1347/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\set_playback_speed.cpp.obj
+2026-07-15T20:05:19.6016739Z [1348/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\show_menu.cpp.obj
+2026-07-15T20:05:20.5616693Z [1349/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\solo_layer.cpp.obj
+2026-07-15T20:05:21.3914178Z [1350/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\tileset_mode.cpp.obj
+2026-07-15T20:05:23.3626131Z [1351/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\toggle_other_layers_opacity.cpp.obj
+2026-07-15T20:05:23.5506047Z [1352/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\toggle_play_option.cpp.obj
+2026-07-15T20:05:24.4930755Z [1353/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\commands\toggle_workspace_layout.cpp.obj
+2026-07-15T20:05:25.8057463Z [1354/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\console.cpp.obj
+2026-07-15T20:05:27.0437017Z [1355/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\context.cpp.obj
+2026-07-15T20:05:28.0591910Z [1356/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\context_flags.cpp.obj
+2026-07-15T20:05:30.3663480Z [1357/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\doc.cpp.obj
+2026-07-15T20:05:31.9610709Z [1358/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\doc_api.cpp.obj
+2026-07-15T20:05:32.9871368Z [1359/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\doc_api_dnd_helper.cpp.obj
+2026-07-15T20:05:33.4006573Z [1360/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\doc_diff.cpp.obj
+2026-07-15T20:05:35.3645807Z [1361/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\doc_range_ops.cpp.obj
+2026-07-15T20:05:37.5308908Z [1362/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\doc_exporter.cpp.obj
+2026-07-15T20:05:38.0040448Z [1363/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\doc_undo.cpp.obj
+2026-07-15T20:05:38.8735417Z [1364/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\docs.cpp.obj
+2026-07-15T20:05:39.8676955Z [1365/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\extra_cel.cpp.obj
+2026-07-15T20:05:42.5476532Z [1366/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\extensions.cpp.obj
+2026-07-15T20:05:44.0770984Z [1367/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\file.cpp.obj
+2026-07-15T20:05:44.4043729Z [1368/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\file_data.cpp.obj
+2026-07-15T20:05:44.7671236Z [1369/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\file_format.cpp.obj
+2026-07-15T20:05:45.0255836Z [1370/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\file_formats_manager.cpp.obj
+2026-07-15T20:05:46.5620136Z [1371/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\file_op_config.cpp.obj
+2026-07-15T20:05:47.1681166Z [1372/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\palette_file.cpp.obj
+2026-07-15T20:05:47.2141522Z [1373/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file\split_filename.cpp.obj
+2026-07-15T20:05:49.0839284Z [1374/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file_system.cpp.obj
+2026-07-15T20:05:49.4952855Z [1375/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\file_selector.cpp.obj
+2026-07-15T20:05:50.6907757Z [1376/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\flatten.cpp.obj
+2026-07-15T20:05:51.5423574Z [1377/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\filename_formatter.cpp.obj
+2026-07-15T20:05:51.8439385Z [1378/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\fonts\font_data.cpp.obj
+2026-07-15T20:05:52.4201783Z [1379/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\fonts\font_path.cpp.obj
+2026-07-15T20:05:53.1681497Z [1380/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\fonts\fonts.cpp.obj
+2026-07-15T20:05:53.7753598Z [1381/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\gui_xml.cpp.obj
+2026-07-15T20:05:54.3863571Z [1382/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\fonts\font_info.cpp.obj
+2026-07-15T20:05:55.2201187Z [1383/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\i18n\xml_translator.cpp.obj
+2026-07-15T20:05:56.2218803Z [1384/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ini_file.cpp.obj
+2026-07-15T20:05:56.8048498Z [1385/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\i18n\strings.cpp.obj
+2026-07-15T20:05:57.8113154Z [1386/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\job.cpp.obj
+2026-07-15T20:05:57.9169827Z [1387/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\launcher.cpp.obj
+2026-07-15T20:05:58.9867216Z [1388/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\log.cpp.obj
+2026-07-15T20:06:00.0277415Z [1389/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\loop_tag.cpp.obj
+2026-07-15T20:06:00.1581876Z [1390/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\load_matrix.cpp.obj
+2026-07-15T20:06:00.5828622Z [1391/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\modules.cpp.obj
+2026-07-15T20:06:02.3951600Z [1392/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\modules\gfx.cpp.obj
+2026-07-15T20:06:03.6970121Z [1393/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\modules\gui.cpp.obj
+2026-07-15T20:06:04.2282780Z [1394/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\modules\palettes.cpp.obj
+2026-07-15T20:06:05.3765247Z [1395/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\recent_files.cpp.obj
+2026-07-15T20:06:07.0386670Z [1396/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\render\shader_renderer.cpp.obj
+2026-07-15T20:06:08.3633517Z [1397/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\pref\preferences.cpp.obj
+2026-07-15T20:06:08.7159829Z [1398/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\render\simple_renderer.cpp.obj
+2026-07-15T20:06:09.6587936Z [1399/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\res\resources_loader.cpp.obj
+2026-07-15T20:06:10.5400305Z [1400/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\res\palettes_loader_delegate.cpp.obj
+2026-07-15T20:06:11.2402601Z [1401/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\resource_finder.cpp.obj
+2026-07-15T20:06:11.7011784Z [1402/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\restore_visible_layers.cpp.obj
+2026-07-15T20:06:11.8799808Z [1403/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\shade.cpp.obj
+2026-07-15T20:06:12.3790494Z [1404/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\snap_to_grid.cpp.obj
+2026-07-15T20:06:13.7174531Z [1405/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\site.cpp.obj
+2026-07-15T20:06:14.0006188Z [1406/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\sprite_job.cpp.obj
+2026-07-15T20:06:14.3535668Z [1407/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\task.cpp.obj
+2026-07-15T20:06:15.6525728Z [1408/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\thumbnails.cpp.obj
+2026-07-15T20:06:16.4619241Z [1409/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\thumbnail_generator.cpp.obj
+2026-07-15T20:06:17.3192415Z [1410/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\ink_type.cpp.obj
+2026-07-15T20:06:18.0877481Z [1411/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\active_tool.cpp.obj
+2026-07-15T20:06:19.2032757Z [1412/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\intertwine.cpp.obj
+2026-07-15T20:06:19.8747414Z [1413/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\pick_ink.cpp.obj
+2026-07-15T20:06:21.0164301Z [1414/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\point_shape.cpp.obj
+2026-07-15T20:06:21.8080545Z [1415/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\stroke.cpp.obj
+2026-07-15T20:06:23.0364380Z [1416/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\symmetry.cpp.obj
+2026-07-15T20:06:25.6287147Z [1417/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\tool_loop_manager.cpp.obj
+2026-07-15T20:06:26.6058538Z [1418/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\velocity.cpp.obj
+2026-07-15T20:06:26.9850026Z [1419/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\tools\tool_box.cpp.obj
+2026-07-15T20:06:27.6203213Z [1420/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\transformation.cpp.obj
+2026-07-15T20:06:28.4746851Z [1421/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\transaction.cpp.obj
+2026-07-15T20:06:29.5535455Z [1422/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\alpha_entry.cpp.obj
+2026-07-15T20:06:30.3660002Z [1423/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\alpha_slider.cpp.obj
+2026-07-15T20:06:30.8427563Z [1424/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\app_menuitem.cpp.obj
+2026-07-15T20:06:31.8675326Z [1425/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\best_fit_criteria_selector.cpp.obj
+2026-07-15T20:06:31.9428135Z [1426/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\backup_indicator.cpp.obj
+2026-07-15T20:06:34.0910712Z [1427/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\browser_view.cpp.obj
+2026-07-15T20:06:35.3624828Z [1428/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\brush_popup.cpp.obj
+2026-07-15T20:06:35.4450804Z [1429/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\button_set.cpp.obj
+2026-07-15T20:06:38.9956412Z [1430/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\color_button.cpp.obj
+2026-07-15T20:06:40.6921519Z [1431/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\color_bar.cpp.obj
+2026-07-15T20:06:42.8465884Z [1432/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\color_popup.cpp.obj
+2026-07-15T20:06:43.6211054Z [1433/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\color_selector.cpp.obj
+2026-07-15T20:06:45.1765907Z [1434/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\color_shades.cpp.obj
+2026-07-15T20:06:46.1563001Z [1435/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\color_sliders.cpp.obj
+2026-07-15T20:06:47.1695639Z [1436/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\color_spectrum.cpp.obj
+2026-07-15T20:06:48.4041707Z [1437/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\color_tint_shade_tone.cpp.obj
+2026-07-15T20:06:50.2313956Z [1438/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\color_wheel.cpp.obj
+2026-07-15T20:06:51.4713573Z [1439/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\configure_timeline_popup.cpp.obj
+2026-07-15T20:06:53.1069578Z [1440/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\dithering_selector.cpp.obj
+2026-07-15T20:06:56.6220152Z [1441/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\context_bar.cpp.obj
+2026-07-15T20:06:57.2536073Z [1442/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\doc_view.cpp.obj
+2026-07-15T20:06:58.3744497Z [1443/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\drop_down_button.cpp.obj
+2026-07-15T20:06:59.6319481Z [1444/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\dock.cpp.obj
+2026-07-15T20:07:01.3631113Z [1445/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\dynamics_popup.cpp.obj
+2026-07-15T20:07:02.7773447Z [1446/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\brush_preview.cpp.obj
+2026-07-15T20:07:03.4895362Z [1447/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\delayed_mouse_move.cpp.obj
+2026-07-15T20:07:05.0347878Z [1448/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\dragging_value_state.cpp.obj
+2026-07-15T20:07:06.1295020Z [1449/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\drawing_state.cpp.obj
+2026-07-15T20:07:06.7636722Z [1450/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\editor_observers.cpp.obj
+2026-07-15T20:07:09.2461889Z [1451/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\editor_render.cpp.obj
+2026-07-15T20:07:09.5870875Z [1452/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\editor.cpp.obj
+2026-07-15T20:07:09.9338471Z [1453/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\editor_states_history.cpp.obj
+2026-07-15T20:07:11.8349470Z [1454/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\editor_view.cpp.obj
+2026-07-15T20:07:13.1688141Z [1455/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\moving_cel_state.cpp.obj
+2026-07-15T20:07:15.2008158Z [1456/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\moving_pixels_state.cpp.obj
+2026-07-15T20:07:16.1275303Z [1457/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\moving_selection_state.cpp.obj
+2026-07-15T20:07:18.3777586Z [1458/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\moving_slice_state.cpp.obj
+2026-07-15T20:07:18.8610656Z [1459/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\moving_symmetry_state.cpp.obj
+2026-07-15T20:07:20.5071474Z [1460/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\navigate_state.cpp.obj
+2026-07-15T20:07:20.7058823Z [1461/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\pivot_helpers.cpp.obj
+2026-07-15T20:07:23.2474808Z [1462/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\play_state.cpp.obj
+2026-07-15T20:07:23.9160966Z [1463/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\pixels_movement.cpp.obj
+2026-07-15T20:07:25.6926378Z [1464/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\scrolling_state.cpp.obj
+2026-07-15T20:07:26.6547546Z [1465/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\select_box_state.cpp.obj
+2026-07-15T20:07:28.3183711Z [1466/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\select_text_box_state.cpp.obj
+2026-07-15T20:07:30.8368340Z [1467/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\standby_state.cpp.obj
+2026-07-15T20:07:31.6671723Z [1468/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\state_with_wheel_behavior.cpp.obj
+2026-07-15T20:07:34.0823252Z [1469/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\transform_handles.cpp.obj
+2026-07-15T20:07:34.2958510Z [1470/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\tool_loop_impl.cpp.obj
+2026-07-15T20:07:36.5466140Z [1471/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\zooming_state.cpp.obj
+2026-07-15T20:07:37.5272360Z [1472/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\editor\writing_text_state.cpp.obj
+2026-07-15T20:07:38.7211546Z [1473/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\expr_entry.cpp.obj
+2026-07-15T20:07:39.8817542Z [1474/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\export_file_window.cpp.obj
+2026-07-15T20:07:40.7403530Z [1475/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\file_list_view.cpp.obj
+2026-07-15T20:07:41.8614540Z [1476/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\file_list.cpp.obj
+2026-07-15T20:07:44.9457744Z [1477/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\filename_field.cpp.obj
+2026-07-15T20:07:45.0930640Z [1478/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\file_selector.cpp.obj
+2026-07-15T20:07:47.6468957Z [1479/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\font_entry.cpp.obj
+2026-07-15T20:07:48.4308411Z [1480/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\font_popup.cpp.obj
+2026-07-15T20:07:48.9644343Z [1481/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\hex_color_entry.cpp.obj
+2026-07-15T20:07:49.9706280Z [1482/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\icon_button.cpp.obj
+2026-07-15T20:07:50.8622486Z [1483/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\home_view.cpp.obj
+2026-07-15T20:07:51.0403555Z [1484/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\incompat_file_window.cpp.obj
+2026-07-15T20:07:51.5205149Z [1485/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\input_chain.cpp.obj
+2026-07-15T20:07:52.5819422Z [1486/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\key.cpp.obj
+2026-07-15T20:07:54.8621772Z [1487/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\layer_frame_comboboxes.cpp.obj
+2026-07-15T20:07:55.1686703Z [1488/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\keyboard_shortcuts.cpp.obj
+2026-07-15T20:07:55.9224311Z [1489/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\layouts.cpp.obj
+2026-07-15T20:07:57.3685813Z [1490/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\layout.cpp.obj
+2026-07-15T20:07:58.7083556Z [1491/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\main_menu_bar.cpp.obj
+2026-07-15T20:07:58.8199219Z [1492/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\layout_selector.cpp.obj
+2026-07-15T20:07:59.8312132Z [1493/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\mini_help_button.cpp.obj
+2026-07-15T20:08:00.8442457Z [1494/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\notifications.cpp.obj
+2026-07-15T20:08:02.1343696Z [1495/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\main_window.cpp.obj
+2026-07-15T20:08:02.1434173Z [1496/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\optional_alert.cpp.obj
+2026-07-15T20:08:04.6335912Z [1497/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\palette_popup.cpp.obj
+2026-07-15T20:08:05.4827009Z [1498/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\palette_view.cpp.obj
+2026-07-15T20:08:07.4944402Z [1499/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\popup_window_pin.cpp.obj
+2026-07-15T20:08:08.1771768Z [1500/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\palettes_listbox.cpp.obj
+2026-07-15T20:08:09.4819633Z [1501/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\pref_widget.cpp.obj
+2026-07-15T20:08:11.0454846Z [1502/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\preview_editor.cpp.obj
+2026-07-15T20:08:12.4082879Z [1503/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\recent_listbox.cpp.obj
+2026-07-15T20:08:12.7651563Z [1504/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\resources_listbox.cpp.obj
+2026-07-15T20:08:13.5222976Z [1505/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\rgbmap_algorithm_selector.cpp.obj
+2026-07-15T20:08:14.5430804Z [1506/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\search_entry.cpp.obj
+2026-07-15T20:08:14.9301900Z [1507/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\sampling_selector.cpp.obj
+2026-07-15T20:08:15.8631856Z [1508/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\select_shortcut.cpp.obj
+2026-07-15T20:08:16.5811686Z [1509/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\skin\skin_part.cpp.obj
+2026-07-15T20:08:17.3864984Z [1510/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\selection_mode_field.cpp.obj
+2026-07-15T20:08:17.4458205Z [1511/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\skin\skin_property.cpp.obj
+2026-07-15T20:08:17.9138508Z [1512/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\skin\skin_slider_property.cpp.obj
+2026-07-15T20:08:20.2993311Z [1513/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\slice_window.cpp.obj
+2026-07-15T20:08:21.8053121Z [1514/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\slider2.cpp.obj
+2026-07-15T20:08:23.0930502Z [1515/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\skin\skin_theme.cpp.obj
+2026-07-15T20:08:25.6188764Z [1516/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\status_bar.cpp.obj
+2026-07-15T20:08:26.2418821Z [1517/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\tabs.cpp.obj
+2026-07-15T20:08:27.5486032Z [1518/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\task_widget.cpp.obj
+2026-07-15T20:08:28.6028066Z [1519/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\tag_window.cpp.obj
+2026-07-15T20:08:30.3722512Z [1520/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\tile_button.cpp.obj
+2026-07-15T20:08:31.2146623Z [1521/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\tileset_selector.cpp.obj
+2026-07-15T20:08:33.2315711Z [1522/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\timeline\ani_controls.cpp.obj
+2026-07-15T20:08:33.6127899Z [1523/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\timeline\doc_providers.cpp.obj
+2026-07-15T20:08:37.0350434Z [1524/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\toolbar.cpp.obj
+2026-07-15T20:08:38.9665106Z [1525/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\timeline\timeline.cpp.obj
+2026-07-15T20:08:40.2967412Z [1526/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\user_data_view.cpp.obj
+2026-07-15T20:08:41.3876076Z [1527/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\window_with_hand.cpp.obj
+2026-07-15T20:08:41.6006976Z [1528/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\workspace.cpp.obj
+2026-07-15T20:08:42.3692137Z [1529/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\workspace_tabs.cpp.obj
+2026-07-15T20:08:42.6441323Z [1530/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\workspace_panel.cpp.obj
+2026-07-15T20:08:43.6364423Z [1531/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\zoom_entry.cpp.obj
+2026-07-15T20:08:44.8751899Z [1532/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\autocrop.cpp.obj
+2026-07-15T20:08:45.1414681Z [1533/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui_context.cpp.obj
+2026-07-15T20:08:45.6428263Z [1534/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\buffer_region.cpp.obj
+2026-07-15T20:08:48.0984925Z [1535/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\cel_ops.cpp.obj
+2026-07-15T20:08:49.5965196Z [1536/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\clipboard.cpp.obj
+2026-07-15T20:08:49.7445168Z [1537/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\clipboard_native.cpp.obj
+2026-07-15T20:08:50.3616397Z [1538/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\conversion_to_image.cpp.obj
+2026-07-15T20:08:50.7640783Z [1539/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\conversion_to_surface.cpp.obj
+2026-07-15T20:08:51.2727220Z [1540/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\filetoks.cpp.obj
+2026-07-15T20:08:52.2988337Z [1541/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\expand_cel_canvas.cpp.obj
+2026-07-15T20:08:52.9546667Z [1542/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\layer_boundaries.cpp.obj
+2026-07-15T20:08:53.6236041Z [1543/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\msk_file.cpp.obj
+2026-07-15T20:08:54.7201728Z [1544/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\layer_utils.cpp.obj
+2026-07-15T20:08:55.0772819Z [1545/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\new_image_from_mask.cpp.obj
+2026-07-15T20:08:55.8782844Z [1546/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\pal_ops.cpp.obj
+2026-07-15T20:08:56.5993532Z [1547/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\pic_file.cpp.obj
+2026-07-15T20:08:56.9772422Z [1548/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\open_file_job.cpp.obj
+2026-07-15T20:08:57.2455622Z [1549/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\pixel_ratio.cpp.obj
+2026-07-15T20:08:57.7624127Z [1550/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\readable_time.cpp.obj
+2026-07-15T20:08:58.2706864Z [1551/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\render_text.cpp.obj
+2026-07-15T20:08:59.3939199Z [1552/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\resize_image.cpp.obj
+2026-07-15T20:08:59.4315921Z [1553/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\shader_helpers.cpp.obj
+2026-07-15T20:08:59.9562428Z [1554/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\tile_flags_utils.cpp.obj
+2026-07-15T20:09:01.1057783Z [1555/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\tiled_mode.cpp.obj
+2026-07-15T20:09:01.1296389Z [1556/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\slice_utils.cpp.obj
+2026-07-15T20:09:01.6616910Z [1557/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\wrap_point.cpp.obj
+2026-07-15T20:09:02.4672309Z [1558/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\util\tileset_utils.cpp.obj
+2026-07-15T20:09:03.0497706Z [1559/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\xml_document.cpp.obj
+2026-07-15T20:09:03.8334932Z [1560/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\xml_exception.cpp.obj
+2026-07-15T20:09:05.2255342Z [1561/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\widget_loader.cpp.obj
+2026-07-15T20:09:05.4913390Z [1562/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\win\file_associations.cpp.obj
+2026-07-15T20:09:06.4596093Z [1563/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\res\http_loader.cpp.obj
+2026-07-15T20:09:06.6101368Z [1564/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\win\thumbnails.cpp.obj
+2026-07-15T20:09:08.0399737Z [1565/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\send_crash.cpp.obj
+2026-07-15T20:09:09.3622567Z [1566/1570] Building CXX object src\app\CMakeFiles\app-lib.dir\ui\news_listbox.cpp.obj
+2026-07-15T20:09:09.4232248Z [1567/1570] Building RC object src\CMakeFiles\aseprite.dir\main\win\resources_win32.rc.res
+2026-07-15T20:09:09.6137386Z [1568/1570] Building CXX object src\CMakeFiles\aseprite.dir\main\main.cpp.obj
+2026-07-15T20:09:10.1247354Z [1569/1570] Linking CXX static library lib\app-lib.lib
+2026-07-15T20:09:17.0677963Z [1570/1570] Linking CXX executable bin\aseprite.exe
+2026-07-15T20:09:17.0774111Z ##[debug]Finishing: Compile with Ninja

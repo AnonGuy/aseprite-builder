@@ -1,0 +1,41 @@
+﻿2026-07-15T19:50:44.8089241Z ##[debug]Starting: Set up job
+2026-07-15T19:50:44.8090308Z Current runner version: '2.335.1'
+2026-07-15T19:50:44.8108869Z ##[group]Runner Image Provisioner
+2026-07-15T19:50:44.8109505Z Hosted Compute Agent
+2026-07-15T19:50:44.8109977Z Version: 20260624.560
+2026-07-15T19:50:44.8110452Z Commit: 925d229a51159bc391ae97e54a2dd1fe20af789d
+2026-07-15T19:50:44.8111013Z Build Date: 2026-06-24T18:26:47Z
+2026-07-15T19:50:44.8111521Z Worker ID: {1915f76a-d2d5-4570-b6f5-903a1ac51fec}
+2026-07-15T19:50:44.8112094Z Azure Region: westus3
+2026-07-15T19:50:44.8112490Z ##[endgroup]
+2026-07-15T19:50:44.8113445Z ##[group]Operating System
+2026-07-15T19:50:44.8113937Z Microsoft Windows Server 2025
+2026-07-15T19:50:44.8114385Z 10.0.26100
+2026-07-15T19:50:44.8114814Z Datacenter
+2026-07-15T19:50:44.8115229Z ##[endgroup]
+2026-07-15T19:50:44.8115643Z ##[group]Runner Image
+2026-07-15T19:50:44.8116426Z Image: windows-2025-vs2026
+2026-07-15T19:50:44.8116888Z Version: 20260628.158.1
+2026-07-15T19:50:44.8117780Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20260628.158/images/windows/Windows2025-VS2026-Readme.md
+2026-07-15T19:50:44.8119063Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20260628.158
+2026-07-15T19:50:44.8119796Z ##[endgroup]
+2026-07-15T19:50:44.8120780Z ##[group]GITHUB_TOKEN Permissions
+2026-07-15T19:50:44.8122201Z Contents: read
+2026-07-15T19:50:44.8122626Z Metadata: read
+2026-07-15T19:50:44.8123510Z Packages: read
+2026-07-15T19:50:44.8123952Z ##[endgroup]
+2026-07-15T19:50:44.8125613Z Secret source: Actions
+2026-07-15T19:50:44.8126217Z ##[debug]Primary repository: AnonGuy/aseprite-builder
+2026-07-15T19:50:44.8126851Z Prepare workflow directory
+2026-07-15T19:50:44.8192256Z ##[debug]Creating pipeline directory: 'D:\a\aseprite-builder'
+2026-07-15T19:50:44.8196316Z ##[debug]Creating workspace directory: 'D:\a\aseprite-builder\aseprite-builder'
+2026-07-15T19:50:44.8198169Z ##[debug]Update context data
+2026-07-15T19:50:44.8200765Z ##[debug]Evaluating job-level environment variables
+2026-07-15T19:50:44.8377251Z ##[debug]Evaluating job container
+2026-07-15T19:50:44.8380978Z ##[debug]Evaluating job service containers
+2026-07-15T19:50:44.8383682Z ##[debug]Evaluating job defaults
+2026-07-15T19:50:44.8414853Z Prepare all required actions
+2026-07-15T19:50:44.8547100Z ##[debug]Set step '__run' display name to: 'Check CPU Cores & RAM'
+2026-07-15T19:50:44.8548965Z Complete job name: verify-runner
+2026-07-15T19:50:44.8562395Z ##[debug]Collect running processes for tracking orphan processes.
+2026-07-15T19:50:44.8622059Z ##[debug]Finishing: Set up job

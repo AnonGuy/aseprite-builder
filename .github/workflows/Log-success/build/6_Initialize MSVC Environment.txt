@@ -1,0 +1,121 @@
+﻿2026-07-15T19:51:29.6384603Z ##[debug]Evaluating condition for step: 'Initialize MSVC Environment'
+2026-07-15T19:51:29.6387365Z ##[debug]Evaluating: success()
+2026-07-15T19:51:29.6387730Z ##[debug]Evaluating success:
+2026-07-15T19:51:29.6388118Z ##[debug]=> true
+2026-07-15T19:51:29.6388461Z ##[debug]Result: true
+2026-07-15T19:51:29.6389130Z ##[debug]Starting: Initialize MSVC Environment
+2026-07-15T19:51:29.6521678Z ##[debug]Loading inputs
+2026-07-15T19:51:29.6526497Z ##[debug]Loading env
+2026-07-15T19:51:29.6532213Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-07-15T19:51:29.6534128Z ##[group]Run ilammy/msvc-dev-cmd@v1
+2026-07-15T19:51:29.6534371Z with:
+2026-07-15T19:51:29.6534537Z   arch: x64
+2026-07-15T19:51:29.6534707Z env:
+2026-07-15T19:51:29.6535161Z   DOWNLOAD_URL: https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip
+2026-07-15T19:51:29.6535636Z   ASE_VER: v1.3.17.2
+2026-07-15T19:51:29.6535821Z ##[endgroup]
+2026-07-15T19:51:30.6079674Z Found with vswhere: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\Build\vcvarsall.bat
+2026-07-15T19:51:30.6081137Z ##[debug]vcvars command-line: "C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\Build\vcvarsall.bat" x64
+2026-07-15T19:51:34.4574946Z ::group::Environment variables
+2026-07-15T19:51:34.4575501Z ##[group]Environment variables
+2026-07-15T19:51:34.4575925Z Setting CommandPromptType
+2026-07-15T19:51:34.4585395Z Setting DevEnvDir
+2026-07-15T19:51:34.4589364Z Setting ExtensionSdkDir
+2026-07-15T19:51:34.4592648Z Setting EXTERNAL_INCLUDE
+2026-07-15T19:51:34.4599130Z Setting Framework40Version
+2026-07-15T19:51:34.4601767Z Setting FrameworkDir
+2026-07-15T19:51:34.4604464Z Setting FrameworkDir64
+2026-07-15T19:51:34.4606922Z Setting FrameworkVersion
+2026-07-15T19:51:34.4609807Z Setting FrameworkVersion64
+2026-07-15T19:51:34.4613271Z Setting FSHARPINSTALLDIR
+2026-07-15T19:51:34.4616822Z Setting HTMLHelpDir
+2026-07-15T19:51:34.4619300Z Setting INCLUDE
+2026-07-15T19:51:34.4622765Z Setting LIB
+2026-07-15T19:51:34.4625332Z Setting LIBPATH
+2026-07-15T19:51:34.4627984Z Setting llvmArm64
+2026-07-15T19:51:34.4630337Z Setting llvmX64
+2026-07-15T19:51:34.4632709Z Setting NETFXSDKDir
+2026-07-15T19:51:34.4635683Z Setting Path
+2026-07-15T19:51:34.4638732Z Setting Platform
+2026-07-15T19:51:34.4641430Z Setting UCRTVersion
+2026-07-15T19:51:34.4644037Z Setting UniversalCRTSdkDir
+2026-07-15T19:51:34.4646578Z Setting use_x64_llvm
+2026-07-15T19:51:34.4648589Z Setting VCIDEInstallDir
+2026-07-15T19:51:34.4651076Z Setting VCINSTALLDIR
+2026-07-15T19:51:34.4653065Z Setting VCPKG_ROOT
+2026-07-15T19:51:34.4655555Z Setting VCToolsInstallDir
+2026-07-15T19:51:34.4657607Z Setting VCToolsRedistDir
+2026-07-15T19:51:34.4659696Z Setting VCToolsVersion
+2026-07-15T19:51:34.4661929Z Setting VisualStudioVersion
+2026-07-15T19:51:34.4664021Z Setting VS180COMNTOOLS
+2026-07-15T19:51:34.4666076Z Setting VSCMD_ARG_app_plat
+2026-07-15T19:51:34.4668194Z Setting VSCMD_ARG_HOST_ARCH
+2026-07-15T19:51:34.4670896Z Setting VSCMD_ARG_TGT_ARCH
+2026-07-15T19:51:34.4674094Z Setting VSCMD_VER
+2026-07-15T19:51:34.4676295Z Setting VSINSTALLDIR
+2026-07-15T19:51:34.4678799Z Setting VSSDK150INSTALL
+2026-07-15T19:51:34.4681224Z Setting VSSDKINSTALL
+2026-07-15T19:51:34.4683438Z Setting WindowsLibPath
+2026-07-15T19:51:34.4685870Z Setting WindowsSdkBinPath
+2026-07-15T19:51:34.4687877Z Setting WindowsSdkDir
+2026-07-15T19:51:34.4689986Z Setting WindowsSDKLibVersion
+2026-07-15T19:51:34.4692312Z Setting WindowsSdkVerBinPath
+2026-07-15T19:51:34.4694625Z Setting WindowsSDKVersion
+2026-07-15T19:51:34.4696689Z Setting WindowsSDK_ExecutablePath_x64
+2026-07-15T19:51:34.4698755Z Setting WindowsSDK_ExecutablePath_x86
+2026-07-15T19:51:34.4700824Z Setting __DOTNET_ADD_64BIT
+2026-07-15T19:51:34.4703607Z Setting __DOTNET_PREFERRED_BITNESS
+2026-07-15T19:51:34.4705229Z Setting __VSCMD_PREINIT_PATH
+2026-07-15T19:51:34.4708890Z ::endgroup::
+2026-07-15T19:51:34.4709171Z ##[endgroup]
+2026-07-15T19:51:34.4709458Z Configured Developer Command Prompt
+2026-07-15T19:51:34.4812960Z ##[debug]Node Action run completed with exit code 0
+2026-07-15T19:51:34.4815505Z ##[debug]CommandPromptType='Native'
+2026-07-15T19:51:34.4815986Z ##[debug]DevEnvDir='C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\'
+2026-07-15T19:51:34.4816596Z ##[debug]ExtensionSdkDir='C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs'
+2026-07-15T19:51:34.4818917Z ##[debug]EXTERNAL_INCLUDE='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um'
+2026-07-15T19:51:34.4821078Z ##[debug]Framework40Version='v4.0'
+2026-07-15T19:51:34.4821414Z ##[debug]FrameworkDir='C:\Windows\Microsoft.NET\Framework64\'
+2026-07-15T19:51:34.4821825Z ##[debug]FrameworkDir64='C:\Windows\Microsoft.NET\Framework64\'
+2026-07-15T19:51:34.4822160Z ##[debug]FrameworkVersion='v4.0.30319'
+2026-07-15T19:51:34.4822428Z ##[debug]FrameworkVersion64='v4.0.30319'
+2026-07-15T19:51:34.4822990Z ##[debug]FSHARPINSTALLDIR='C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools'
+2026-07-15T19:51:34.4823613Z ##[debug]HTMLHelpDir='C:\Program Files (x86)\HTML Help Workshop'
+2026-07-15T19:51:34.4825818Z ##[debug]INCLUDE='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um'
+2026-07-15T19:51:34.4828866Z ##[debug]LIB='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\lib\um\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.26100.0\\um\x64'
+2026-07-15T19:51:34.4831359Z ##[debug]LIBPATH='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+2026-07-15T19:51:34.4834502Z ##[debug]llvmArm64='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\ARM64\bin'
+2026-07-15T19:51:34.4835153Z ##[debug]llvmX64='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin'
+2026-07-15T19:51:34.4835690Z ##[debug]NETFXSDKDir='C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\'
+2026-07-15T19:51:34.4849404Z ##[debug]Path='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Team Tools\DiagnosticsHub\Collector;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\;C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg'
+2026-07-15T19:51:34.4864462Z ##[debug]Platform='x64'
+2026-07-15T19:51:34.4864717Z ##[debug]UCRTVersion='10.0.26100.0'
+2026-07-15T19:51:34.4865123Z ##[debug]UniversalCRTSdkDir='C:\Program Files (x86)\Windows Kits\10\'
+2026-07-15T19:51:34.4865506Z ##[debug]use_x64_llvm='true'
+2026-07-15T19:51:34.4865909Z ##[debug]VCIDEInstallDir='C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\'
+2026-07-15T19:51:34.4866473Z ##[debug]VCINSTALLDIR='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\'
+2026-07-15T19:51:34.4866974Z ##[debug]VCPKG_ROOT='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg'
+2026-07-15T19:51:34.4867584Z ##[debug]VCToolsInstallDir='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\'
+2026-07-15T19:51:34.4868276Z ##[debug]VCToolsRedistDir='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Redist\MSVC\14.51.36231\'
+2026-07-15T19:51:34.4868743Z ##[debug]VCToolsVersion='14.51.36231'
+2026-07-15T19:51:34.4868999Z ##[debug]VisualStudioVersion='18.0'
+2026-07-15T19:51:34.4869449Z ##[debug]VS180COMNTOOLS='C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\'
+2026-07-15T19:51:34.4869886Z ##[debug]VSCMD_ARG_app_plat='Desktop'
+2026-07-15T19:51:34.4870142Z ##[debug]VSCMD_ARG_HOST_ARCH='x64'
+2026-07-15T19:51:34.4870391Z ##[debug]VSCMD_ARG_TGT_ARCH='x64'
+2026-07-15T19:51:34.4870624Z ##[debug]VSCMD_VER='18.7.3'
+2026-07-15T19:51:34.4870992Z ##[debug]VSINSTALLDIR='C:\Program Files\Microsoft Visual Studio\18\Enterprise\'
+2026-07-15T19:51:34.4871532Z ##[debug]VSSDK150INSTALL='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK'
+2026-07-15T19:51:34.4872046Z ##[debug]VSSDKINSTALL='C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK'
+2026-07-15T19:51:34.4873092Z ##[debug]WindowsLibPath='C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0'
+2026-07-15T19:51:34.4873791Z ##[debug]WindowsSdkBinPath='C:\Program Files (x86)\Windows Kits\10\bin\'
+2026-07-15T19:51:34.4874226Z ##[debug]WindowsSdkDir='C:\Program Files (x86)\Windows Kits\10\'
+2026-07-15T19:51:34.4874573Z ##[debug]WindowsSDKLibVersion='10.0.26100.0\'
+2026-07-15T19:51:34.4874979Z ##[debug]WindowsSdkVerBinPath='C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\'
+2026-07-15T19:51:34.4875394Z ##[debug]WindowsSDKVersion='10.0.26100.0\'
+2026-07-15T19:51:34.4875879Z ##[debug]WindowsSDK_ExecutablePath_x64='C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\'
+2026-07-15T19:51:34.4876579Z ##[debug]WindowsSDK_ExecutablePath_x86='C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\'
+2026-07-15T19:51:34.4877067Z ##[debug]__DOTNET_ADD_64BIT='1'
+2026-07-15T19:51:34.4877315Z ##[debug]__DOTNET_PREFERRED_BITNESS='64'
+2026-07-15T19:51:34.4885628Z ##[debug]__VSCMD_PREINIT_PATH='C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files (x86)\sbt\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer'
+2026-07-15T19:51:34.4897090Z ##[debug]Finishing: Initialize MSVC Environment

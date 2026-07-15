@@ -1,0 +1,118 @@
+﻿2026-07-15T20:09:29.0432799Z ##[debug]Evaluating: secrets.GITHUB_TOKEN
+2026-07-15T20:09:29.0433515Z ##[debug]Evaluating Index:
+2026-07-15T20:09:29.0433762Z ##[debug]..Evaluating secrets:
+2026-07-15T20:09:29.0434175Z ##[debug]..=> Object
+2026-07-15T20:09:29.0434439Z ##[debug]..Evaluating String:
+2026-07-15T20:09:29.0434689Z ##[debug]..=> 'GITHUB_TOKEN'
+2026-07-15T20:09:29.0437843Z ##[debug]=> '***'
+2026-07-15T20:09:29.0440164Z ##[debug]Result: '***'
+2026-07-15T20:09:29.0441029Z ##[debug]Evaluating condition for step: 'Create GitHub Release'
+2026-07-15T20:09:29.0442554Z ##[debug]Evaluating: success()
+2026-07-15T20:09:29.0443338Z ##[debug]Evaluating success:
+2026-07-15T20:09:29.0443804Z ##[debug]=> true
+2026-07-15T20:09:29.0444163Z ##[debug]Result: true
+2026-07-15T20:09:29.0444776Z ##[debug]Starting: Create GitHub Release
+2026-07-15T20:09:29.0596613Z ##[debug]Loading inputs
+2026-07-15T20:09:29.0598064Z ##[debug]Evaluating: env.ASE_VER
+2026-07-15T20:09:29.0598337Z ##[debug]Evaluating Index:
+2026-07-15T20:09:29.0598588Z ##[debug]..Evaluating env:
+2026-07-15T20:09:29.0599103Z ##[debug]..=> Object
+2026-07-15T20:09:29.0599345Z ##[debug]..Evaluating String:
+2026-07-15T20:09:29.0599577Z ##[debug]..=> 'ASE_VER'
+2026-07-15T20:09:29.0599849Z ##[debug]=> 'v1.3.17.2'
+2026-07-15T20:09:29.0600108Z ##[debug]Result: 'v1.3.17.2'
+2026-07-15T20:09:29.0600825Z ##[debug]Evaluating: format('Aseprite {0}', env.ASE_VER)
+2026-07-15T20:09:29.0601480Z ##[debug]Evaluating format:
+2026-07-15T20:09:29.0601871Z ##[debug]..Evaluating String:
+2026-07-15T20:09:29.0602119Z ##[debug]..=> 'Aseprite {0}'
+2026-07-15T20:09:29.0602530Z ##[debug]..Evaluating Index:
+2026-07-15T20:09:29.0602738Z ##[debug]....Evaluating env:
+2026-07-15T20:09:29.0602964Z ##[debug]....=> Object
+2026-07-15T20:09:29.0603180Z ##[debug]....Evaluating String:
+2026-07-15T20:09:29.0603413Z ##[debug]....=> 'ASE_VER'
+2026-07-15T20:09:29.0603630Z ##[debug]..=> 'v1.3.17.2'
+2026-07-15T20:09:29.0603881Z ##[debug]=> 'Aseprite v1.3.17.2'
+2026-07-15T20:09:29.0604129Z ##[debug]Result: 'Aseprite v1.3.17.2'
+2026-07-15T20:09:29.0608582Z ##[debug]Evaluating: github.token
+2026-07-15T20:09:29.0608829Z ##[debug]Evaluating Index:
+2026-07-15T20:09:29.0609053Z ##[debug]..Evaluating github:
+2026-07-15T20:09:29.0609286Z ##[debug]..=> Object
+2026-07-15T20:09:29.0609501Z ##[debug]..Evaluating String:
+2026-07-15T20:09:29.0609723Z ##[debug]..=> 'token'
+2026-07-15T20:09:29.0612158Z ##[debug]=> '***'
+2026-07-15T20:09:29.0614443Z ##[debug]Result: '***'
+2026-07-15T20:09:29.0619553Z ##[debug]Loading env
+2026-07-15T20:09:29.0625451Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-07-15T20:09:29.0626646Z ##[group]Run softprops/action-gh-release@v2
+2026-07-15T20:09:29.0626934Z with:
+2026-07-15T20:09:29.0627112Z   tag_name: v1.3.17.2
+2026-07-15T20:09:29.0627351Z   name: Aseprite v1.3.17.2
+2026-07-15T20:09:29.0627588Z   files: installer/*.exe
+2026-07-15T20:09:29.0627810Z   overwrite_files: true
+2026-07-15T20:09:29.0630636Z   token: ***
+2026-07-15T20:09:29.0630814Z env:
+2026-07-15T20:09:29.0631299Z   DOWNLOAD_URL: https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip
+2026-07-15T20:09:29.0631876Z   ASE_VER: v1.3.17.2
+2026-07-15T20:09:29.0632098Z   CommandPromptType: Native
+2026-07-15T20:09:29.0632503Z   DevEnvDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\
+2026-07-15T20:09:29.0633119Z   ExtensionSdkDir: C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+2026-07-15T20:09:29.0636028Z   EXTERNAL_INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T20:09:29.0640854Z   Framework40Version: v4.0
+2026-07-15T20:09:29.0641162Z   FrameworkDir: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T20:09:29.0641763Z   FrameworkDir64: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T20:09:29.0642266Z   FrameworkVersion: v4.0.30319
+2026-07-15T20:09:29.0642525Z   FrameworkVersion64: v4.0.30319
+2026-07-15T20:09:29.0643144Z   FSHARPINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools
+2026-07-15T20:09:29.0643867Z   HTMLHelpDir: C:\Program Files (x86)\HTML Help Workshop
+2026-07-15T20:09:29.0646737Z   INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T20:09:29.0650647Z   LIB: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\lib\um\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.26100.0\\um\x64
+2026-07-15T20:09:29.0653873Z   LIBPATH: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+2026-07-15T20:09:29.0656006Z   llvmArm64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\ARM64\bin
+2026-07-15T20:09:29.0656657Z   llvmX64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin
+2026-07-15T20:09:29.0657219Z   NETFXSDKDir: C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\
+2026-07-15T20:09:29.0675600Z   Path: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Team Tools\DiagnosticsHub\Collector;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\;C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T20:09:29.0694728Z   Platform: x64
+2026-07-15T20:09:29.0694942Z   UCRTVersion: 10.0.26100.0
+2026-07-15T20:09:29.0695278Z   UniversalCRTSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T20:09:29.0695639Z   use_x64_llvm: true
+2026-07-15T20:09:29.0696047Z   VCIDEInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\
+2026-07-15T20:09:29.0696662Z   VCINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\
+2026-07-15T20:09:29.0697240Z   VCPKG_ROOT: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T20:09:29.0697904Z   VCToolsInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\
+2026-07-15T20:09:29.0698681Z   VCToolsRedistDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Redist\MSVC\14.51.36231\
+2026-07-15T20:09:29.0699340Z   VCToolsVersion: 14.51.36231
+2026-07-15T20:09:29.0699590Z   VisualStudioVersion: 18.0
+2026-07-15T20:09:29.0700007Z   VS180COMNTOOLS: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\
+2026-07-15T20:09:29.0700473Z   VSCMD_ARG_app_plat: Desktop
+2026-07-15T20:09:29.0700709Z   VSCMD_ARG_HOST_ARCH: x64
+2026-07-15T20:09:29.0700932Z   VSCMD_ARG_TGT_ARCH: x64
+2026-07-15T20:09:29.0701148Z   VSCMD_VER: 18.7.3
+2026-07-15T20:09:29.0701468Z   VSINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\
+2026-07-15T20:09:29.0702284Z   VSSDK150INSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T20:09:29.0702952Z   VSSDKINSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T20:09:29.0703775Z   WindowsLibPath: C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0
+2026-07-15T20:09:29.0704672Z   WindowsSdkBinPath: C:\Program Files (x86)\Windows Kits\10\bin\
+2026-07-15T20:09:29.0705118Z   WindowsSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T20:09:29.0705477Z   WindowsSDKLibVersion: 10.0.26100.0\
+2026-07-15T20:09:29.0705899Z   WindowsSdkVerBinPath: C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\
+2026-07-15T20:09:29.0706348Z   WindowsSDKVersion: 10.0.26100.0\
+2026-07-15T20:09:29.0706881Z   WindowsSDK_ExecutablePath_x64: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\
+2026-07-15T20:09:29.0707713Z   WindowsSDK_ExecutablePath_x86: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\
+2026-07-15T20:09:29.0708251Z   __DOTNET_ADD_64BIT: 1
+2026-07-15T20:09:29.0708479Z   __DOTNET_PREFERRED_BITNESS: 64
+2026-07-15T20:09:29.0719870Z   __VSCMD_PREINIT_PATH: C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files (x86)\sbt\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer
+2026-07-15T20:09:29.0734417Z   GITHUB_TOKEN: ***
+2026-07-15T20:09:29.0734819Z ##[endgroup]
+2026-07-15T20:09:29.5057122Z Found release Aseprite v1.3.17.2 (with id=354598980)
+2026-07-15T20:09:29.7277838Z ♻️ Deleting previously uploaded asset aseprite-setup.exe...
+2026-07-15T20:09:29.9585220Z ⬆️ Uploading aseprite-setup.exe...
+2026-07-15T20:09:30.9808766Z ✅ Uploaded aseprite-setup.exe
+2026-07-15T20:09:30.9809254Z Finalizing release...
+2026-07-15T20:09:30.9810770Z Getting assets list...
+2026-07-15T20:09:31.1114223Z 🎉 Release ready at https://github.com/AnonGuy/aseprite-builder/releases/tag/v1.3.17.2
+2026-07-15T20:09:31.1262501Z ##[debug]Node Action run completed with exit code 0
+2026-07-15T20:09:31.1267760Z ##[debug]Set output assets = [{"url":"https://api.github.com/repos/AnonGuy/aseprite-builder/releases/assets/478335781","id":478335781,"node_id":"RA_kwDOTVK7Mc4cgtMl","name":"aseprite-setup.exe","label":"","content_type":"application/x-msdos-program","state":"uploaded","size":9475206,"digest":"sha256:589b5d8bf54eeb8b5787658120e9eb0849328fb62853e30987c1c25c78ae8c6d","download_count":0,"created_at":"2026-07-15T20:09:30Z","updated_at":"2026-07-15T20:09:30Z","browser_download_url":"https://github.com/AnonGuy/aseprite-builder/releases/download/v1.3.17.2/aseprite-setup.exe"}]
+2026-07-15T20:09:31.1269868Z ##[debug]Set output url = https://github.com/AnonGuy/aseprite-builder/releases/tag/v1.3.17.2
+2026-07-15T20:09:31.1270291Z ##[debug]Set output id = 354598980
+2026-07-15T20:09:31.1270821Z ##[debug]Set output upload_url = https://uploads.github.com/repos/AnonGuy/aseprite-builder/releases/354598980/assets{?name,label}
+2026-07-15T20:09:31.1271641Z ##[debug]Finishing: Create GitHub Release

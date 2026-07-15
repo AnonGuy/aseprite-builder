@@ -1,0 +1,65 @@
+﻿2026-07-15T20:09:32.1699496Z ##[debug]Evaluating condition for step: 'Post Checkout Repository'
+2026-07-15T20:09:32.1702389Z ##[debug]Evaluating: always()
+2026-07-15T20:09:32.1702761Z ##[debug]Evaluating always:
+2026-07-15T20:09:32.1703608Z ##[debug]=> true
+2026-07-15T20:09:32.1704093Z ##[debug]Result: true
+2026-07-15T20:09:32.1704869Z ##[debug]Starting: Post Checkout Repository
+2026-07-15T20:09:32.1836013Z ##[debug]Loading inputs
+2026-07-15T20:09:32.1837514Z ##[debug]Evaluating: github.repository
+2026-07-15T20:09:32.1837844Z ##[debug]Evaluating Index:
+2026-07-15T20:09:32.1838078Z ##[debug]..Evaluating github:
+2026-07-15T20:09:32.1838368Z ##[debug]..=> Object
+2026-07-15T20:09:32.1838596Z ##[debug]..Evaluating String:
+2026-07-15T20:09:32.1838841Z ##[debug]..=> 'repository'
+2026-07-15T20:09:32.1839143Z ##[debug]=> 'AnonGuy/aseprite-builder'
+2026-07-15T20:09:32.1839437Z ##[debug]Result: 'AnonGuy/aseprite-builder'
+2026-07-15T20:09:32.1841174Z ##[debug]Evaluating: github.token
+2026-07-15T20:09:32.1841430Z ##[debug]Evaluating Index:
+2026-07-15T20:09:32.1841688Z ##[debug]..Evaluating github:
+2026-07-15T20:09:32.1841922Z ##[debug]..=> Object
+2026-07-15T20:09:32.1842165Z ##[debug]..Evaluating String:
+2026-07-15T20:09:32.1842401Z ##[debug]..=> 'token'
+2026-07-15T20:09:32.1845219Z ##[debug]=> '***'
+2026-07-15T20:09:32.1847526Z ##[debug]Result: '***'
+2026-07-15T20:09:32.1858785Z ##[debug]Loading env
+2026-07-15T20:09:32.1864492Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-07-15T20:09:32.1865615Z Post job cleanup.
+2026-07-15T20:09:32.3643579Z ##[debug]Getting git version
+2026-07-15T20:09:32.3669655Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-07-15T20:09:32.3965694Z git version 2.55.0.windows.2
+2026-07-15T20:09:32.4006621Z ##[debug]0
+2026-07-15T20:09:32.4007295Z ##[debug]git version 2.55.0.windows.2
+2026-07-15T20:09:32.4007625Z ##[debug]
+2026-07-15T20:09:32.4009834Z ##[debug]Set git useragent to: git/2.55.0 (github-actions-checkout)
+2026-07-15T20:09:32.4012064Z ::add-mask::***
+2026-07-15T20:09:32.4032513Z Temporarily overriding HOME='D:\a\_temp\d8beeb06-76ee-4ce7-9976-d9c2c28430f6' before making global git config changes
+2026-07-15T20:09:32.4033557Z Adding repository directory to the temporary git global config as a safe directory
+2026-07-15T20:09:32.4046835Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\aseprite-builder\aseprite-builder
+2026-07-15T20:09:32.4346032Z ##[debug]0
+2026-07-15T20:09:32.4346421Z ##[debug]
+2026-07-15T20:09:32.4360925Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-07-15T20:09:32.4655380Z ##[debug]1
+2026-07-15T20:09:32.4655765Z ##[debug]
+2026-07-15T20:09:32.4669596Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-07-15T20:09:32.9870338Z ##[debug]0
+2026-07-15T20:09:32.9871094Z ##[debug]
+2026-07-15T20:09:32.9889183Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-07-15T20:09:33.0152315Z http.https://github.com/.extraheader
+2026-07-15T20:09:33.0185188Z ##[debug]0
+2026-07-15T20:09:33.0185669Z ##[debug]http.https://github.com/.extraheader
+2026-07-15T20:09:33.0185968Z ##[debug]
+2026-07-15T20:09:33.0198687Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+2026-07-15T20:09:33.0497403Z ##[debug]0
+2026-07-15T20:09:33.0497796Z ##[debug]
+2026-07-15T20:09:33.0516231Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-07-15T20:09:33.5547740Z ##[debug]0
+2026-07-15T20:09:33.5548130Z ##[debug]
+2026-07-15T20:09:33.5562735Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-07-15T20:09:33.5849375Z ##[debug]1
+2026-07-15T20:09:33.5849984Z ##[debug]
+2026-07-15T20:09:33.5862807Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-07-15T20:09:34.1229421Z ##[debug]0
+2026-07-15T20:09:34.1229828Z ##[debug]
+2026-07-15T20:09:34.1231688Z ##[debug]Unsetting HOME override
+2026-07-15T20:09:34.1361706Z ##[debug]Node Action run completed with exit code 0
+2026-07-15T20:09:34.1364968Z ##[debug]Finishing: Post Checkout Repository

@@ -1,0 +1,30 @@
+﻿2026-07-15T19:51:04.0282102Z ##[debug]Evaluating: secrets.GITHUB_TOKEN
+2026-07-15T19:51:04.0282590Z ##[debug]Evaluating Index:
+2026-07-15T19:51:04.0282850Z ##[debug]..Evaluating secrets:
+2026-07-15T19:51:04.0283160Z ##[debug]..=> Object
+2026-07-15T19:51:04.0283392Z ##[debug]..Evaluating String:
+2026-07-15T19:51:04.0283631Z ##[debug]..=> 'GITHUB_TOKEN'
+2026-07-15T19:51:04.0286365Z ##[debug]=> '***'
+2026-07-15T19:51:04.0288683Z ##[debug]Result: '***'
+2026-07-15T19:51:04.0292824Z ##[debug]Evaluating condition for step: 'Fetch Latest Release Metadata'
+2026-07-15T19:51:04.0294565Z ##[debug]Evaluating: success()
+2026-07-15T19:51:04.0294894Z ##[debug]Evaluating success:
+2026-07-15T19:51:04.0295290Z ##[debug]=> true
+2026-07-15T19:51:04.0295616Z ##[debug]Result: true
+2026-07-15T19:51:04.0296189Z ##[debug]Starting: Fetch Latest Release Metadata
+2026-07-15T19:51:04.0407379Z ##[debug]Loading inputs
+2026-07-15T19:51:04.0408749Z ##[debug]Loading env
+2026-07-15T19:51:04.0413271Z ##[group]Run $headers = @{ Authorization = "***" }
+2026-07-15T19:51:04.0413744Z [36;1m$headers = @{ Authorization = "***" }[0m
+2026-07-15T19:51:04.0414463Z [36;1m$resp = (Invoke-WebRequest -UseBasicParsing -Headers $headers -Uri https://api.github.com/repos/aseprite/aseprite/releases/latest).Content | ConvertFrom-Json[0m
+2026-07-15T19:51:04.0415331Z [36;1m$asset = $resp.assets | Where-Object { $_.name -like "*Source.zip" } | Select-Object -First 1[0m
+2026-07-15T19:51:04.0415848Z [36;1mecho "DOWNLOAD_URL=$($asset.browser_download_url)" >> $env:GITHUB_ENV[0m
+2026-07-15T19:51:04.0416252Z [36;1mecho "ASE_VER=$($resp.tag_name)" >> $env:GITHUB_ENV[0m
+2026-07-15T19:51:04.0476260Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2026-07-15T19:51:04.0476672Z env:
+2026-07-15T19:51:04.0479573Z   GH_TOKEN: ***
+2026-07-15T19:51:04.0479791Z ##[endgroup]
+2026-07-15T19:51:04.0539132Z ##[debug]C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". 'D:\a\_temp\cdf408fb-bd3f-4dd2-9bbd-5598a47179d7.ps1'"
+2026-07-15T19:51:04.8196489Z ##[debug]DOWNLOAD_URL='https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip'
+2026-07-15T19:51:04.8197348Z ##[debug]ASE_VER='v1.3.17.2'
+2026-07-15T19:51:04.8199616Z ##[debug]Finishing: Fetch Latest Release Metadata

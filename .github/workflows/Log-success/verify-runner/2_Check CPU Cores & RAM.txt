@@ -1,0 +1,22 @@
+﻿2026-07-15T19:50:44.8746628Z ##[debug]Evaluating condition for step: 'Check CPU Cores & RAM'
+2026-07-15T19:50:44.8814691Z ##[debug]Evaluating: success()
+2026-07-15T19:50:44.8819282Z ##[debug]Evaluating success:
+2026-07-15T19:50:44.8835361Z ##[debug]=> true
+2026-07-15T19:50:44.8840511Z ##[debug]Result: true
+2026-07-15T19:50:44.8861922Z ##[debug]Starting: Check CPU Cores & RAM
+2026-07-15T19:50:44.9593335Z ##[debug]Loading inputs
+2026-07-15T19:50:44.9605949Z ##[debug]Loading env
+2026-07-15T19:50:44.9655187Z ##[group]Run $cores = (Get-CimInstance -ClassName Win32_Processor).NumberOfCores
+2026-07-15T19:50:44.9656140Z [36;1m$cores = (Get-CimInstance -ClassName Win32_Processor).NumberOfCores[0m
+2026-07-15T19:50:44.9657092Z [36;1m$logicalProcessors = (Get-CimInstance -ClassName Win32_Processor).NumberOfLogicalProcessors[0m
+2026-07-15T19:50:44.9658145Z [36;1m$ramGB = [math]::Round((Get-CimInstance -ClassName Win32_ComputerSystem).TotalPhysicalMemory / 1GB, 1)[0m
+2026-07-15T19:50:44.9658971Z [36;1mecho "Physical Cores : $cores"[0m
+2026-07-15T19:50:44.9659610Z [36;1mecho "Logical Processors: $logicalProcessors"[0m
+2026-07-15T19:50:44.9660201Z [36;1mecho "Total RAM       : ${ramGB} GB"[0m
+2026-07-15T19:50:45.0238877Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2026-07-15T19:50:45.0241948Z ##[endgroup]
+2026-07-15T19:50:45.0349490Z ##[debug]C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". 'D:\a\_temp\290dd221-9717-46f5-8c12-3b3a5ce948ab.ps1'"
+2026-07-15T19:50:47.4571620Z Physical Cores : 2
+2026-07-15T19:50:47.4572580Z Logical Processors: 4
+2026-07-15T19:50:47.4572906Z Total RAM       : 16 GB
+2026-07-15T19:50:47.5201763Z ##[debug]Finishing: Check CPU Cores & RAM

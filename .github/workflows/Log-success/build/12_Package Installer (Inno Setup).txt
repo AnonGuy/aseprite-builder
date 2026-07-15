@@ -1,0 +1,419 @@
+﻿2026-07-15T20:09:17.8701145Z ##[debug]Evaluating condition for step: 'Package Installer (Inno Setup)'
+2026-07-15T20:09:17.8704517Z ##[debug]Evaluating: success()
+2026-07-15T20:09:17.8704898Z ##[debug]Evaluating success:
+2026-07-15T20:09:17.8705328Z ##[debug]=> true
+2026-07-15T20:09:17.8705706Z ##[debug]Result: true
+2026-07-15T20:09:17.8706342Z ##[debug]Starting: Package Installer (Inno Setup)
+2026-07-15T20:09:17.8815768Z ##[debug]Loading inputs
+2026-07-15T20:09:17.8823584Z ##[debug]Evaluating: format('$binPath = Join-Path $env:GITHUB_WORKSPACE "build\bin"
+2026-07-15T20:09:17.8824030Z ##[debug]$iss = @"
+2026-07-15T20:09:17.8824225Z ##[debug][Setup]
+2026-07-15T20:09:17.8824426Z ##[debug]AppName=Aseprite
+2026-07-15T20:09:17.8824644Z ##[debug]AppVersion={0}
+2026-07-15T20:09:17.8824871Z ##[debug]DefaultDirName={{autopf}}\Aseprite
+2026-07-15T20:09:17.8825151Z ##[debug]DefaultGroupName=Aseprite
+2026-07-15T20:09:17.8825425Z ##[debug]OutputBaseFilename=aseprite-setup
+2026-07-15T20:09:17.8825694Z ##[debug]OutputDir=installer
+2026-07-15T20:09:17.8825953Z ##[debug]Compression=lzma
+2026-07-15T20:09:17.8826174Z ##[debug]SolidCompression=yes
+2026-07-15T20:09:17.8826389Z ##[debug][Files]
+2026-07-15T20:09:17.8826754Z ##[debug]Source: "$binPath\*"; DestDir: "{{app}}"; Flags: ignoreversion recursesubdirs createallsubdirs
+2026-07-15T20:09:17.8827159Z ##[debug][Icons]
+2026-07-15T20:09:17.8827412Z ##[debug]Name: "{{group}}\Aseprite"; Filename: "{{app}}\aseprite.exe"
+2026-07-15T20:09:17.8827738Z ##[debug]"@
+2026-07-15T20:09:17.8827928Z ##[debug]mkdir installer -Force
+2026-07-15T20:09:17.8828241Z ##[debug]$iss | Out-File -FilePath "aseprite.iss" -Encoding utf8
+2026-07-15T20:09:17.8828642Z ##[debug]& "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" aseprite.iss
+2026-07-15T20:09:17.8828968Z ##[debug]', env.ASE_VER)
+2026-07-15T20:09:17.8829208Z ##[debug]Evaluating format:
+2026-07-15T20:09:17.8833645Z ##[debug]..Evaluating String:
+2026-07-15T20:09:17.8834100Z ##[debug]..=> '$binPath = Join-Path $env:GITHUB_WORKSPACE "build\bin"
+2026-07-15T20:09:17.8834458Z ##[debug]$iss = @"
+2026-07-15T20:09:17.8834645Z ##[debug][Setup]
+2026-07-15T20:09:17.8834836Z ##[debug]AppName=Aseprite
+2026-07-15T20:09:17.8835054Z ##[debug]AppVersion={0}
+2026-07-15T20:09:17.8835279Z ##[debug]DefaultDirName={{autopf}}\Aseprite
+2026-07-15T20:09:17.8835556Z ##[debug]DefaultGroupName=Aseprite
+2026-07-15T20:09:17.8835818Z ##[debug]OutputBaseFilename=aseprite-setup
+2026-07-15T20:09:17.8836078Z ##[debug]OutputDir=installer
+2026-07-15T20:09:17.8836295Z ##[debug]Compression=lzma
+2026-07-15T20:09:17.8836508Z ##[debug]SolidCompression=yes
+2026-07-15T20:09:17.8836988Z ##[debug][Files]
+2026-07-15T20:09:17.8837355Z ##[debug]Source: "$binPath\*"; DestDir: "{{app}}"; Flags: ignoreversion recursesubdirs createallsubdirs
+2026-07-15T20:09:17.8837764Z ##[debug][Icons]
+2026-07-15T20:09:17.8838027Z ##[debug]Name: "{{group}}\Aseprite"; Filename: "{{app}}\aseprite.exe"
+2026-07-15T20:09:17.8838333Z ##[debug]"@
+2026-07-15T20:09:17.8852994Z ##[debug]mkdir installer -Force
+2026-07-15T20:09:17.8853381Z ##[debug]$iss | Out-File -FilePath "aseprite.iss" -Encoding utf8
+2026-07-15T20:09:17.8853800Z ##[debug]& "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" aseprite.iss
+2026-07-15T20:09:17.8854121Z ##[debug]'
+2026-07-15T20:09:17.8867931Z ##[debug]..Evaluating Index:
+2026-07-15T20:09:17.8868208Z ##[debug]....Evaluating env:
+2026-07-15T20:09:17.8868575Z ##[debug]....=> Object
+2026-07-15T20:09:17.8868823Z ##[debug]....Evaluating String:
+2026-07-15T20:09:17.8869064Z ##[debug]....=> 'ASE_VER'
+2026-07-15T20:09:17.8869354Z ##[debug]..=> 'v1.3.17.2'
+2026-07-15T20:09:17.8870256Z ##[debug]=> '$binPath = Join-Path $env:GITHUB_WORKSPACE "build\bin"
+2026-07-15T20:09:17.8870592Z ##[debug]$iss = @"
+2026-07-15T20:09:17.8870784Z ##[debug][Setup]
+2026-07-15T20:09:17.8870971Z ##[debug]AppName=Aseprite
+2026-07-15T20:09:17.8871188Z ##[debug]AppVersion=v1.3.17.2
+2026-07-15T20:09:17.8871760Z ##[debug]DefaultDirName={autopf}\Aseprite
+2026-07-15T20:09:17.8872093Z ##[debug]DefaultGroupName=Aseprite
+2026-07-15T20:09:17.8874387Z ##[debug]OutputBaseFilename=aseprite-setup
+2026-07-15T20:09:17.8874663Z ##[debug]OutputDir=installer
+2026-07-15T20:09:17.8874894Z ##[debug]Compression=lzma
+2026-07-15T20:09:17.8875114Z ##[debug]SolidCompression=yes
+2026-07-15T20:09:17.8875356Z ##[debug][Files]
+2026-07-15T20:09:17.8875736Z ##[debug]Source: "$binPath\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+2026-07-15T20:09:17.8876155Z ##[debug][Icons]
+2026-07-15T20:09:17.8876411Z ##[debug]Name: "{group}\Aseprite"; Filename: "{app}\aseprite.exe"
+2026-07-15T20:09:17.8876721Z ##[debug]"@
+2026-07-15T20:09:17.8876911Z ##[debug]mkdir installer -Force
+2026-07-15T20:09:17.8877208Z ##[debug]$iss | Out-File -FilePath "aseprite.iss" -Encoding utf8
+2026-07-15T20:09:17.8877595Z ##[debug]& "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" aseprite.iss
+2026-07-15T20:09:17.8877906Z ##[debug]'
+2026-07-15T20:09:17.8878247Z ##[debug]Result: '$binPath = Join-Path $env:GITHUB_WORKSPACE "build\bin"
+2026-07-15T20:09:17.8878585Z ##[debug]$iss = @"
+2026-07-15T20:09:17.8878767Z ##[debug][Setup]
+2026-07-15T20:09:17.8878957Z ##[debug]AppName=Aseprite
+2026-07-15T20:09:17.8879178Z ##[debug]AppVersion=v1.3.17.2
+2026-07-15T20:09:17.8879431Z ##[debug]DefaultDirName={autopf}\Aseprite
+2026-07-15T20:09:17.8879697Z ##[debug]DefaultGroupName=Aseprite
+2026-07-15T20:09:17.8879958Z ##[debug]OutputBaseFilename=aseprite-setup
+2026-07-15T20:09:17.8880216Z ##[debug]OutputDir=installer
+2026-07-15T20:09:17.8880432Z ##[debug]Compression=lzma
+2026-07-15T20:09:17.8880655Z ##[debug]SolidCompression=yes
+2026-07-15T20:09:17.8880867Z ##[debug][Files]
+2026-07-15T20:09:17.8881215Z ##[debug]Source: "$binPath\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+2026-07-15T20:09:17.8881617Z ##[debug][Icons]
+2026-07-15T20:09:17.8881866Z ##[debug]Name: "{group}\Aseprite"; Filename: "{app}\aseprite.exe"
+2026-07-15T20:09:17.8882164Z ##[debug]"@
+2026-07-15T20:09:17.8882344Z ##[debug]mkdir installer -Force
+2026-07-15T20:09:17.8882638Z ##[debug]$iss | Out-File -FilePath "aseprite.iss" -Encoding utf8
+2026-07-15T20:09:17.8883014Z ##[debug]& "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" aseprite.iss
+2026-07-15T20:09:17.8883323Z ##[debug]'
+2026-07-15T20:09:17.8883732Z ##[debug]Loading env
+2026-07-15T20:09:17.8887700Z ##[group]Run $binPath = Join-Path $env:GITHUB_WORKSPACE "build\bin"
+2026-07-15T20:09:17.8888129Z [36;1m$binPath = Join-Path $env:GITHUB_WORKSPACE "build\bin"[0m
+2026-07-15T20:09:17.8888440Z [36;1m$iss = @"[0m
+2026-07-15T20:09:17.8888629Z [36;1m[Setup][0m
+2026-07-15T20:09:17.8888983Z [36;1mAppName=Aseprite[0m
+2026-07-15T20:09:17.8889204Z [36;1mAppVersion=v1.3.17.2[0m
+2026-07-15T20:09:17.8889446Z [36;1mDefaultDirName={autopf}\Aseprite[0m
+2026-07-15T20:09:17.8889717Z [36;1mDefaultGroupName=Aseprite[0m
+2026-07-15T20:09:17.8889984Z [36;1mOutputBaseFilename=aseprite-setup[0m
+2026-07-15T20:09:17.8890248Z [36;1mOutputDir=installer[0m
+2026-07-15T20:09:17.8890466Z [36;1mCompression=lzma[0m
+2026-07-15T20:09:17.8890685Z [36;1mSolidCompression=yes[0m
+2026-07-15T20:09:17.8890892Z [36;1m[Files][0m
+2026-07-15T20:09:17.8891255Z [36;1mSource: "$binPath\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs[0m
+2026-07-15T20:09:17.8892019Z [36;1m[Icons][0m
+2026-07-15T20:09:17.8892318Z [36;1mName: "{group}\Aseprite"; Filename: "{app}\aseprite.exe"[0m
+2026-07-15T20:09:17.8892626Z [36;1m"@[0m
+2026-07-15T20:09:17.8892815Z [36;1mmkdir installer -Force[0m
+2026-07-15T20:09:17.8893114Z [36;1m$iss | Out-File -FilePath "aseprite.iss" -Encoding utf8[0m
+2026-07-15T20:09:17.8893573Z [36;1m& "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" aseprite.iss[0m
+2026-07-15T20:09:17.8948875Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2026-07-15T20:09:17.8949299Z env:
+2026-07-15T20:09:17.8949737Z   DOWNLOAD_URL: https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip
+2026-07-15T20:09:17.8950614Z   ASE_VER: v1.3.17.2
+2026-07-15T20:09:17.8951460Z   CommandPromptType: Native
+2026-07-15T20:09:17.8951807Z   DevEnvDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\
+2026-07-15T20:09:17.8952312Z   ExtensionSdkDir: C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+2026-07-15T20:09:17.8954539Z   EXTERNAL_INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T20:09:17.8956633Z   Framework40Version: v4.0
+2026-07-15T20:09:17.8956902Z   FrameworkDir: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T20:09:17.8957251Z   FrameworkDir64: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T20:09:17.8957631Z   FrameworkVersion: v4.0.30319
+2026-07-15T20:09:17.8957865Z   FrameworkVersion64: v4.0.30319
+2026-07-15T20:09:17.8958369Z   FSHARPINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools
+2026-07-15T20:09:17.8958937Z   HTMLHelpDir: C:\Program Files (x86)\HTML Help Workshop
+2026-07-15T20:09:17.8960985Z   INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T20:09:17.8963934Z   LIB: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\lib\um\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.26100.0\\um\x64
+2026-07-15T20:09:17.8966462Z   LIBPATH: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+2026-07-15T20:09:17.8968104Z   llvmArm64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\ARM64\bin
+2026-07-15T20:09:17.8968632Z   llvmX64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin
+2026-07-15T20:09:17.8969090Z   NETFXSDKDir: C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\
+2026-07-15T20:09:17.8982917Z   Path: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Team Tools\DiagnosticsHub\Collector;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\;C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T20:09:17.8997043Z   Platform: x64
+2026-07-15T20:09:17.8997240Z   UCRTVersion: 10.0.26100.0
+2026-07-15T20:09:17.8997529Z   UniversalCRTSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T20:09:17.8997945Z   use_x64_llvm: true
+2026-07-15T20:09:17.8998290Z   VCIDEInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\
+2026-07-15T20:09:17.8998789Z   VCINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\
+2026-07-15T20:09:17.8999246Z   VCPKG_ROOT: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T20:09:17.8999788Z   VCToolsInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\
+2026-07-15T20:09:17.9000401Z   VCToolsRedistDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Redist\MSVC\14.51.36231\
+2026-07-15T20:09:17.9000830Z   VCToolsVersion: 14.51.36231
+2026-07-15T20:09:17.9001052Z   VisualStudioVersion: 18.0
+2026-07-15T20:09:17.9001403Z   VS180COMNTOOLS: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\
+2026-07-15T20:09:17.9001791Z   VSCMD_ARG_app_plat: Desktop
+2026-07-15T20:09:17.9002001Z   VSCMD_ARG_HOST_ARCH: x64
+2026-07-15T20:09:17.9002209Z   VSCMD_ARG_TGT_ARCH: x64
+2026-07-15T20:09:17.9002400Z   VSCMD_VER: 18.7.3
+2026-07-15T20:09:17.9002677Z   VSINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\
+2026-07-15T20:09:17.9003133Z   VSSDK150INSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T20:09:17.9003596Z   VSSDKINSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T20:09:17.9004251Z   WindowsLibPath: C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0
+2026-07-15T20:09:17.9004870Z   WindowsSdkBinPath: C:\Program Files (x86)\Windows Kits\10\bin\
+2026-07-15T20:09:17.9005228Z   WindowsSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T20:09:17.9005520Z   WindowsSDKLibVersion: 10.0.26100.0\
+2026-07-15T20:09:17.9005869Z   WindowsSdkVerBinPath: C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\
+2026-07-15T20:09:17.9006233Z   WindowsSDKVersion: 10.0.26100.0\
+2026-07-15T20:09:17.9006673Z   WindowsSDK_ExecutablePath_x64: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\
+2026-07-15T20:09:17.9007313Z   WindowsSDK_ExecutablePath_x86: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\
+2026-07-15T20:09:17.9007745Z   __DOTNET_ADD_64BIT: 1
+2026-07-15T20:09:17.9007945Z   __DOTNET_PREFERRED_BITNESS: 64
+2026-07-15T20:09:17.9016428Z   __VSCMD_PREINIT_PATH: C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files (x86)\sbt\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer
+2026-07-15T20:09:17.9025377Z ##[endgroup]
+2026-07-15T20:09:17.9075854Z ##[debug]C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". 'D:\a\_temp\8fef6324-38ed-45b0-acc5-2733e0ca6d80.ps1'"
+2026-07-15T20:09:18.2071815Z 
+2026-07-15T20:09:18.2072629Z 
+2026-07-15T20:09:18.2076004Z     Directory: D:\a\aseprite-builder\aseprite-builder
+2026-07-15T20:09:18.2076442Z 
+2026-07-15T20:09:18.2076450Z 
+2026-07-15T20:09:18.2087634Z Mode                 LastWriteTime         Length Name                                                                 
+2026-07-15T20:09:18.2091606Z ----                 -------------         ------ ----                                                                 
+2026-07-15T20:09:18.2101344Z d-----         7/15/2026   8:09 PM                installer                                                            
+2026-07-15T20:09:18.9688210Z Inno Setup 6 Command-Line Compiler
+2026-07-15T20:09:18.9688805Z Copyright (C) 1997-2026 Jordan Russell. All rights reserved.
+2026-07-15T20:09:18.9689464Z Portions Copyright (C) 2000-2026 Martijn Laan. All rights reserved.
+2026-07-15T20:09:18.9690278Z Portions Copyright (C) 2001-2004 Alex Yackimoff. All rights reserved.
+2026-07-15T20:09:18.9690760Z https://www.innosetup.com
+2026-07-15T20:09:18.9690955Z 
+2026-07-15T20:09:19.6718961Z Compiler engine version: Inno Setup 6.7.1
+2026-07-15T20:09:19.6719351Z Non-commercial use only
+2026-07-15T20:09:19.6719491Z 
+2026-07-15T20:09:20.2341074Z Preprocessing
+2026-07-15T20:09:20.2343630Z    Reading file: C:\Program Files (x86)\Inno Setup 6\ISPPBuiltins.iss
+2026-07-15T20:09:20.2596521Z Parsing [Setup] section, line 2
+2026-07-15T20:09:20.2596920Z Parsing [Setup] section, line 3
+2026-07-15T20:09:20.2597148Z Parsing [Setup] section, line 4
+2026-07-15T20:09:20.2597448Z Parsing [Setup] section, line 5
+2026-07-15T20:09:20.2597762Z Parsing [Setup] section, line 6
+2026-07-15T20:09:20.2598087Z Parsing [Setup] section, line 7
+2026-07-15T20:09:20.2598423Z Parsing [Setup] section, line 8
+2026-07-15T20:09:20.2598669Z Parsing [Setup] section, line 9
+2026-07-15T20:09:20.2598891Z Reading file (WizardImageFile)
+2026-07-15T20:09:20.2599128Z Reading file (WizardSmallImageFile)
+2026-07-15T20:09:20.2599383Z Preparing Setup program executable
+2026-07-15T20:09:22.3853768Z    Verification successful
+2026-07-15T20:09:22.3924290Z    Updating icons (Setup.e32)
+2026-07-15T20:09:22.4026306Z    Updating version info (Setup.e32)
+2026-07-15T20:09:22.4042038Z Determining language code pages
+2026-07-15T20:09:22.4042500Z    Reading file: C:\Program Files (x86)\Inno Setup 6\Default.isl
+2026-07-15T20:09:22.4617872Z    Messages in script file
+2026-07-15T20:09:22.4618331Z Reading default messages from Default.isl
+2026-07-15T20:09:22.4623666Z Parsing [LangOptions], [Messages], and [CustomMessages] sections
+2026-07-15T20:09:22.4624173Z    Reading file: C:\Program Files (x86)\Inno Setup 6\Default.isl
+2026-07-15T20:09:22.4627103Z    Messages in script file
+2026-07-15T20:09:22.4628264Z Reading [Code] section
+2026-07-15T20:09:22.4628558Z Parsing [Icons] section, line 13
+2026-07-15T20:09:22.4628884Z Parsing [Files] section, line 11
+2026-07-15T20:09:22.4658601Z Creating setup files
+2026-07-15T20:09:22.8851752Z    Verification successful
+2026-07-15T20:09:22.8860645Z    Updating icons (Setup.exe)
+2026-07-15T20:09:22.8890474Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\aseprite.exe
+2026-07-15T20:09:23.0678429Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\gen.exe
+2026-07-15T20:09:23.0747618Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\icudtl.dat
+2026-07-15T20:09:26.4759952Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\libcrypto-3-x64.dll
+2026-07-15T20:09:27.3403074Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\libssl-3-x64.dll
+2026-07-15T20:09:27.3559039Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\AUTHORS.md
+2026-07-15T20:09:27.3560694Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\convmatr.def
+2026-07-15T20:09:27.3563713Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\EULA.txt
+2026-07-15T20:09:27.3564702Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\gui.xml
+2026-07-15T20:09:27.3572983Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\pref.xml
+2026-07-15T20:09:27.3577261Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\README.md
+2026-07-15T20:09:27.3578350Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\docs\LICENSES.md
+2026-07-15T20:09:27.3585969Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\adigunpolack-palettes\aap-64.gpl
+2026-07-15T20:09:27.3587519Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\adigunpolack-palettes\aap-micro12.gpl
+2026-07-15T20:09:27.3589161Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\adigunpolack-palettes\aap-radiantxv.gpl
+2026-07-15T20:09:27.3590491Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\adigunpolack-palettes\aap-splendor128.gpl
+2026-07-15T20:09:27.3591812Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\adigunpolack-palettes\package.json
+2026-07-15T20:09:27.3593288Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\adigunpolack-palettes\simplejpc-16.gpl
+2026-07-15T20:09:27.3594697Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\a64.gpl
+2026-07-15T20:09:27.3597519Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\arne16.gpl
+2026-07-15T20:09:27.3598827Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\arne32.gpl
+2026-07-15T20:09:27.3600234Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\cg-arne.gpl
+2026-07-15T20:09:27.3601625Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\copper-tech.gpl
+2026-07-15T20:09:27.3602992Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\cpc-boy.gpl
+2026-07-15T20:09:27.3604778Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\eroge-copper.gpl
+2026-07-15T20:09:27.3606214Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\jmp.gpl
+2026-07-15T20:09:27.3607576Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\package.json
+2026-07-15T20:09:27.3608957Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\arne-palettes\psygnosia.gpl
+2026-07-15T20:09:27.3610223Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\aseprite-theme\LICENSE.txt
+2026-07-15T20:09:27.3611604Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\aseprite-theme\package.json
+2026-07-15T20:09:27.3613191Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\aseprite-theme\sheet.aseprite-data
+2026-07-15T20:09:27.3614645Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\aseprite-theme\sheet.png
+2026-07-15T20:09:27.3615979Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\aseprite-theme\theme.xml
+2026-07-15T20:09:27.3617430Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\aseprite-theme\dark\sheet.aseprite-data
+2026-07-15T20:09:27.3618903Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\aseprite-theme\dark\sheet.png
+2026-07-15T20:09:27.3620158Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\aseprite-theme\dark\theme.xml
+2026-07-15T20:09:27.3624366Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\bayer-matrices\bayer2x2.bmp
+2026-07-15T20:09:27.3625798Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\bayer-matrices\bayer4x4.bmp
+2026-07-15T20:09:27.3627013Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\bayer-matrices\bayer8x8.bmp
+2026-07-15T20:09:27.3628166Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\bayer-matrices\package.json
+2026-07-15T20:09:27.3630027Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\davitmasia-palettes\matriax8c.gpl
+2026-07-15T20:09:27.3631673Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\davitmasia-palettes\package.json
+2026-07-15T20:09:27.3632874Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\dawnbringer-palettes\db16.gpl
+2026-07-15T20:09:27.3634041Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\dawnbringer-palettes\db32.gpl
+2026-07-15T20:09:27.3635258Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\dawnbringer-palettes\package.json
+2026-07-15T20:09:27.3636495Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\endesga-palettes\arq16.gpl
+2026-07-15T20:09:27.3637616Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\endesga-palettes\arq4.gpl
+2026-07-15T20:09:27.3638779Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\endesga-palettes\edg16.gpl
+2026-07-15T20:09:27.3640336Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\endesga-palettes\edg32.gpl
+2026-07-15T20:09:27.3642020Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\endesga-palettes\edg8.gpl
+2026-07-15T20:09:27.3643358Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\endesga-palettes\en4.gpl
+2026-07-15T20:09:27.3644663Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\endesga-palettes\enos16.gpl
+2026-07-15T20:09:27.3646076Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\endesga-palettes\hept32.gpl
+2026-07-15T20:09:27.3647486Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\endesga-palettes\package.json
+2026-07-15T20:09:27.3648821Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\apple-ii.gpl
+2026-07-15T20:09:27.3650199Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\atari2600-ntsc.gpl
+2026-07-15T20:09:27.3651594Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\atari2600-pal.gpl
+2026-07-15T20:09:27.3652958Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\cga.gpl
+2026-07-15T20:09:27.3654254Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\cga0.gpl
+2026-07-15T20:09:27.3655762Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\cga0hi.gpl
+2026-07-15T20:09:27.3656987Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\cga1.gpl
+2026-07-15T20:09:27.3658165Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\cga1hi.gpl
+2026-07-15T20:09:27.3659318Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\cga3rd.gpl
+2026-07-15T20:09:27.3660535Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\cga3rdhi.gpl
+2026-07-15T20:09:27.3662059Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\commodore-plus4.gpl
+2026-07-15T20:09:27.3663337Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\commodore-vic20.gpl
+2026-07-15T20:09:27.3664592Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\commodore64.gpl
+2026-07-15T20:09:27.3665875Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\cpc.gpl
+2026-07-15T20:09:27.3667193Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\gameboy-color-type1.gpl
+2026-07-15T20:09:27.3668525Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\gameboy.gpl
+2026-07-15T20:09:27.3669836Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\master-system.gpl
+2026-07-15T20:09:27.3671111Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\msx1.gpl
+2026-07-15T20:09:27.3672332Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\msx2.gpl
+2026-07-15T20:09:27.3673928Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\nes-ntsc.gpl
+2026-07-15T20:09:27.3675557Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\nes.gpl
+2026-07-15T20:09:27.3677053Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\package.json
+2026-07-15T20:09:27.3678754Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\teletext.gpl
+2026-07-15T20:09:27.3680282Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\vga-13h.gpl
+2026-07-15T20:09:27.3681843Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\virtualboy.gpl
+2026-07-15T20:09:27.3683150Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hardware-palettes\zx-spectrum.gpl
+2026-07-15T20:09:27.3684434Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hyohnoo-palettes\mail24.gpl
+2026-07-15T20:09:27.3685676Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\hyohnoo-palettes\package.json
+2026-07-15T20:09:27.3686993Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\javierguerrero-palettes\nyx8.gpl
+2026-07-15T20:09:27.3688561Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\javierguerrero-palettes\package.json
+2026-07-15T20:09:27.3690101Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\pico8-palette\package.json
+2026-07-15T20:09:27.3691702Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\pico8-palette\pico-8.gpl
+2026-07-15T20:09:27.3693022Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\pinetreepizza-palettes\bubblegum-16.gpl
+2026-07-15T20:09:27.3694403Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\pinetreepizza-palettes\package.json
+2026-07-15T20:09:27.3696616Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\pinetreepizza-palettes\rosy-42.gpl
+2026-07-15T20:09:27.3697918Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\software-palettes\google-ui.gpl
+2026-07-15T20:09:27.3699185Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\software-palettes\minecraft.gpl
+2026-07-15T20:09:27.3700398Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\software-palettes\monokai.gpl
+2026-07-15T20:09:27.3701561Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\software-palettes\package.json
+2026-07-15T20:09:27.3703030Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\software-palettes\smile-basic.gpl
+2026-07-15T20:09:27.3704223Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\software-palettes\solarized.gpl
+2026-07-15T20:09:27.3705494Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\software-palettes\web-safe-colors.gpl
+2026-07-15T20:09:27.3706826Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\software-palettes\win16.gpl
+2026-07-15T20:09:27.3707954Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\software-palettes\x11.gpl
+2026-07-15T20:09:27.3709200Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\zughy-palettes\package.json
+2026-07-15T20:09:27.3710692Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\extensions\zughy-palettes\zughy-32.gpl
+2026-07-15T20:09:27.3711937Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\fonts\aseprite_font.png
+2026-07-15T20:09:27.3712990Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\fonts\aseprite_mini.png
+2026-07-15T20:09:27.3713992Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\fonts\fonts.xml
+2026-07-15T20:09:27.3714937Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\fonts\LICENSE.txt
+2026-07-15T20:09:27.3715873Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase.ico
+2026-07-15T20:09:27.3716794Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase128.png
+2026-07-15T20:09:27.3717726Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase16.png
+2026-07-15T20:09:27.3718831Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase20.png
+2026-07-15T20:09:27.3719744Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase24.png
+2026-07-15T20:09:27.3720660Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase256.png
+2026-07-15T20:09:27.3721567Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase28.png
+2026-07-15T20:09:27.3722842Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase32.png
+2026-07-15T20:09:27.3723894Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase48.png
+2026-07-15T20:09:27.3725074Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ase64.png
+2026-07-15T20:09:27.3726268Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\doc.ico
+2026-07-15T20:09:27.3727343Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\doc128.png
+2026-07-15T20:09:27.3728547Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\doc16.png
+2026-07-15T20:09:27.3729661Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\doc256.png
+2026-07-15T20:09:27.3730872Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\doc32.png
+2026-07-15T20:09:27.3731911Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\doc48.png
+2026-07-15T20:09:27.3733329Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\doc64.png
+2026-07-15T20:09:27.3734371Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ext.ico
+2026-07-15T20:09:27.3735563Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ext128.png
+2026-07-15T20:09:27.3736622Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ext16.png
+2026-07-15T20:09:27.3737539Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ext256.png
+2026-07-15T20:09:27.3738419Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ext32.png
+2026-07-15T20:09:27.3739255Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ext48.png
+2026-07-15T20:09:27.3740120Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\ext64.png
+2026-07-15T20:09:27.3741033Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\hd\asehd-blush.png
+2026-07-15T20:09:27.3742272Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\icons\hd\asehd.png
+2026-07-15T20:09:27.3743201Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\palettes\tags.gpl
+2026-07-15T20:09:27.3744102Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\strings\en.ini
+2026-07-15T20:09:27.3744980Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\strings\README.md
+2026-07-15T20:09:27.3745918Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\about.xml
+2026-07-15T20:09:27.3746879Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\advanced_mode.xml
+2026-07-15T20:09:27.3748445Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\aseprite_update.xml
+2026-07-15T20:09:27.3749827Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\ask_for_color_profile.xml
+2026-07-15T20:09:27.3751111Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\brush_slot_params.xml
+2026-07-15T20:09:27.3752319Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\canvas_size.xml
+2026-07-15T20:09:27.3753390Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\cel_properties.xml
+2026-07-15T20:09:27.3754484Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\color_curve_point.xml
+2026-07-15T20:09:27.3755728Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\color_mode.xml
+2026-07-15T20:09:27.3756720Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\convolution_matrix.xml
+2026-07-15T20:09:27.3757689Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\css_options.xml
+2026-07-15T20:09:27.3758295Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\debugger.xml
+2026-07-15T20:09:27.3758849Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\despeckle.xml
+2026-07-15T20:09:27.3759416Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\duplicate_sprite.xml
+2026-07-15T20:09:27.3759979Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\dynamics.xml
+2026-07-15T20:09:27.3760537Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\enter_license.xml
+2026-07-15T20:09:27.3761114Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\export_file.xml
+2026-07-15T20:09:27.3761704Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\export_sprite_sheet.xml
+2026-07-15T20:09:27.3762690Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\file_selector.xml
+2026-07-15T20:09:27.3763253Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\font_popup.xml
+2026-07-15T20:09:27.3763930Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\font_style.xml
+2026-07-15T20:09:27.3764509Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\frame_properties.xml
+2026-07-15T20:09:27.3765115Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\gif_options.xml
+2026-07-15T20:09:27.3765668Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\goto_frame.xml
+2026-07-15T20:09:27.3766236Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\grid_settings.xml
+2026-07-15T20:09:27.3766816Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\home_view.xml
+2026-07-15T20:09:27.3767403Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\import_sprite_sheet.xml
+2026-07-15T20:09:27.3767996Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\incompat_file.xml
+2026-07-15T20:09:27.3768571Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\jpeg_options.xml
+2026-07-15T20:09:27.3769157Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\keyboard_shortcuts.xml
+2026-07-15T20:09:27.3769751Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\layer_properties.xml
+2026-07-15T20:09:27.3770342Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\modify_selection.xml
+2026-07-15T20:09:27.3770926Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\new_folder_window.xml
+2026-07-15T20:09:27.3771494Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\new_layer.xml
+2026-07-15T20:09:27.3772027Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\new_layout.xml
+2026-07-15T20:09:27.3772563Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\new_sprite.xml
+2026-07-15T20:09:27.3773114Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\open_sequence.xml
+2026-07-15T20:09:27.3773661Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\options.xml
+2026-07-15T20:09:28.1982448Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\outline.xml
+2026-07-15T20:09:28.1983461Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\palette_from_sprite.xml
+2026-07-15T20:09:28.1984828Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\palette_popup.xml
+2026-07-15T20:09:28.1986393Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\palette_size.xml
+2026-07-15T20:09:28.1987325Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\paste_text.xml
+2026-07-15T20:09:28.1988442Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\replace_color.xml
+2026-07-15T20:09:28.1989373Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\run_command.xml
+2026-07-15T20:09:28.1990302Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\script_access.xml
+2026-07-15T20:09:28.1991441Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\select_shortcut.xml
+2026-07-15T20:09:28.1992454Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\send_crash.xml
+2026-07-15T20:09:28.1993487Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\slice_properties.xml
+2026-07-15T20:09:28.1994544Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\sprite_properties.xml
+2026-07-15T20:09:28.1995568Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\sprite_size.xml
+2026-07-15T20:09:28.1997265Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\svg_options.xml
+2026-07-15T20:09:28.1998598Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\tag_properties.xml
+2026-07-15T20:09:28.2000062Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\tga_options.xml
+2026-07-15T20:09:28.2001280Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\tileset_selector.xml
+2026-07-15T20:09:28.2002514Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\tileset_selector_window.xml
+2026-07-15T20:09:28.2003713Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\timeline_conf.xml
+2026-07-15T20:09:28.2004880Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\undo_history.xml
+2026-07-15T20:09:28.2005989Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\user_data.xml
+2026-07-15T20:09:28.2006980Z    Compressing: D:\a\aseprite-builder\aseprite-builder\build\bin\data\widgets\webp_options.xml
+2026-07-15T20:09:28.3986296Z    Compressing Setup program executable
+2026-07-15T20:09:28.9876078Z    Updating version info (Setup.exe)
+2026-07-15T20:09:28.9876464Z    Updating manifest (Setup.exe)
+2026-07-15T20:09:28.9877453Z 
+2026-07-15T20:09:28.9880288Z 
+2026-07-15T20:09:28.9880743Z Successful compile (9.313 sec). Resulting Setup program filename is:
+2026-07-15T20:09:28.9881290Z D:\a\aseprite-builder\aseprite-builder\installer\aseprite-setup.exe
+2026-07-15T20:09:29.0244341Z 
+2026-07-15T20:09:29.0244451Z 
+2026-07-15T20:09:29.0417690Z ##[debug]Finishing: Package Installer (Inno Setup)

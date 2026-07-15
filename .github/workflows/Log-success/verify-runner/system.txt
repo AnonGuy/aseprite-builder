@@ -1,0 +1,8 @@
+2026-07-15T19:50:41.8310000Z Requested labels: windows-latest
+2026-07-15T19:50:41.8310000Z Job defined at: AnonGuy/aseprite-builder/.github/workflows/build.yml@refs/heads/main
+2026-07-15T19:50:41.8310000Z Waiting for a runner to pick up this job...
+2026-07-15T19:50:41.8260000Z Evaluating verify-runner.if
+2026-07-15T19:50:41.8260000Z Evaluating: success()
+2026-07-15T19:50:41.8260000Z Result: true
+2026-07-15T19:50:41.8400000Z Job is about to start running on the hosted runner: GitHub Actions 1000000014
+2026-07-15T19:50:41.8440000Z Job is waiting for a hosted runner to come online.

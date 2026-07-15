@@ -1,0 +1,139 @@
+﻿2026-07-15T20:09:31.1286728Z ##[debug]Evaluating condition for step: 'Upload Artifact'
+2026-07-15T20:09:31.1288837Z ##[debug]Evaluating: success()
+2026-07-15T20:09:31.1289208Z ##[debug]Evaluating success:
+2026-07-15T20:09:31.1289702Z ##[debug]=> true
+2026-07-15T20:09:31.1290079Z ##[debug]Result: true
+2026-07-15T20:09:31.1291414Z ##[debug]Starting: Upload Artifact
+2026-07-15T20:09:31.1417064Z ##[debug]Loading inputs
+2026-07-15T20:09:31.1421275Z ##[debug]Loading env
+2026-07-15T20:09:31.1426856Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-07-15T20:09:31.1428017Z ##[group]Run actions/upload-artifact@v4
+2026-07-15T20:09:31.1428272Z with:
+2026-07-15T20:09:31.1428454Z   name: Aseprite-Installer
+2026-07-15T20:09:31.1428670Z   path: installer/*.exe
+2026-07-15T20:09:31.1428907Z   if-no-files-found: warn
+2026-07-15T20:09:31.1429113Z   compression-level: 6
+2026-07-15T20:09:31.1429305Z   overwrite: false
+2026-07-15T20:09:31.1429498Z   include-hidden-files: false
+2026-07-15T20:09:31.1429705Z env:
+2026-07-15T20:09:31.1430113Z   DOWNLOAD_URL: https://github.com/aseprite/aseprite/releases/download/v1.3.17.2/Aseprite-v1.3.17.2-Source.zip
+2026-07-15T20:09:31.1430588Z   ASE_VER: v1.3.17.2
+2026-07-15T20:09:31.1430791Z   CommandPromptType: Native
+2026-07-15T20:09:31.1431130Z   DevEnvDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\
+2026-07-15T20:09:31.1431623Z   ExtensionSdkDir: C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+2026-07-15T20:09:31.1433787Z   EXTERNAL_INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T20:09:31.1435805Z   Framework40Version: v4.0
+2026-07-15T20:09:31.1436055Z   FrameworkDir: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T20:09:31.1436375Z   FrameworkDir64: C:\Windows\Microsoft.NET\Framework64\
+2026-07-15T20:09:31.1436659Z   FrameworkVersion: v4.0.30319
+2026-07-15T20:09:31.1436879Z   FrameworkVersion64: v4.0.30319
+2026-07-15T20:09:31.1437365Z   FSHARPINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools
+2026-07-15T20:09:31.1438096Z   HTMLHelpDir: C:\Program Files (x86)\HTML Help Workshop
+2026-07-15T20:09:31.1440095Z   INCLUDE: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um
+2026-07-15T20:09:31.1443492Z   LIB: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\lib\um\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.26100.0\\um\x64
+2026-07-15T20:09:31.1447636Z   LIBPATH: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+2026-07-15T20:09:31.1449285Z   llvmArm64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\ARM64\bin
+2026-07-15T20:09:31.1449806Z   llvmX64: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin
+2026-07-15T20:09:31.1450256Z   NETFXSDKDir: C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\
+2026-07-15T20:09:31.1464714Z   Path: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Team Tools\DiagnosticsHub\Collector;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\18\Enterprise\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\;C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T20:09:31.1478992Z   Platform: x64
+2026-07-15T20:09:31.1479192Z   UCRTVersion: 10.0.26100.0
+2026-07-15T20:09:31.1479641Z   UniversalCRTSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T20:09:31.1479950Z   use_x64_llvm: true
+2026-07-15T20:09:31.1480296Z   VCIDEInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\VC\
+2026-07-15T20:09:31.1480788Z   VCINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\
+2026-07-15T20:09:31.1481244Z   VCPKG_ROOT: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\vcpkg
+2026-07-15T20:09:31.1481775Z   VCToolsInstallDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\
+2026-07-15T20:09:31.1482385Z   VCToolsRedistDir: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Redist\MSVC\14.51.36231\
+2026-07-15T20:09:31.1482808Z   VCToolsVersion: 14.51.36231
+2026-07-15T20:09:31.1483033Z   VisualStudioVersion: 18.0
+2026-07-15T20:09:31.1483382Z   VS180COMNTOOLS: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\
+2026-07-15T20:09:31.1483768Z   VSCMD_ARG_app_plat: Desktop
+2026-07-15T20:09:31.1483977Z   VSCMD_ARG_HOST_ARCH: x64
+2026-07-15T20:09:31.1484178Z   VSCMD_ARG_TGT_ARCH: x64
+2026-07-15T20:09:31.1484370Z   VSCMD_VER: 18.7.3
+2026-07-15T20:09:31.1484642Z   VSINSTALLDIR: C:\Program Files\Microsoft Visual Studio\18\Enterprise\
+2026-07-15T20:09:31.1485089Z   VSSDK150INSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T20:09:31.1485546Z   VSSDKINSTALL: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VSSDK
+2026-07-15T20:09:31.1486187Z   WindowsLibPath: C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.26100.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.26100.0
+2026-07-15T20:09:31.1486932Z   WindowsSdkBinPath: C:\Program Files (x86)\Windows Kits\10\bin\
+2026-07-15T20:09:31.1487296Z   WindowsSdkDir: C:\Program Files (x86)\Windows Kits\10\
+2026-07-15T20:09:31.1487590Z   WindowsSDKLibVersion: 10.0.26100.0\
+2026-07-15T20:09:31.1487940Z   WindowsSdkVerBinPath: C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\
+2026-07-15T20:09:31.1488311Z   WindowsSDKVersion: 10.0.26100.0\
+2026-07-15T20:09:31.1488743Z   WindowsSDK_ExecutablePath_x64: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\x64\
+2026-07-15T20:09:31.1489383Z   WindowsSDK_ExecutablePath_x86: C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\
+2026-07-15T20:09:31.1489808Z   __DOTNET_ADD_64BIT: 1
+2026-07-15T20:09:31.1490015Z   __DOTNET_PREFERRED_BITNESS: 64
+2026-07-15T20:09:31.1498055Z   __VSCMD_PREINIT_PATH: C:\Program Files\MongoDB\Server\7.0\bin;C:\vcpkg;C:\tools\zstd;C:\hostedtoolcache\windows\stack\3.11.1\x64;C:\cabal\bin;C:\\ghcup\bin;C:\mingw64\bin;C:\Program Files\dotnet;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\R\R-4.6.1\bin\x64;C:\SeleniumWebDrivers\GeckoDriver;C:\SeleniumWebDrivers\EdgeDriver\;C:\SeleniumWebDrivers\ChromeDriver;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\GitHub CLI;C:\Program Files\Git\bin;C:\Program Files (x86)\pipx_bin;C:\npm\prefix;C:\hostedtoolcache\windows\go\1.24.13\x64\bin;C:\hostedtoolcache\windows\Python\3.12.10\x64\Scripts;C:\hostedtoolcache\windows\Python\3.12.10\x64;C:\hostedtoolcache\windows\Ruby\3.3.11\x64\bin;C:\Program Files\OpenSSL\bin;C:\tools\kotlinc\bin;C:\hostedtoolcache\windows\Java_Temurin-Hotspot_jdk\17.0.19-10\x64\bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\kind;C:\ProgramData\Chocolatey\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PowerShell\7\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\WiX Toolset v3.14\bin;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\ProgramData\chocolatey\lib\pulumi\tools\Pulumi\bin;C:\Program Files\CMake\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Microsoft Service Fabric\bin\Fabric\Fabric.Code;C:\Program Files\Microsoft SDKs\Service Fabric\Tools\ServiceFabricLocalClusterManager;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\GitHub CLI\;c:\tools\php;C:\Program Files (x86)\sbt\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Program Files\Amazon\AWSSAMCLI\bin\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mongosh\;C:\Program Files\LLVM\bin;C:\Program Files (x86)\LLVM\bin;C:\Users\runneradmin\.dotnet\tools;C:\Users\runneradmin\.cargo\bin;C:\Users\runneradmin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft Visual Studio\Installer
+2026-07-15T20:09:31.1506755Z ##[endgroup]
+2026-07-15T20:09:31.3426809Z ##[debug]followSymbolicLinks 'true'
+2026-07-15T20:09:31.3428337Z ##[debug]implicitDescendants 'true'
+2026-07-15T20:09:31.3429041Z ##[debug]omitBrokenSymbolicLinks 'true'
+2026-07-15T20:09:31.3430240Z ##[debug]excludeHiddenFiles 'true'
+2026-07-15T20:09:31.3456208Z (node:8408) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-07-15T20:09:31.3457726Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-07-15T20:09:31.3462603Z ##[debug]followSymbolicLinks 'true'
+2026-07-15T20:09:31.3463266Z ##[debug]implicitDescendants 'true'
+2026-07-15T20:09:31.3464147Z ##[debug]matchDirectories 'true'
+2026-07-15T20:09:31.3464704Z ##[debug]omitBrokenSymbolicLinks 'true'
+2026-07-15T20:09:31.3465294Z ##[debug]excludeHiddenFiles 'true'
+2026-07-15T20:09:31.3469985Z ##[debug]Search path 'D:\a\aseprite-builder\aseprite-builder\installer'
+2026-07-15T20:09:31.3526161Z ##[debug]File:D:\a\aseprite-builder\aseprite-builder\installer\aseprite-setup.exe was found using the provided searchPath
+2026-07-15T20:09:31.3527279Z With the provided path, there will be 1 file uploaded
+2026-07-15T20:09:31.3527890Z ##[debug]Root artifact directory is D:\a\aseprite-builder\aseprite-builder\installer
+2026-07-15T20:09:31.3531983Z Artifact name is valid!
+2026-07-15T20:09:31.3533648Z Root directory input is valid!
+2026-07-15T20:09:31.3548687Z ##[debug]Workflow Run Backend ID: d101462e-64d7-4f1b-9d1e-1c23e6a27f3f
+2026-07-15T20:09:31.3549562Z ##[debug]Workflow Job Run Backend ID: 753dc361-2400-5dc5-9a2e-62a56939e362
+2026-07-15T20:09:31.3557255Z ##[debug][Request] CreateArtifact https://results-receiver.actions.githubusercontent.com/twirp/github.actions.results.api.v1.ArtifactService/CreateArtifact
+2026-07-15T20:09:31.5045705Z ##[debug][Response] - 200
+2026-07-15T20:09:31.5046190Z ##[debug]Headers: {
+2026-07-15T20:09:31.5046395Z ##[debug]  "content-length": "581",
+2026-07-15T20:09:31.5046670Z ##[debug]  "content-type": "application/json",
+2026-07-15T20:09:31.5046967Z ##[debug]  "date": "Wed, 15 Jul 2026 20:09:31 GMT",
+2026-07-15T20:09:31.5047259Z ##[debug]  "x-github-backend": "Kubernetes",
+2026-07-15T20:09:31.5047594Z ##[debug]  "x-github-request-id": "3401:2A25ED:FE1F25:11319E2:6A57E8FB",
+2026-07-15T20:09:31.5047925Z ##[debug]  "server": "github.com"
+2026-07-15T20:09:31.5048233Z ##[debug]}
+2026-07-15T20:09:31.5049342Z ::add-mask::***
+2026-07-15T20:09:31.5051534Z ::add-mask::***
+2026-07-15T20:09:31.5052326Z ##[debug]Body: {
+2026-07-15T20:09:31.5052585Z ##[debug]  "ok": true,
+2026-07-15T20:09:31.5055388Z ##[debug]  "signed_upload_url": "https://productionresultssa18.blob.core.windows.net/actions-results/d101462e-64d7-4f1b-9d1e-1c23e6a27f3f/workflow-job-run-753dc361-2400-5dc5-9a2e-62a56939e362/artifacts/4e627c12120ecb4554b6960d7bdc373fafd5373592858e1f051f26c13d19b8c1.zip?se=2026-07-15T21%3A09%3A31Z&sig=***&ske=2026-07-15T22%3A22%3A23Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2026-07-15T18%3A22%3A23Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=cw&spr=https&sr=b&st=2026-07-15T20%3A09%3A26Z&sv=2025-11-05"
+2026-07-15T20:09:31.5058140Z ##[debug]}
+2026-07-15T20:09:31.5058850Z ##[debug]Creating Artifact archive with compressionLevel: 6
+2026-07-15T20:09:31.5078230Z ##[debug]Zip write high watermark value 8388608
+2026-07-15T20:09:31.5078854Z ##[debug]Zip read high watermark value 8388608
+2026-07-15T20:09:31.5122725Z ##[debug]Uploading artifact zip to blob storage with maxConcurrency: 5, bufferSize: 8388608
+2026-07-15T20:09:31.5132121Z Beginning upload of artifact content to blob storage
+2026-07-15T20:09:31.8061114Z (node:8408) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-07-15T20:09:31.8367892Z ##[debug]Zip stream for upload has ended.
+2026-07-15T20:09:31.8370976Z ##[debug]Zip stream for upload has finished.
+2026-07-15T20:09:31.9248428Z Uploaded bytes 8388608
+2026-07-15T20:09:31.9475598Z Uploaded bytes 8924832
+2026-07-15T20:09:31.9594358Z Finished uploading artifact content to blob storage!
+2026-07-15T20:09:31.9596111Z SHA256 digest of uploaded artifact zip is d66b73daa6d434c6cbe153801a09b58a9b42bfec23036420ac0df8eb2dd59019
+2026-07-15T20:09:31.9598383Z Finalizing artifact upload
+2026-07-15T20:09:31.9603284Z ##[debug][Request] FinalizeArtifact https://results-receiver.actions.githubusercontent.com/twirp/github.actions.results.api.v1.ArtifactService/FinalizeArtifact
+2026-07-15T20:09:32.1499992Z ##[debug][Response] - 200
+2026-07-15T20:09:32.1500732Z ##[debug]Headers: {
+2026-07-15T20:09:32.1500990Z ##[debug]  "content-length": "39",
+2026-07-15T20:09:32.1501336Z ##[debug]  "content-type": "application/json",
+2026-07-15T20:09:32.1501751Z ##[debug]  "date": "Wed, 15 Jul 2026 20:09:32 GMT",
+2026-07-15T20:09:32.1502151Z ##[debug]  "x-github-backend": "Kubernetes",
+2026-07-15T20:09:32.1502626Z ##[debug]  "x-github-request-id": "3401:2A25ED:FE22D0:1131D9F:6A57E8FB",
+2026-07-15T20:09:32.1503465Z ##[debug]  "server": "github.com"
+2026-07-15T20:09:32.1503813Z ##[debug]}
+2026-07-15T20:09:32.1504336Z ##[debug]Body: {
+2026-07-15T20:09:32.1504610Z ##[debug]  "ok": true,
+2026-07-15T20:09:32.1504906Z ##[debug]  "artifact_id": "8355948886"
+2026-07-15T20:09:32.1505224Z ##[debug]}
+2026-07-15T20:09:32.1505792Z Artifact Aseprite-Installer.zip successfully finalized. Artifact ID 8355948886
+2026-07-15T20:09:32.1506861Z Artifact Aseprite-Installer has been successfully uploaded! Final size is 8924832 bytes. Artifact ID is 8355948886
+2026-07-15T20:09:32.1516216Z Artifact download URL: https://github.com/AnonGuy/aseprite-builder/actions/runs/29445875627/artifacts/8355948886
+2026-07-15T20:09:32.1657473Z ##[debug]Node Action run completed with exit code 0
+2026-07-15T20:09:32.1660514Z ##[debug]Set output artifact-id = 8355948886
+2026-07-15T20:09:32.1661023Z ##[debug]Set output artifact-digest = d66b73daa6d434c6cbe153801a09b58a9b42bfec23036420ac0df8eb2dd59019
+2026-07-15T20:09:32.1661762Z ##[debug]Set output artifact-url = https://github.com/AnonGuy/aseprite-builder/actions/runs/29445875627/artifacts/8355948886
+2026-07-15T20:09:32.1662549Z ##[debug]Finishing: Upload Artifact
