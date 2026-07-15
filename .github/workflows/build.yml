@@ -5,6 +5,7 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    timeout-minutes: 90
     permissions:
       contents: write
     steps:
@@ -69,6 +70,7 @@ jobs:
             "$abs_src"
 
       - name: Compile with Ninja
+        timeout-minutes: 60
         run: |
           cd build
           ninja -j 2 aseprite
